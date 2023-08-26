@@ -9,24 +9,24 @@ function NavBar() {
       <nav className="w-full bg-white fixed top-0 left-0 right-0 z-10">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
-            <div className="flex items-center justify-between py-3 md:py-5 md:block">
+            <div className="flex items-center justify-between py-3 md:block">
               {/* LOGO */}
               <Link href="/">
-                <h1 className="text-7xl font-waterfall text-purple-600 font-bold">Dotaij</h1>
+                {/* <h1 className="text-7xl font-waterfall text-purple-600 font-bold">Dotaij</h1> */}
+                <img src="/dotaij-logo.png" alt="logo"></img>
               </Link>
-              {/* HAMBURGER BUTTON FOR MOBILE */}
               <div className="md:hidden">
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
-                    <img src="/close.svg" width={30} height={30} alt="logo" />
+                    <img src="/close.svg" width={25} height={25} alt="logo" />
                   ) : (
                     <Image
                       src="/menu.svg"
-                      width={30}
-                      height={30}
+                      width={25}
+                      height={25}
                       alt="logo"
                       className="focus:border-none active:border-none"
                     />
@@ -42,23 +42,33 @@ function NavBar() {
             >
               <ul className="h-screen md:h-auto items-center justify-center md:flex ">
                 <li className="pb-6 text-xl text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
-                  <Link href="#home" onClick={() => setNavbar(!navbar)}>
-                    Нүүр
+                  <Link href="/home" onClick={() => setNavbar(!navbar)}>
+                    HOME
                   </Link>
                 </li>
                 <li className="pb-6 text-xl text-black py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
-                  <Link href="#about" onClick={() => setNavbar(!navbar)}>
-                    Өмнөх үг
-                  </Link>
-                </li>
-                <li className="pb-6 text-xl text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
-                  <Link href="#book" onClick={() => setNavbar(!navbar)}>
-                    Номын тухай
+                  <Link href="/books" >
+                    BOOKS
                   </Link>
                 </li>
                 <li className="pb-6 text-xl text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
                   <Link href="#biography" onClick={() => setNavbar(!navbar)}>
-                    Намтар
+                    BIOGRAPHY
+                  </Link>
+                </li>
+                <li className="pb-6 text-xl text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
+                  <Link href="#events" onClick={() => setNavbar(!navbar)}>
+                    EVENTS
+                  </Link>
+                </li>
+                <li className="pb-6 text-xl text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
+                  <Link href="#contact" onClick={() => setNavbar(!navbar)}>
+                    CONTACT US
+                  </Link>
+                </li>
+                <li className="pb-6 text-xl text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
+                  <Link href="#language" onClick={() => setNavbar(!navbar)}>
+                    MN
                   </Link>
                 </li>
               </ul>

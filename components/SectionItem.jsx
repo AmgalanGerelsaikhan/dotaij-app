@@ -5,130 +5,185 @@ export default function SectionItem({ sectionId }) {
 
     return (
         <>
-            <section id="home" className=" text-white h-screen flex">
-                <div
-                    className="bg-cover bg-[url('/book.png')] w-full h-full" >
-                    {/* <h1 className="m-auto font-waterfall text-7xl text-white font-bold">
-                        Book name
-                    </h1> */}
-                    <div className="flex h-full items-center justify-center sm:p-20">
-                        <div className="text-white">
-                            <h2 className="mb-4 text-4xl font-semibold">New Book Name</h2>
-                            <h4 className="mb-6 text-xl font-semibold">Хичээлийн жилийг угтан боловсролын байгууллагууд урсгал засвар хийдэг уламжлалтай.</h4>
+
+            <section id="books" className="h-[740px] mt-32">
+                <div className="flex flex-row bg-cover bg-[url('/book-bg.png')]">
+                    <div className="h-full w-full">
+                        <img src="/heros-way.jpg" alt="book" />
+                    </div>
+                    <div className="leading-10 text-white text-2xl italic text-right whitespace-normal p-10">
+                        <p className="float-right">
+                            <img src="/underline_white.webp" alt="logo" />
+                        </p><br />
+                        <p className="pb-10">
+                            The city is in a state of shock over the fate of two hometown heroes: Eagles starting quarterback Archie Hughes, and his even more famous wife, Grammy-winning singer Francine Hughes.
+                        </p>
+                        <p className="pb-10">
+                            One spouse is murdered. The other is suspect #1.
+                        </p>
+                        <p className="pb-10">
+                            Even before the case hits the courtroom, it’s the hottest ticket in town.
+                        </p>
+                        <p className="pb-10">
+                            For the defense: Cooper Lamb, private investigator to the stars.
+                        </p>
+                        <p className="pb-10">
+                            For the prosecution: Veena Lion, a sleuth so bright she’s got to wear shades.
+                        </p>
+                        <div>
                             <Link
                                 href="https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D"
                                 type="button"
                                 target="_blank"
-                                className="rounded border-2 border-neutral-50 px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
+                                className="rounded-3xl bg-blue-500
+                                border-2 border-blue-500 px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal"
                                 data-te-ripple-init
                                 data-te-ripple-color="light">
-                                Худалдаж авах
+                                Buy now
                             </Link>
                         </div>
                     </div>
                 </div>
             </section>
-            <section
-                id="about"
-                className="text-white h-screen bg-white text-center flex"
-            >
-                <div className="bg-cover bg-[url('/author3.jpeg')] w-full h-full">
-                    <div className="h-5"></div>
-                    <div className="bg-black rounded-md opacity-60 p-10 lg:left-10 absolute lg:w-2/5 md:w-3/5 sm:w-2/2 sm:left-3">
-                        <div className="italic text-2xl text-left">Б.Түвшинтулга</div>
-                        <div className="h-1 bg-purple-900 my-2"></div>
-                        <div className="flex flex-col items-start text-justify">
-                            <div className="text-xl pb-3">“Zangia.mn” платформын захирал Б.Түвшинтулга</div>
-                            <p>Манай платформ өнөөдрийн байдлаар 10,000 компанийн, 20,000 ажлын байрны зарыг 850,000 бүртгэлтэй хэрэглэгчтэй холбож байгаа. Монголын хөдөлмөрийн зах зээл дээр ойролцоогоор 1-1.1 сая иргэн идэвхтэй байдаг гэж үзэхэд, бид хөдөлмөрийн зах зээлийн нийт шилжилт хөдөлгөөний 80-90%-ийг дангаараа хариуцаж ирсэн. Тиймээс хөдөлмөрийн зах зээл дээр болж буй том өөрчлөлтүүдийг хамгийн түрүүнд мэдэрч, түүнийхээ дагуу шийдэл эрэлхийлж суудаг. Өмнөх жилүүдэд ажлын зарын тоо дунджаар 14,000 орчим байдаг байсан. Ковид-ийн үеэр бараг 9,000 хүртлээ буурсан. Харин одоо 2 дахин буюу 20,000 хүрсэн гэхээр эргээд огцом өссөн байгаа биз. Хэдхэн жилийн өмнө бид ажлын байр хомс байна, ажилгүй хүн их байна гэж байсан бол одоо эсрэгээрээ, ажиллах хүчний хомсдолд орж эхэллээ гэдгийг энэ тоо харуулж байна. Мэдээж энэ нь олон шалтгаан үр дагавартай, олон жилийн системийн хэмжээний угшилтай их том бэрхшээл л дээ.
-                                Гэхдээ үүнийг 2 үндсэн хүчин зүйлд хувааж тайлбарлах гэж хичээе.
-                                Нэг дүгээрт, Монгол улсын хэмжээнд ажил эрхэлж буй нийт 1-1,1 сая гаруй хүмүүсийн маань боловсролын түвшин болон ур чадварын түвшин нь дэлхийн хөгжсөн орнуудтай харьцуулбал маш доогуур байгаа. Яг өндөр боловсролтой, туршлагатай ур чадвартай хэсэг нь хэт цөөдөөд байна гэсэн үг.</p>
-                        </div>
 
-                    </div>
+            <section id="biography" className="h-[481px] flex flex-row">
+                <div className="bg-black h-[481px] w-2/3">
+                    {/* h-[481px] w-[880px]  */}
+                    <iframe title="HERON&#39;S WAY ON SALE NOW" width="100%" height="481" src="https://www.youtube.com/embed/qlS97wcqSTw"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        id="widget2" data-gtm-yt-inspected-9="true">
+                    </iframe>
                 </div>
-                {/* <h3 className="m-auto font-waterfall text-7xl text-purple-600 font-bold  ">
-                    Овог Нэр
-                </h3> */}
+                <div className="bg-cover bg-[url('/bg2.webp')] w-1/3 content-center text-white">
+                    <p className="my-5 text-2xl">
+                        Heron's way
+                    </p>
+                    <div className="mx-10 mb-5">
+                        <img src="/heros-way.jpg" width={200} height={400} alt="book" />
+                    </div>
+                    <Link
+                        href="https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D"
+                        type="button"
+                        target="_blank"
+                        className="rounded-3xl bg-blue-500
+                                border-2 border-blue-500 px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal"
+                        data-te-ripple-init
+                        data-te-ripple-color="light">
+                        Buy now
+                    </Link>
+                </div>
             </section>
-            <section id="book" className="lg:h-screen md:h-fit sm:h-fit flex">
-                <div className="lg:m-20 md:m-10 sm:m-10 sm:p-5">
-                    <div className="lg:grid lg:grid-row-2 lg:grid-flow-col lg:gap-4">
-                        <div className="md:mb-5">
-                            <h3 className="m-auto font-waterfall text-4xl text-purple-600 font-bold">
-                                Ном бүтсэн түүх
-                            </h3>
-                        </div>
-                        <div className="md:mb-5">
 
-                            <Link
-                                href="https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D"
-                                type="button"
-                                target="_blank"
-                                className="rounded border-2 border-purple-500 px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal text-purple-500 transition duration-150 ease-in-out hover:border-purple-1000 hover:bg-purple-500 hover:bg-opacity-10 hover:text-purple-1000 focus:border-purple-1000 focus:text-purple-1000 focus:outline-none focus:ring-0 active:border-purple-2000 active:text-purple-200 dark:hover:bg-purple-100 dark:hover:bg-opacity-10"
-                                data-te-ripple-init
-                                data-te-ripple-color="dark">
-                                Худалдаж авах
-                            </Link>
+            <section id="events" className="h-[450px]">
+                <div className="text-white text-2xl h-full flex flex-row">
+                    <div className="w-1/3 h-full bg-gradient-to-r from-[#f4bb3a] to-[#f3b11c]">
+                        <div className="m-10">
+                            <p className="text-2xl text-center">
+                                James Patterson writes his thrillers as if he were building roller coasters.”
+                            </p>
                         </div>
                     </div>
-                    <div className="h-5"></div>
-                    <div className="lg:columns-2 lg:gap-x-10 lg:gap-y-5 text-justify text-[#757575]">
-                        <p>
-                            Нэг дүгээрт, Монгол улсын хэмжээнд ажил эрхэлж буй нийт 1-1,1 сая гаруй хүмүүсийн маань боловсролын түвшин болон ур чадварын түвшин нь дэлхийн хөгжсөн орнуудтай харьцуулбал маш доогуур байгаа. Яг өндөр боловсролтой, туршлагатай ур чадвартай хэсэг нь хэт цөөдөөд байна гэсэн үг.
-                        </p>
-                        <p>
-                            Харин нөгөө талд идэвхтэй үйл ажиллагаа явуулдаг 10,000 орчим ААН-үүдэд маань зах зээлийн хурдаар хөгжөөд байгаа хэдий ч түүндээ тохирсон сайн ур чадвартай ажилтнууд олж чадахгүй байгаа.
-                        </p>
-                        <p>
-                            Тэгэхээр энэ хооронд их том зөрүү гарч ирчхээд байна аа даа. Ажлын байран дээр тавигдах шаардлага нэмэгдээд, өсөөд байдаг, харин хүний ур чадвар нь огт хөгждөггүй. Боловсролын ба ур чадварын түвшин ба зах зээлийн шаардлага 2-ийн дунд үүссэн асар том ангал маань энэхүү бэрхшээлийн суурь байна гэж бид оношилж байгаа.
-                        </p>
-                        <p>
-                            Цаашилбал, дундаж ажилтны чадвар, мэдлэг нь бүтээмжтэй холбоотой ба түүгээрээ дамжаад тухайн улсын хөгжилтэй шууд холбогддог. USNEWS агентлагийн 2022 оны судалгаагаар дэлхий дээрх хамгийн өндөр чадвартай боловсон хүчинтэй 85 орныг жагсаахад, тэргүүлэгч улсууд нь нөгөөх л барууны болон хойд Европын улсууд байсан ч, энэ дотор Казахстан, Узбекстан зэрэг өсөж буй улсууд орсныг дурдах нь зүйтэй. Монгол харамсалтай нь эхний 85-д ороогүй.
-                        </p>
-                        <p>
-                            Хоёр дугаарт, иргэдийн гар дээрээ авч буй цалингийн хэмжээ. Сүүлийн жилүүдэд ялангуяа залуучууд маш олноороо гадагшаа явж байна. Хэл устай, боловсролтой, бас тодорхой хэмжээнд ажлын туршлага хуримтлуулсан, эд хөдөлмөрлөх насны залуусаа гадаадын улс орнууд руу бид алдаж байна. 2022 оны статистикийн мэдээн дээр улсын хилээр зөвхөн гадаадын улс оронд байнга оршин суухаар гарсан иргэний тоо 93,000 орчим гэж гарсан байсан. Аялал жуулчлалын зорилгоор гараад тэндээ үлдсэн хэсгээ нэмбэл бүр л их тоо гарч ирэх байх. Он гарснаас хойш бараг 7,000 гаруй залуус байнга оршин суухаар гараад явчихсан байна. Хуучин чинь айл болгоноос нэг хүн Солонгост байдаг байсан бол одоо гэр бүл болгоноос нэг хүн Австрали руу явах нь холгүй байна.
-                        </p>
-                        <p>
-                            Яагаад ийм байна вэ? Энэ залуучууд чинь Монголд байгаа амьдрах орчноо голж байна, цалингаа голоод явж байна. Нөгөө улсуудад маань ч бас хүний нөөцийн хэрэгцээ эрс өсөж байна шүү дээ. Япон жишээ нь залуу үе нь ажил хийх хүсэл сонирхол бага болсон, хүн ам нь хөгширсөн ажиллах хүчний хомсдолд орж байна. Австрали Ковид-оос болж үйлчилгээний салбарт байгаа ажиллах хүчээ маш ихээр алдсан тул үүнийгээ нөхөх гэж маш нээлттэй визний бодлого явуулж байгаа. Үүнд, Монгол залуус их хамрагдаж байна. Солонгос-д мөн адил. Манай иргэдэд боломж олдож байгаа учраас тэд явж байна. Эдгээр орнууд маш өндөр өртөгтэй, манайхны очоод хийж байгаа ажил нь доогуур хэмжээний цалингаар ажилладаг ажлууд. Тэгсэн ч тийм өртгөөр тэнд амьдраад, олсон цалингаараа хадгаламж үүсгэх боломж олдоод байгаа нь эх орондоо ажиллаж амьдарснаас дээр байна гэдэг бол нэг зүйлийг хэлээд байна шүү дээ. Тэгэхээр бид одоо дотооддоо яаж энэ ажиллах хүчнийхээ бодлогыг явуулах вэ, ажиллах нөхцөлийг нь хэрхэн сайжруулах вэ, хүнээ хэрхэн хөгжүүлэх вэ гэдэг дээр анхаарах хэрэгтэй болоод байна.
-                        </p>
+                    <div className="w-2/3 h-full bg-cover bg-[url('/book-bg.png')]">
+                        <div className="m-10">
+                            <div className="flex flex-row h-full">
+                                <div className="mr-10">
+                                    <div className="items-center" >
+                                        <img src="/heros-way.jpg" width="100%" height="100%" alt="logo" />
+                                        <div className="mt-10 mb-3 text-center">
+                                            <Link
+                                                href="https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D"
+                                                type="button"
+                                                target="_blank"
+                                                className="rounded-3xl bg-blue-500
+                                border-2 border-blue-500 px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal"
+                                                data-te-ripple-init
+                                                data-te-ripple-color="light">
+                                                Buy now
+                                            </Link>
+                                        </div>
+                                        <p className="text-base text-center">26 / 08 / 2023</p>
+                                    </div>
+                                </div>
+
+                                <div className="mr-10">
+                                    <div className="items-center" >
+                                        <img src="/heros-way.jpg" width="100%" height="100%" alt="logo" />
+                                        <div className="mt-10 mb-3 text-center">
+                                            <Link
+                                                href="https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D"
+                                                type="button"
+                                                target="_blank"
+                                                className="rounded-3xl bg-blue-500
+                                border-2 border-blue-500 px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal"
+                                                data-te-ripple-init
+                                                data-te-ripple-color="light">
+                                                Buy now
+                                            </Link>
+                                        </div>
+                                        <p className="text-base text-center">26 / 08 / 2023</p>
+                                    </div>
+                                </div>
+
+                                <div className="mr-10">
+                                    <div className="items-center" >
+                                        <img src="/heros-way.jpg" width="100%" height="100%" alt="logo" />
+                                        <div className="mt-10 mb-3 text-center">
+                                            <Link
+                                                href="https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D"
+                                                type="button"
+                                                target="_blank"
+                                                className="rounded-3xl bg-blue-500
+                                border-2 border-blue-500 px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal"
+                                                data-te-ripple-init
+                                                data-te-ripple-color="light">
+                                                Buy now
+                                            </Link>
+                                        </div>
+                                        <p className="text-base text-center">26 / 08 / 2023</p>
+                                    </div>
+                                </div>
+
+                                <div className="mr-10">
+                                    <div className="items-center" >
+                                        <img src="/heros-way.jpg" width="100%" height="100%" alt="logo" />
+                                        <div className="mt-10 mb-3 text-center">
+                                            <Link
+                                                href="https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D"
+                                                type="button"
+                                                target="_blank"
+                                                className="rounded-3xl bg-blue-500
+                                border-2 border-blue-500 px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal"
+                                                data-te-ripple-init
+                                                data-te-ripple-color="light">
+                                                Buy now
+                                            </Link>
+                                        </div>
+                                        <p className="text-base text-center">26 / 08 / 2023</p>
+                                    </div>
+                                </div>
+                                <div className="mr-10">
+                                    <div className="items-center" >
+                                        <img src="/heros-way.jpg" width="100%" height="100%" alt="logo" />
+                                        <div className="mt-10 mb-3 text-center">
+                                            <Link
+                                                href="https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D"
+                                                type="button"
+                                                target="_blank"
+                                                className="rounded-3xl bg-blue-500
+                                border-2 border-blue-500 px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal"
+                                                data-te-ripple-init
+                                                data-te-ripple-color="light">
+                                                Buy now
+                                            </Link>
+                                        </div>
+                                        <p className="text-base text-center">26 / 08 / 2023</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-            </section>
-            <section
-                id="biography"
-                className="text-white lg:h-screen md:h-fit bg-black text-center flex"
-            >
-                <div className="lg:m-20 md:m-10 md:p-5">
-                    <h1 className="m-auto font-waterfall text-4xl text-purple-600 font-bold">
-                        Товч намтар{' '}
-                    </h1>
-                    <div className="h-5"></div>
-                    <div className="lg:columns-2 lg:gap-x-10 lg:gap-y-5 text-justify text-[#C0C0C0]">
-                        <p>
-                            <img src="/author2.png" alt="logo" className="rounded-xl" />
-                        </p>
-                        <p>
-                            Нэг дүгээрт, Монгол улсын хэмжээнд ажил эрхэлж буй нийт 1-1,1 сая гаруй хүмүүсийн маань боловсролын түвшин болон ур чадварын түвшин нь дэлхийн хөгжсөн орнуудтай харьцуулбал маш доогуур байгаа. Яг өндөр боловсролтой, туршлагатай ур чадвартай хэсэг нь хэт цөөдөөд байна гэсэн үг.
-                        </p>
-                        <p>
-                            Харин нөгөө талд идэвхтэй үйл ажиллагаа явуулдаг 10,000 орчим ААН-үүдэд маань зах зээлийн хурдаар хөгжөөд байгаа хэдий ч түүндээ тохирсон сайн ур чадвартай ажилтнууд олж чадахгүй байгаа.
-                        </p>
-                        <p>
-                            Тэгэхээр энэ хооронд их том зөрүү гарч ирчхээд байна аа даа. Ажлын байран дээр тавигдах шаардлага нэмэгдээд, өсөөд байдаг, харин хүний ур чадвар нь огт хөгждөггүй. Боловсролын ба ур чадварын түвшин ба зах зээлийн шаардлага 2-ийн дунд үүссэн асар том ангал маань энэхүү бэрхшээлийн суурь байна гэж бид оношилж байгаа.
-                        </p>
-                        <p>
-                            Цаашилбал, дундаж ажилтны чадвар, мэдлэг нь бүтээмжтэй холбоотой ба түүгээрээ дамжаад тухайн улсын хөгжилтэй шууд холбогддог. USNEWS агентлагийн 2022 оны судалгаагаар дэлхий дээрх хамгийн өндөр чадвартай боловсон хүчинтэй 85 орныг жагсаахад, тэргүүлэгч улсууд нь нөгөөх л барууны болон хойд Европын улсууд байсан ч, энэ дотор Казахстан, Узбекстан зэрэг өсөж буй улсууд орсныг дурдах нь зүйтэй. Монгол харамсалтай нь эхний 85-д ороогүй.
-                        </p>
-                        <p>
-                            Хоёр дугаарт, иргэдийн гар дээрээ авч буй цалингийн хэмжээ. Сүүлийн жилүүдэд ялангуяа залуучууд маш олноороо гадагшаа явж байна. Хэл устай, боловсролтой, бас тодорхой хэмжээнд ажлын туршлага хуримтлуулсан, эд хөдөлмөрлөх насны залуусаа гадаадын улс орнууд руу бид алдаж байна. 2022 оны статистикийн мэдээн дээр улсын хилээр зөвхөн гадаадын улс оронд байнга оршин суухаар гарсан иргэний тоо 93,000 орчим гэж гарсан байсан. Аялал жуулчлалын зорилгоор гараад тэндээ үлдсэн хэсгээ нэмбэл бүр л их тоо гарч ирэх байх. Он гарснаас хойш бараг 7,000 гаруй залуус байнга оршин суухаар гараад явчихсан байна. Хуучин чинь айл болгоноос нэг хүн Солонгост байдаг байсан бол одоо гэр бүл болгоноос нэг хүн Австрали руу явах нь холгүй байна.
-                        </p>
-                        <p>
-                            Яагаад ийм байна вэ? Энэ залуучууд чинь Монголд байгаа амьдрах орчноо голж байна, цалингаа голоод явж байна. Нөгөө улсуудад маань ч бас хүний нөөцийн хэрэгцээ эрс өсөж байна шүү дээ. Япон жишээ нь залуу үе нь ажил хийх хүсэл сонирхол бага болсон, хүн ам нь хөгширсөн ажиллах хүчний хомсдолд орж байна. Австрали Ковид-оос болж үйлчилгээний салбарт байгаа ажиллах хүчээ маш ихээр алдсан тул үүнийгээ нөхөх гэж маш нээлттэй визний бодлого явуулж байгаа. Үүнд, Монгол залуус их хамрагдаж байна. Солонгос-д мөн адил. Манай иргэдэд боломж олдож байгаа учраас тэд явж байна. Эдгээр орнууд маш өндөр өртөгтэй, манайхны очоод хийж байгаа ажил нь доогуур хэмжээний цалингаар ажилладаг ажлууд. Тэгсэн ч тийм өртгөөр тэнд амьдраад, олсон цалингаараа хадгаламж үүсгэх боломж олдоод байгаа нь эх орондоо ажиллаж амьдарснаас дээр байна гэдэг бол нэг зүйлийг хэлээд байна шүү дээ. Тэгэхээр бид одоо дотооддоо яаж энэ ажиллах хүчнийхээ бодлогыг явуулах вэ, ажиллах нөхцөлийг нь хэрхэн сайжруулах вэ, хүнээ хэрхэн хөгжүүлэх вэ гэдэг дээр анхаарах хэрэгтэй болоод байна.
-                        </p>
-                    </div>
-                </div>
-
             </section>
         </>
     )

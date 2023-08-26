@@ -1,15 +1,9 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/api/hello": "pages/api/hello.js",
   "/_document": "pages/_document.js",
-  "/mn/404": "pages/mn/404.html",
-  "/en/404": "pages/en/404.html",
-  "/ru/404": "pages/ru/404.html",
-  "/mn/500": "pages/mn/500.html",
-  "/en/500": "pages/en/500.html",
-  "/ru/500": "pages/ru/500.html",
-  "/mn": "pages/mn.html",
-  "/en": "pages/en.html",
-  "/ru": "pages/ru.html"
+  "/": "pages/index.js",
+  "/books": "pages/books.js",
+  "/book": "pages/book.js",
+  "/home": "pages/home.js"
 }

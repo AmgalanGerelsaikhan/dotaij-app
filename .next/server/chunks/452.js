@@ -61,14 +61,6 @@ function BookItem({ book  }) {
                                     "data-te-ripple-init": true,
                                     "data-te-ripple-color": "light",
                                     children: t("book.buy")
-                                }),
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                    href: "/book",
-                                    type: "button",
-                                    className: "rounded-3xl bg-blue-500 ml-5 text-white border-2 border-blue-500 px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal",
-                                    "data-te-ripple-init": true,
-                                    "data-te-ripple-color": "light",
-                                    children: t("book.more")
                                 })
                             ]
                         }),

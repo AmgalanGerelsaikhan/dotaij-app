@@ -26,7 +26,7 @@ export default function BookItem({ book }) {
                             data-te-ripple-color="light">
                             {t('book.buy')}
                         </a>
-                        <a
+                        {/* <a
                             href="/book"
                             type="button"
                             className="rounded-3xl bg-blue-500 ml-5 text-white
@@ -34,7 +34,7 @@ export default function BookItem({ book }) {
                             data-te-ripple-init
                             data-te-ripple-color="light">
                             {t('book.more')}
-                        </a>
+                        </a> */}
                     </div>
                     <div>
                         <p>{book.desc}</p>

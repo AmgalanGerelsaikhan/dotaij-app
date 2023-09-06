@@ -97,13 +97,13 @@ function LocaleSwitcher() {
                         children: locale === "uk" ? /*#__PURE__*/ jsx_runtime_.jsx("img", {
                             src: "/uk.png",
                             alt: "ukraine language icon",
-                            height: 25,
-                            width: 25
+                            height: 30,
+                            width: 30
                         }) : /*#__PURE__*/ jsx_runtime_.jsx("img", {
                             src: "/en.png",
                             alt: "english language icon",
-                            height: 25,
-                            width: 25
+                            height: 30,
+                            width: 30
                         })
                     })
                 }, "locale-" + locale)
@@ -118,6 +118,7 @@ var external_next_i18next_ = __webpack_require__(1377);
 var external_react_ = __webpack_require__(6689);
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(5675);
+var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 ;// CONCATENATED MODULE: ./components/menu.js
 
 
@@ -125,40 +126,40 @@ var next_image = __webpack_require__(5675);
 
 function Menu({ navbar , setNavbar  }) {
     // const [navbar, setNavbar] = useState(false)
-    const { t  } = (0,external_next_i18next_.useTranslation)("");
-    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+    const { t  } = useTranslation("");
+    return /*#__PURE__*/ _jsx("div", {
         className: `md:block ${navbar ? "block" : "hidden"} md:right-0`,
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
+        children: /*#__PURE__*/ _jsxs("ul", {
             className: "md:h-auto md:flex cursor-pointer",
             children: [
-                /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                /*#__PURE__*/ _jsx(Link, {
                     href: "/book",
                     onClick: ()=>setNavbar(!navbar),
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                    children: /*#__PURE__*/ _jsx("li", {
                         className: "text-xl px-6 text-center py-5 md:hover:bg-transparent hover:font-bold",
                         children: t("header.Books")
                     })
                 }),
-                /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                /*#__PURE__*/ _jsx(Link, {
                     href: "/biography",
                     onClick: ()=>setNavbar(!navbar),
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                    children: /*#__PURE__*/ _jsx("li", {
                         className: "text-xl px-6 text-center py-5 md:hover:bg-transparent hover:font-bold",
                         children: t("header.Biography")
                     })
                 }),
-                /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                /*#__PURE__*/ _jsx(Link, {
                     href: "/events",
                     onClick: ()=>setNavbar(!navbar),
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                    children: /*#__PURE__*/ _jsx("li", {
                         className: "text-xl px-6 text-center py-5 md:hover:bg-transparent hover:font-bold",
                         children: t("header.Events")
                     })
                 }),
-                /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                /*#__PURE__*/ _jsx(Link, {
                     href: "/contact",
                     onClick: ()=>setNavbar(!navbar),
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                    children: /*#__PURE__*/ _jsx("li", {
                         className: "text-xl px-6 text-center py-5 md:hover:bg-transparent hover:font-bold",
                         children: t("header.Contact")
                     })
@@ -190,71 +191,94 @@ function Navigation() {
         router.locale
     ]);
     return /*#__PURE__*/ jsx_runtime_.jsx("nav", {
-        className: "w-full bg-gray-300",
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: "sm:px-16 px-6 py-3",
+            className: "w-full bg-gray-300 px-5 py-2",
             children: [
                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: "flex justify-end",
+                    className: "flex justify-end px-5 md:px-10",
                     children: /*#__PURE__*/ jsx_runtime_.jsx(LocaleSwitcher, {})
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: "flex justify-start h-max",
-                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "flex h-16",
-                        children: [
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "flex justify-between md:flex md:justify-around md:align-middle",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "items-center justify-center",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                            href: "/",
-                                            className: "flex justify-center items-center",
-                                            children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                src: "/dotaij-logo.png",
-                                                alt: "logo",
-                                                width: 200,
-                                                height: 20,
-                                                className: "object-contain"
-                                            })
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "md:hidden pt-4 justify-center items-center",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                            className: "rounded-md",
-                                            onClick: ()=>setNavbar(!navbar),
-                                            children: navbar ? /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                src: "/close.svg",
-                                                width: 30,
-                                                height: 30,
-                                                alt: "close icon"
-                                            }) : /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                src: "/menu.svg",
-                                                width: 30,
-                                                height: 30,
-                                                alt: "menu icon"
-                                            })
+                    className: "",
+                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "px-5",
+                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                            className: "flex justify-between md:py-1 ",
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                    className: "",
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                        href: "/",
+                                        className: "",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                            src: "/dotaij-logo.png",
+                                            alt: "logo",
+                                            width: 180,
+                                            height: 20,
+                                            className: "object-contain"
                                         })
                                     })
-                                ]
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: "md:show",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx(Menu, {
-                                    navbar: navbar,
-                                    setNavbar: setNavbar
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                    className: `md:block ${navbar ? "block" : "hidden"}`,
+                                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                        className: "md:h-auto md:flex cursor-pointer md:mt-1 mt-8",
+                                        children: [
+                                            /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                                href: "/book",
+                                                onClick: ()=>setNavbar(!navbar),
+                                                children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                    className: "text-xl px-6 text-center py-5 md:py-2 md:hover:bg-transparent hover:font-bold",
+                                                    children: t("header.Books")
+                                                })
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                                href: "/biography",
+                                                onClick: ()=>setNavbar(!navbar),
+                                                children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                    className: "text-xl px-6 text-center py-5 md:py-2 md:hover:bg-transparent hover:font-bold",
+                                                    children: t("header.Biography")
+                                                })
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                                href: "/events",
+                                                onClick: ()=>setNavbar(!navbar),
+                                                children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                    className: "text-xl px-6 text-center py-5 md:py-2 md:hover:bg-transparent hover:font-bold",
+                                                    children: t("header.Events")
+                                                })
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                                href: "/contact",
+                                                onClick: ()=>setNavbar(!navbar),
+                                                children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                    className: "text-xl px-6 text-center py-5 md:py-2 md:hover:bg-transparent hover:font-bold",
+                                                    children: t("header.Contact")
+                                                })
+                                            })
+                                        ]
+                                    })
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                    className: "md:hidden py-0",
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                        className: "py-3 rounded-md",
+                                        onClick: ()=>setNavbar(!navbar),
+                                        children: navbar ? /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                            src: "/close.svg",
+                                            width: 30,
+                                            height: 30,
+                                            alt: "close icon button"
+                                        }) : /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                            src: "/menu.svg",
+                                            width: 30,
+                                            height: 30,
+                                            alt: "menu icon button"
+                                        })
+                                    })
                                 })
-                            })
-                        ]
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: "md:hidden",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx(Menu, {
-                        navbar: navbar,
-                        setNavbar: setNavbar
+                            ]
+                        })
                     })
                 })
             ]

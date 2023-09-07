@@ -45,7 +45,7 @@ function MySlide({ data  }) {
                                     href: "https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D",
                                     type: "button",
                                     target: "_blank",
-                                    className: "mt-5 rounded-3xl bg-blue-500 border-2 border-blue-500 px-7 pb-3 pt-[10px] text-sm font-medium uppercase leading-normal italic",
+                                    className: "mt-5 rounded-3xl bg-gradient-to-r from-[#8DD816] to-[#0FC5EF] px-7 pb-3 pt-[10px] text-sm font-medium uppercase leading-normal italic",
                                     children: t("index.buy")
                                 })
                             ]
@@ -191,75 +191,8 @@ function Home() {
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_my_swiper__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z, {})
                         })
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
-                        className: "bg-fixed bg-cover bg-center bg-[url('/profile.jpeg')]",
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                            className: "p-10 h-[600px] text-white text-right",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: "flex justify-center flex-col md:my-0 my-4",
-                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                    className: " text-2xl",
-                                    children: [
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
-                                            className: " text-5xl mb-5 ",
-                                            children: "Writer name is"
-                                        }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            children: "Starting from headers through the footers,"
-                                        }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            children: "every bit of your website has been "
-                                        }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            children: "engineered for your church\u2019s complete control."
-                                        })
-                                    ]
-                                })
-                            })
-                        })
-                    }),
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
-                        className: "w-auto flex sm:flex-row flex-col bg-cover bg-[url('/bg.webp')]",
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: "flex sm:w-1/3",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                    src: "/heros-way.jpg",
-                                    alt: "book",
-                                    width: 1600
-                                })
-                            }),
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "sm:w-2/3 leading-10 text-white text-2xl italic text-right whitespace-normal p-3 sm:p-10",
-                                children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                        className: "pb-10",
-                                        children: t("home.title-p1")
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                        className: "pb-10",
-                                        children: t("home.title-p2")
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                        className: "pb-10",
-                                        children: t("home.title-p3")
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            href: "https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D",
-                                            type: "button",
-                                            target: "_blank",
-                                            className: "rounded-3xl bg-blue-500 border-2 border-blue-500 px-7 pb-3 pt-[10px] text-sm font-medium uppercase leading-normal",
-                                            children: t("index.buy")
-                                        })
-                                    })
-                                ]
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
-                        className: "w-auto flex sm:flex-row flex-col bg-cover bg-[url('/bg.webp')]",
+                        className: "w-auto flex sm:flex-row flex-col bg-cover bg-white m-20 text-[#828282]",
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                 className: "flex sm:w-2/3",
@@ -275,116 +208,104 @@ function Home() {
                                 })
                             }),
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "sm:w-1/3 text-white",
+                                className: "sm:w-1/3",
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                        className: "flex text-2xl items-center justify-center my-5",
+                                        className: "flex text-4xl text-[#060221] items-center justify-center my-5",
                                         children: t("index.book1-name")
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        className: "flex items-center justify-center my-5",
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                            src: "/heros-way.jpg",
-                                            width: 200,
-                                            height: 400,
-                                            alt: "book"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        className: "flex items-center justify-center my-7",
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            href: "https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D",
-                                            type: "button",
-                                            target: "_blank",
-                                            className: "rounded-3xl bg-blue-500 border-2 border-blue-500 px-7 pb-3 pt-[10px] text-sm font-medium uppercase leading-normal italic",
-                                            children: t("index.buy")
+                                        className: "flex text-2xl items-center justify-center my-5 mx-20",
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                            children: "Starting from headers through the footers, every bit of your website has been engineered for your church\u2019s complete control."
                                         })
                                     })
                                 ]
                             })
                         ]
                     }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
-                        className: "w-auto flex sm:flex-row flex-col bg-cover bg-[url('/bg.webp')] text-white text-2xl",
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: "flex sm:w-1/3 bg-gradient-to-r from-[#f4bb3a] to-[#f3b11c]",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                    className: "m-10",
-                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                        className: "text-center",
-                                        children: t("home.quote1")
-                                    })
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
+                        className: "bg-fixed bg-cover bg-center bg-[url('/profile.jpeg')]",
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                            className: "p-10 h-[600px] text-white text-right",
+                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                className: "flex justify-center flex-col md:my-0 my-4",
+                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                    className: " text-2xl",
+                                    children: [
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
+                                            className: " text-5xl mb-5 ",
+                                            children: "Writer name is here"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                            children: "Starting from headers through the footers,"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                            children: "every bit of your website has been "
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                            children: "engineered for your church\u2019s complete control."
+                                        })
+                                    ]
                                 })
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: "flex sm:w-2/3",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                    className: "flex m-10",
+                            })
+                        })
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
+                        className: "w-auto m-10 md:m-20 text-[#828282] text-2xl h-full",
+                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                            className: "flex sm:flex-row flex-col m-10 gap-10 sm:gap-32 h-full",
+                            children: [
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                    className: "w-full sm:w-1/2",
                                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                        className: "flex flex-row h-full",
+                                        className: "items-center",
                                         children: [
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                className: "mr-10",
-                                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                    className: "items-center",
-                                                    children: [
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                            src: "/heros-way.jpg",
-                                                            width: "100%",
-                                                            height: "100%",
-                                                            alt: "logo"
-                                                        }),
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                            className: "mt-10 mb-3 text-center",
-                                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                                href: "https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D",
-                                                                type: "button",
-                                                                target: "_blank",
-                                                                className: "rounded-3xl bg-blue-500 border-2 border-blue-500 px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal",
-                                                                children: t("index.buy")
-                                                            })
-                                                        }),
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                            className: "text-base text-center",
-                                                            children: "26 / 08 / 2023"
-                                                        })
-                                                    ]
-                                                })
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                                src: "/heros-way.jpg",
+                                                width: "100%",
+                                                height: "100%",
+                                                alt: "logo"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                className: "",
-                                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                    className: "items-center",
-                                                    children: [
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                            src: "/mongoliv1.jpeg",
-                                                            width: "100%",
-                                                            height: "100%",
-                                                            alt: "logo"
-                                                        }),
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                            className: "mt-10 mb-3 text-center",
-                                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                                href: "https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D",
-                                                                type: "button",
-                                                                target: "_blank",
-                                                                className: "rounded-3xl bg-blue-500 border-2 border-blue-500 px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal",
-                                                                children: t("index.buy")
-                                                            })
-                                                        }),
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                            className: "text-base text-center",
-                                                            children: "11 / 07 / 2023"
-                                                        })
-                                                    ]
+                                                className: "mt-10 mb-3 text-center",
+                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                    href: "https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D",
+                                                    type: "button",
+                                                    target: "_blank",
+                                                    className: "rounded-3xl text-white bg-gradient-to-r from-[#8DD816] to-[#0FC5EF] px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal",
+                                                    children: t("index.buy")
+                                                })
+                                            })
+                                        ]
+                                    })
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                    className: "w-full sm:w-1/2",
+                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                        className: "items-center",
+                                        children: [
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                                src: "/mongoliv1.jpeg",
+                                                width: "100%",
+                                                height: "100%",
+                                                alt: "logo"
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                className: "mt-10 mb-3 text-center",
+                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                    href: "https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D",
+                                                    type: "button",
+                                                    target: "_blank",
+                                                    className: "rounded-3xl text-white bg-gradient-to-r from-[#8DD816] to-[#0FC5EF] px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal",
+                                                    children: t("index.buy")
                                                 })
                                             })
                                         ]
                                     })
                                 })
-                            })
-                        ]
+                            ]
+                        })
                     })
                 ]
             }),

@@ -19,7 +19,10 @@ export default function MySlide({ data }) {
                                     href="https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D"
                                     type="button"
                                     target="_blank"
-                                    className="mt-5 rounded-3xl bg-blue-500 border-2 border-blue-500 px-7 pb-3 pt-[10px] text-sm font-medium uppercase leading-normal italic"
+                                    className="mt-5 rounded-3xl 
+                                    bg-gradient-to-r from-[#8DD816] to-[#0FC5EF]
+                                    px-7 pb-3 pt-[10px] 
+                                    text-sm font-medium uppercase leading-normal italic"
                                 >
                                     {t('index.buy')}
                                 </a>

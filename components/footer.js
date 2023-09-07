@@ -12,10 +12,13 @@ export default function Footer() {
         <nav className="mb-4">
           <ul className="flex gap-4">
             <li>
-              <Link href="/">Home</Link>
+              <Link href="/book">Books</Link>
             </li>
             <li>
-              <Link href="/about">About</Link>
+              <Link href="/biography">Biography</Link>
+            </li>
+            <li>
+              <Link href="/events">Events</Link>
             </li>
             <li>
               <Link href="/contact">Contact</Link>

@@ -48,7 +48,7 @@ export default function Homeslider() {
   };
 
   return (
-    <div style={{ marginTop: '20px', marginBottom: '20px', display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh' }}>
+    <div style={{ marginBottom: '20px', display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh' }}>
       <div className="swiper-container">
         <div style={glassBlurStyle}></div>
         <Swiper

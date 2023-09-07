@@ -21,7 +21,7 @@ exports.modules = {
 function Footer() {
     const { t  } = (0,next_i18next__WEBPACK_IMPORTED_MODULE_2__.useTranslation)("");
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("footer", {
-        className: "w-full h-48 bg-gray-300 text-black-100",
+        className: "w-full h-48 bg-[#2d323d] text-[#98a2aa]",
         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
             className: "sm:px-16 px-6 py-10",
             children: [
@@ -36,7 +36,7 @@ function Footer() {
                             className: "object-contain"
                         }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                            className: "text-base text-gray-700",
+                            className: "text-base",
                             children: t("footer.title")
                         })
                     ]
@@ -192,7 +192,7 @@ function Navigation() {
     ]);
     return /*#__PURE__*/ jsx_runtime_.jsx("nav", {
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: "w-full bg-gray-300 px-5 py-2",
+            className: "w-full bg-[#2d323d] text-[#98a2aa] px-5 py-2",
             children: [
                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                     className: "flex justify-end px-5 md:px-10",

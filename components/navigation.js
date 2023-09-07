@@ -21,7 +21,7 @@ export default function Navigation() {
 
   return (
     <nav>
-      <div className="w-full bg-gray-300 px-5 py-2">
+      <div className="w-full bg-[#2d323d] text-[#98a2aa] px-5 py-2">
         <div className="flex justify-end px-5 md:px-10">
           <LocaleSwitcher />
         </div>
@@ -69,8 +69,10 @@ export default function Navigation() {
                 <button className="py-3 rounded-md" onClick={() => setNavbar(!navbar)}>
                   {navbar ? (
                     <Image src="/close.svg" width={30} height={30} alt="close icon button" />
+                    // <Image src="/close_gray.png" width={30} height={30} alt="close icon button" />
                   ) : (
                     <Image src="/menu.svg" width={30} height={30} alt="menu icon button" />
+                    // <Image src="/menu_gray.png" width={30} height={30} alt="menu icon button" />
                   )}
                 </button>
               </div>

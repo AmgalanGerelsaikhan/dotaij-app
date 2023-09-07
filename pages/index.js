@@ -4,6 +4,10 @@ import Navigation from "../components/navigation";
 import Footer from "../components/footer";
 import Link from "next/link";
 
+
+import MySlide from "../components/my-slide";
+import MySwiper from "../components/my-swiper";
+
 export default function Home() {
   const { t } = useTranslation();
 
@@ -11,6 +15,28 @@ export default function Home() {
     <>
       <Navigation />
       <div className="">
+        {/* swiper */}
+
+        <session className="">
+          <div className="bg-[#29292a] w-full">
+            <MySwiper />
+          </div>
+        </session>
+
+        {/* writer info */}
+        <section className="bg-fixed bg-cover bg-center bg-[url('/profile.jpeg')]">
+          <div className="p-10 h-[600px] text-white text-right">
+            <div className="flex justify-center flex-col md:my-0 my-4">
+              <div className=" text-2xl">
+                <h1 className=" text-5xl mb-5 ">Writer name is</h1>
+                <p>Starting from headers through the footers,</p>
+                <p>every bit of your website has been </p>
+                <p>engineered for your church’s complete control.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="w-auto flex sm:flex-row flex-col bg-cover bg-[url('/bg.webp')]">
           <div className="flex sm:w-1/3">
             <img src="/heros-way.jpg" alt="book" width={1600} />
@@ -65,6 +91,8 @@ export default function Home() {
           </div>
         </section>
 
+
+
         <section className="w-auto flex sm:flex-row flex-col bg-cover bg-[url('/bg.webp')] text-white text-2xl">
           <div className="flex sm:w-1/3 bg-gradient-to-r from-[#f4bb3a] to-[#f3b11c]">
             <div className="m-10">
@@ -113,6 +141,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+
       </div>
       <Footer />
     </>

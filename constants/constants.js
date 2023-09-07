@@ -14,3 +14,42 @@ export const BOOKS = [
         desc: 'In this startling psychological thriller, a killer is targeting young women in New York City and is obsessed with Michael Bennetts daughter. A killer is obsessed...with Detective Michael Bennett’s oldest daughter.  Michael Bennett is obsessed... with keeping his family safe.  New York City is obsessed...with cracking the killer’s code.  You will be obsessed...with this startling psychological'
     }
 ]
+
+export const SLIDE_DATA = [
+    {
+        id: 1,
+        titleEn: 'Heron\'s way',
+        titleUk: 'Herons way',
+        descEn: 'Note that the ltr modifier will not take effect unless the dir attribute is explicitly set to ltr, so if you are building a multi-directional site make sure to always set a direction, not just in rtl mode.',
+        descUk: 'Note that the ltr modifier will not take effect unless the dir attribute is explicitly set to ltr, so if you are building a multi-directional site make sure to always set a direction, not just in rtl mode.',
+        bgImage: '/swipe-bg1.jpg',
+        bookImage: '/heros-way.jpg'
+    },
+    {
+        id: 2,
+        titleEn: 'Mongoliv',
+        titleUk: 'Mongoliv',
+        descEn: 'Note that the ltr modifier will not take effect unless the dir attribute is explicitly set to ltr, so if you are building a multi-directional site make sure to always set a direction, not just in rtl mode.',
+        descUk: 'Note that the ltr modifier will not take effect unless the dir attribute is explicitly set to ltr, so if you are building a multi-directional site make sure to always set a direction, not just in rtl mode.',
+        bgImage: '/swipe-bg2.jpg',
+        bookImage: '/mongoliv1.jpeg'
+    },
+    {
+        id: 3,
+        titleEn: 'Book3',
+        titleUk: 'Book3',
+        descEn: 'Note that the ltr modifier will not take effect unless the dir attribute is explicitly set to ltr, so if you are building a multi-directional site make sure to always set a direction, not just in rtl mode.',
+        descUk: 'Note that the ltr modifier will not take effect unless the dir attribute is explicitly set to ltr, so if you are building a multi-directional site make sure to always set a direction, not just in rtl mode.',
+        bgImage: '/swipe-bg3.jpg',
+        bookImage: '/heros-way.jpg'
+    },
+    {
+        id: 4,
+        titleEn: 'Book4',
+        titleUk: 'Book4',
+        descEn: 'Note that the ltr modifier will not take effect unless the dir attribute is explicitly set to ltr, so if you are building a multi-directional site make sure to always set a direction, not just in rtl mode.',
+        descUk: 'Note that the ltr modifier will not take effect unless the dir attribute is explicitly set to ltr, so if you are building a multi-directional site make sure to always set a direction, not just in rtl mode.',
+        bgImage: '/swipe-bg4.jpg',
+        bookImage: '/heros-way.jpg'
+    }
+]

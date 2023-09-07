@@ -5,52 +5,27 @@ exports.id = 85;
 exports.ids = [85];
 exports.modules = {
 
-/***/ 4916:
+/***/ 3421:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ BookDetail),
-  "getStaticPaths": () => (/* binding */ getStaticPaths),
-  "getStaticProps": () => (/* binding */ getStaticProps)
-});
-
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-// EXTERNAL MODULE: external "react-i18next"
-var external_react_i18next_ = __webpack_require__(9709);
-// EXTERNAL MODULE: external "next-i18next/serverSideTranslations"
-var serverSideTranslations_ = __webpack_require__(5460);
-// EXTERNAL MODULE: ./components/navigation.js + 2 modules
-var navigation = __webpack_require__(3427);
-// EXTERNAL MODULE: ./components/footer.js
-var footer = __webpack_require__(6151);
-// EXTERNAL MODULE: ./components/book-item.js
-var book_item = __webpack_require__(4452);
-// EXTERNAL MODULE: external "next/router"
-var router_ = __webpack_require__(1853);
-;// CONCATENATED MODULE: ./constants/constants.js
-const BOOKS = [
-    {
-        id: 1,
-        name: "Heros way",
-        img: "/heros-way.jpg",
-        published: "2023 / 08 / 27",
-        desc: "Veena Lion and Cooper Lamb are rival PIs in Philadelphia in this \u201Cfun ride\u2026the romance between Cooper and Veena is artfully handled...endearing characters including Cooper\u2019s two preternaturally clever kids and his Rhodesian ridgeback puppy.\u201D \u2013Publishers Weekly The city is in a state of shock over the fate of two hometown heroes: Eagles"
-    },
-    {
-        id: 2,
-        name: "Obsessed",
-        img: "/heros-way.jpg",
-        published: "2023 / 07 / 10",
-        desc: "In this startling psychological thriller, a killer is targeting young women in New York City and is obsessed with Michael Bennetts daughter. A killer is obsessed...with Detective Michael Bennett\u2019s oldest daughter.  Michael Bennett is obsessed... with keeping his family safe.  New York City is obsessed...with cracking the killer\u2019s code.  You will be obsessed...with this startling psychological"
-    }
-];
-
-;// CONCATENATED MODULE: ./pages/book/[bookId].js
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ BookDetail),
+/* harmony export */   "getStaticPaths": () => (/* binding */ getStaticPaths),
+/* harmony export */   "getStaticProps": () => (/* binding */ getStaticProps)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_i18next__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9709);
+/* harmony import */ var react_i18next__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_i18next__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_i18next_serverSideTranslations__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5460);
+/* harmony import */ var next_i18next_serverSideTranslations__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_i18next_serverSideTranslations__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_navigation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3427);
+/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(6151);
+/* harmony import */ var _components_book_item__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(4452);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(1853);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _constants_constants__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(3609);
 
 
 
@@ -60,32 +35,32 @@ const BOOKS = [
 
 
 function BookDetail({ params  }) {
-    const { t  } = (0,external_react_i18next_.useTranslation)("");
-    const router = (0,router_.useRouter)();
+    const { t  } = (0,react_i18next__WEBPACK_IMPORTED_MODULE_1__.useTranslation)("");
+    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_6__.useRouter)();
     const { bookId  } = router.query;
     console.log({
         router
     });
     console.log("params", params);
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
         children: [
-            /*#__PURE__*/ jsx_runtime_.jsx(navigation/* default */.Z, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_navigation__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {}),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                 className: "bg-blue-50",
-                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                     className: "sm:px-16 px-6 py-10",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                         className: "",
                         children: bookId
                     })
                 })
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx(footer/* default */.Z, {})
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_footer__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {})
         ]
     });
 };
 async function getStaticPaths() {
-    const paths = BOOKS.map((book)=>({
+    const paths = _constants_constants__WEBPACK_IMPORTED_MODULE_7__/* .BOOKS.map */ .Z.map((book)=>({
             params: {
                 bookId: book.id.toString()
             }
@@ -100,7 +75,7 @@ async function getStaticProps({ locale , params  }) {
     return {
         props: {
             ...params,
-            ...await (0,serverSideTranslations_.serverSideTranslations)(locale, [
+            ...await (0,next_i18next_serverSideTranslations__WEBPACK_IMPORTED_MODULE_2__.serverSideTranslations)(locale, [
                 "common"
             ])
         }
@@ -348,7 +323,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [952,61,813,452], () => (__webpack_exec__(4916)));
+var __webpack_exports__ = __webpack_require__.X(0, [952,61,813,609,452], () => (__webpack_exec__(3421)));
 module.exports = __webpack_exports__;
 
 })();

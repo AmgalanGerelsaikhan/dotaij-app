@@ -1,12 +1,13 @@
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import Navigation from "../components/navigation";
+import Navigation from "../components/my-navigation";
 import Footer from "../components/footer";
 import Link from "next/link";
 
 
 import MySlide from "../components/my-slide";
-import MySwiper from "../components/my-swiper";
+import MySwiper from "../components/my-swiper1";
+// import MySwiper from "../components/my-swiper";
 
 export default function Home() {
   const { t } = useTranslation();

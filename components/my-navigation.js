@@ -20,13 +20,10 @@ export default function Navigation() {
     }, [router.locale]);
 
     return (
-        <nav>
-            <div className="w-full bg-[#2d323d] text-[#98a2aa] px-5 py-2">
-                <div className="flex justify-end px-5 md:px-10">
-                    <LocaleSwitcher />
-                </div>
+        <nav className="w-full">
+            <div className=" bg-[#2d323d] text-[#98a2aa] px-5 py-2 flex">
 
-                <div className="">
+                <div className="flex-1 justify-start">
 
                     <div className="px-5">
                         <div className="flex justify-between md:py-1 ">
@@ -81,6 +78,12 @@ export default function Navigation() {
 
                     </div>
                 </div >
+
+                <div className="flex-none">
+                    <div className="justify-end mt-3">
+                        <LocaleSwitcher />
+                    </div>
+                </div>
             </div >
         </nav>
     );

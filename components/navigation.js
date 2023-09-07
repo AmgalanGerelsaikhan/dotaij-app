@@ -1,10 +1,9 @@
-// pages/components/Navigation.js
-
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { useTranslation } from "next-i18next";
 import Link from "next/link";
 import LocaleSwitcher from "./locale-switcher"; // Assuming you have a LocaleSwitcher component
+import { HiMenu, HiOutlineX } from "react-icons/hi"; // Import the HiMenu and HiOutlineX icons
 
 export default function Navigation() {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -38,11 +37,14 @@ export default function Navigation() {
         </Link>
 
         <div className="md:hidden">
-          <button onClick={toggleNavbar} className={`text-black ${navbarOpen ? 'bg-black' : 'bg-black'} p-2`}>
+          <button
+            onClick={toggleNavbar}
+            className={`text-white ${navbarOpen ? 'bg-white' : 'bg-white'} p-2`}
+          >
             {navbarOpen ? (
-              <img src="/close.svg" width={30} height={30} alt="close icon" />
+              <HiOutlineX size={30} style={{ color: "black" }} />
             ) : (
-              <img src="/whitemenu.svg" width={30} height={30} alt="menu icon" />
+              <HiMenu size={30} style={{ color: "black" }} />
             )}
           </button>
         </div>

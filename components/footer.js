@@ -12,17 +12,16 @@ export default function Footer() {
         <nav className="mb-4">
           <ul className="flex gap-4">
             <li>
-              <Link href="/book">Books</Link>
+              <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/biography">Biography</Link>
+              <Link href="/about">About</Link>
             </li>
             <li>
-              <Link href="/events">Events</Link>
+              <Link href="/contact">Contact</Link>
             </li>
-            <li>
-              <Link href="/contact">Events</Link>
-            </li></ul>
+            {/* Add more menu items as needed */}
+          </ul>
         </nav>
 
         {/* Centered Social Media Icons */}

@@ -12,6 +12,7 @@ exports.id = "pages/index";
 exports.ids = ["pages/index"];
 exports.modules = {
 
+<<<<<<< HEAD
 /***/ "./components/footer.js":
 /*!******************************!*\
   !*** ./components/footer.js ***!
@@ -20,6 +21,328 @@ exports.modules = {
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Footer)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ \"./node_modules/next/link.js\");\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_i18next__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next-i18next */ \"next-i18next\");\n/* harmony import */ var next_i18next__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_i18next__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-icons/fa */ \"react-icons/fa\");\n/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nfunction Footer() {\n    const { t  } = (0,next_i18next__WEBPACK_IMPORTED_MODULE_2__.useTranslation)(\"\");\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"footer\", {\n        className: \"bg-gray-300 py-6\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"container mx-auto flex flex-col items-center\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"nav\", {\n                    className: \"mb-4\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"ul\", {\n                        className: \"flex gap-4\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {\n                                    href: \"/book\",\n                                    children: \"Books\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/amgalangerelsaikhan/Desktop/NextJs/dotaij/components/footer.js\",\n                                    lineNumber: 15,\n                                    columnNumber: 15\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"/Users/amgalangerelsaikhan/Desktop/NextJs/dotaij/components/footer.js\",\n                                lineNumber: 14,\n                                columnNumber: 13\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {\n                                    href: \"/biography\",\n                                    children: \"Biography\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/amgalangerelsaikhan/Desktop/NextJs/dotaij/components/footer.js\",\n                                    lineNumber: 18,\n                                    columnNumber: 15\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"/Users/amgalangerelsaikhan/Desktop/NextJs/dotaij/components/footer.js\",\n                                lineNumber: 17,\n                                columnNumber: 13\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {\n                                    href: \"/events\",\n                                    children: \"Events\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/amgalangerelsaikhan/Desktop/NextJs/dotaij/components/footer.js\",\n                                    lineNumber: 21,\n                                    columnNumber: 15\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"/Users/amgalangerelsaikhan/Desktop/NextJs/dotaij/components/footer.js\",\n                                lineNumber: 20,\n                                columnNumber: 13\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {\n                                    href: \"/contact\",\n                                    children: \"Events\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/amgalangerelsaikhan/Desktop/NextJs/dotaij/components/footer.js\",\n                                    lineNumber: 24,\n                                    columnNumber: 15\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"/Users/amgalangerelsaikhan/Desktop/NextJs/dotaij/components/footer.js\",\n                                lineNumber: 23,\n                                columnNumber: 13\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/amgalangerelsaikhan/Desktop/NextJs/dotaij/components/footer.js\",\n                        lineNumber: 13,\n                        columnNumber: 11\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"/Users/amgalangerelsaikhan/Desktop/NextJs/dotaij/components/footer.js\",\n                    lineNumber: 12,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"flex gap-4\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"#\",\n                            target: \"_blank\",\n                            rel: \"noopener noreferrer\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__.FaFacebook, {\n                                size: 20,\n                                style: {\n                                    color: \"black\"\n                                }\n                            }, void 0, false, {\n                                fileName: \"/Users/amgalangerelsaikhan/Desktop/NextJs/dotaij/components/footer.js\",\n                                lineNumber: 32,\n                                columnNumber: 13\n                            }, this)\n                        }, void 0, false, {\n                            fileName: \"/Users/amgalangerelsaikhan/Desktop/NextJs/dotaij/components/footer.js\",\n                            lineNumber: 31,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"#\",\n                            target: \"_blank\",\n                            rel: \"noopener noreferrer\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__.FaTwitter, {\n                                size: 20,\n                                style: {\n                                    color: \"black\"\n                                }\n                            }, void 0, false, {\n                                fileName: \"/Users/amgalangerelsaikhan/Desktop/NextJs/dotaij/components/footer.js\",\n                                lineNumber: 35,\n                                columnNumber: 13\n                            }, this)\n                        }, void 0, false, {\n                            fileName: \"/Users/amgalangerelsaikhan/Desktop/NextJs/dotaij/components/footer.js\",\n                            lineNumber: 34,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"#\",\n                            target: \"_blank\",\n                            rel: \"noopener noreferrer\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__.FaInstagram, {\n                                size: 20,\n                                style: {\n                                    color: \"black\"\n                                }\n                            }, void 0, false, {\n                                fileName: \"/Users/amgalangerelsaikhan/Desktop/NextJs/dotaij/components/footer.js\",\n                                lineNumber: 38,\n                                columnNumber: 13\n                            }, this)\n                        }, void 0, false, {\n                            fileName: \"/Users/amgalangerelsaikhan/Desktop/NextJs/dotaij/components/footer.js\",\n                            lineNumber: 37,\n                            columnNumber: 11\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/amgalangerelsaikhan/Desktop/NextJs/dotaij/components/footer.js\",\n                    lineNumber: 29,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"text-center text-gray-700 text-xs mt-4\",\n                    children: [\n                        t(\"footer.copyright\"),\n                        \" \\xa9 2000 - 2024 Do Taij Mogul\"\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/amgalangerelsaikhan/Desktop/NextJs/dotaij/components/footer.js\",\n                    lineNumber: 43,\n                    columnNumber: 9\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/Users/amgalangerelsaikhan/Desktop/NextJs/dotaij/components/footer.js\",\n            lineNumber: 10,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/amgalangerelsaikhan/Desktop/NextJs/dotaij/components/footer.js\",\n        lineNumber: 9,\n        columnNumber: 5\n    }, this);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL2Zvb3Rlci5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7QUFBQTtBQUE2QjtBQUNpQjtBQUNzQjtBQUVyRCxTQUFTSyxNQUFNLEdBQUc7SUFDL0IsTUFBTSxFQUFFQyxDQUFDLEdBQUUsR0FBR0wsNERBQWMsQ0FBQyxFQUFFLENBQUM7SUFFaEMscUJBQ0UsOERBQUNNLFFBQU07UUFBQ0MsU0FBUyxFQUFDLGtCQUFrQjtrQkFDbEMsNEVBQUNDLEtBQUc7WUFBQ0QsU0FBUyxFQUFDLDhDQUE4Qzs7OEJBRTNELDhEQUFDRSxLQUFHO29CQUFDRixTQUFTLEVBQUMsTUFBTTs4QkFDbkIsNEVBQUNHLElBQUU7d0JBQUNILFNBQVMsRUFBQyxZQUFZOzswQ0FDeEIsOERBQUNJLElBQUU7MENBQ0QsNEVBQUNaLGtEQUFJO29DQUFDYSxJQUFJLEVBQUMsT0FBTzs4Q0FBQyxPQUFLOzs7Ozt3Q0FBTzs7Ozs7b0NBQzVCOzBDQUNMLDhEQUFDRCxJQUFFOzBDQUNELDRFQUFDWixrREFBSTtvQ0FBQ2EsSUFBSSxFQUFDLFlBQVk7OENBQUMsV0FBUzs7Ozs7d0NBQU87Ozs7O29DQUNyQzswQ0FDTCw4REFBQ0QsSUFBRTswQ0FDRCw0RUFBQ1osa0RBQUk7b0NBQUNhLElBQUksRUFBQyxTQUFTOzhDQUFDLFFBQU07Ozs7O3dDQUFPOzs7OztvQ0FDL0I7MENBQ0wsOERBQUNELElBQUU7MENBQ0QsNEVBQUNaLGtEQUFJO29DQUFDYSxJQUFJLEVBQUMsVUFBVTs4Q0FBQyxRQUFNOzs7Ozt3Q0FBTzs7Ozs7b0NBQ2hDOzs7Ozs7NEJBQUs7Ozs7O3dCQUNSOzhCQUdOLDhEQUFDSixLQUFHO29CQUFDRCxTQUFTLEVBQUMsWUFBWTs7c0NBRXpCLDhEQUFDTSxHQUFDOzRCQUFDRCxJQUFJLEVBQUMsR0FBRzs0QkFBQ0UsTUFBTSxFQUFDLFFBQVE7NEJBQUNDLEdBQUcsRUFBQyxxQkFBcUI7c0NBQ25ELDRFQUFDZCxzREFBVTtnQ0FBQ2UsSUFBSSxFQUFFLEVBQUU7Z0NBQUVDLEtBQUssRUFBRTtvQ0FBRUMsS0FBSyxFQUFFLE9BQU87aUNBQUU7Ozs7O29DQUFJOzs7OztnQ0FDakQ7c0NBQ0osOERBQUNMLEdBQUM7NEJBQUNELElBQUksRUFBQyxHQUFHOzRCQUFDRSxNQUFNLEVBQUMsUUFBUTs0QkFBQ0MsR0FBRyxFQUFDLHFCQUFxQjtzQ0FDbkQsNEVBQUNiLHFEQUFTO2dDQUFDYyxJQUFJLEVBQUUsRUFBRTtnQ0FBRUMsS0FBSyxFQUFFO29DQUFFQyxLQUFLLEVBQUUsT0FBTztpQ0FBRTs7Ozs7b0NBQUk7Ozs7O2dDQUNoRDtzQ0FDSiw4REFBQ0wsR0FBQzs0QkFBQ0QsSUFBSSxFQUFDLEdBQUc7NEJBQUNFLE1BQU0sRUFBQyxRQUFROzRCQUFDQyxHQUFHLEVBQUMscUJBQXFCO3NDQUNuRCw0RUFBQ1osdURBQVc7Z0NBQUNhLElBQUksRUFBRSxFQUFFO2dDQUFFQyxLQUFLLEVBQUU7b0NBQUVDLEtBQUssRUFBRSxPQUFPO2lDQUFFOzs7OztvQ0FBSTs7Ozs7Z0NBQ2xEOzs7Ozs7d0JBQ0E7OEJBR04sOERBQUNWLEtBQUc7b0JBQUNELFNBQVMsRUFBQyx3Q0FBd0M7O3dCQUNwREYsQ0FBQyxDQUFDLGtCQUFrQixDQUFDO3dCQUFDLGlDQUN6Qjs7Ozs7O3dCQUFNOzs7Ozs7Z0JBQ0Y7Ozs7O1lBQ0MsQ0FDVDtDQUNIIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbmV4dGpzLWkxOG5leHQtbXVsdGktbGFuZ3VhZ2UtZGVtby8uL2NvbXBvbmVudHMvZm9vdGVyLmpzP2IxNTQiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSBcIm5leHQvbGlua1wiO1xuaW1wb3J0IHsgdXNlVHJhbnNsYXRpb24gfSBmcm9tIFwibmV4dC1pMThuZXh0XCI7XG5pbXBvcnQgeyBGYUZhY2Vib29rLCBGYVR3aXR0ZXIsIEZhSW5zdGFncmFtIH0gZnJvbSBcInJlYWN0LWljb25zL2ZhXCI7XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEZvb3RlcigpIHtcbiAgY29uc3QgeyB0IH0gPSB1c2VUcmFuc2xhdGlvbihcIlwiKTtcblxuICByZXR1cm4gKFxuICAgIDxmb290ZXIgY2xhc3NOYW1lPVwiYmctZ3JheS0zMDAgcHktNlwiPlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXIgbXgtYXV0byBmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlclwiPlxuICAgICAgICB7LyogTWVudSBOYXZpZ2F0aW9uICovfVxuICAgICAgICA8bmF2IGNsYXNzTmFtZT1cIm1iLTRcIj5cbiAgICAgICAgICA8dWwgY2xhc3NOYW1lPVwiZmxleCBnYXAtNFwiPlxuICAgICAgICAgICAgPGxpPlxuICAgICAgICAgICAgICA8TGluayBocmVmPVwiL2Jvb2tcIj5Cb29rczwvTGluaz5cbiAgICAgICAgICAgIDwvbGk+XG4gICAgICAgICAgICA8bGk+XG4gICAgICAgICAgICAgIDxMaW5rIGhyZWY9XCIvYmlvZ3JhcGh5XCI+QmlvZ3JhcGh5PC9MaW5rPlxuICAgICAgICAgICAgPC9saT5cbiAgICAgICAgICAgIDxsaT5cbiAgICAgICAgICAgICAgPExpbmsgaHJlZj1cIi9ldmVudHNcIj5FdmVudHM8L0xpbms+XG4gICAgICAgICAgICA8L2xpPlxuICAgICAgICAgICAgPGxpPlxuICAgICAgICAgICAgICA8TGluayBocmVmPVwiL2NvbnRhY3RcIj5FdmVudHM8L0xpbms+XG4gICAgICAgICAgICA8L2xpPjwvdWw+XG4gICAgICAgIDwvbmF2PlxuXG4gICAgICAgIHsvKiBDZW50ZXJlZCBTb2NpYWwgTWVkaWEgSWNvbnMgKi99XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZmxleCBnYXAtNFwiPlxuICAgICAgICAgIHsvKiBBZGQgeW91ciBzb2NpYWwgbWVkaWEgaWNvbnMgYW5kIGxpbmtzIGhlcmUgKi99XG4gICAgICAgICAgPGEgaHJlZj1cIiNcIiB0YXJnZXQ9XCJfYmxhbmtcIiByZWw9XCJub29wZW5lciBub3JlZmVycmVyXCI+XG4gICAgICAgICAgICA8RmFGYWNlYm9vayBzaXplPXsyMH0gc3R5bGU9e3sgY29sb3I6IFwiYmxhY2tcIiB9fSAvPlxuICAgICAgICAgIDwvYT5cbiAgICAgICAgICA8YSBocmVmPVwiI1wiIHRhcmdldD1cIl9ibGFua1wiIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIj5cbiAgICAgICAgICAgIDxGYVR3aXR0ZXIgc2l6ZT17MjB9IHN0eWxlPXt7IGNvbG9yOiBcImJsYWNrXCIgfX0gLz5cbiAgICAgICAgICA8L2E+XG4gICAgICAgICAgPGEgaHJlZj1cIiNcIiB0YXJnZXQ9XCJfYmxhbmtcIiByZWw9XCJub29wZW5lciBub3JlZmVycmVyXCI+XG4gICAgICAgICAgICA8RmFJbnN0YWdyYW0gc2l6ZT17MjB9IHN0eWxlPXt7IGNvbG9yOiBcImJsYWNrXCIgfX0gLz5cbiAgICAgICAgICA8L2E+XG4gICAgICAgIDwvZGl2PlxuXG4gICAgICAgIHsvKiBDb3B5cmlnaHQgTWVzc2FnZSAqL31cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0ZXh0LWNlbnRlciB0ZXh0LWdyYXktNzAwIHRleHQteHMgbXQtNFwiPlxuICAgICAgICAgIHt0KCdmb290ZXIuY29weXJpZ2h0Jyl9IMKpIDIwMDAgLSAyMDI0IERvIFRhaWogTW9ndWxcbiAgICAgICAgPC9kaXY+XG4gICAgICA8L2Rpdj5cbiAgICA8L2Zvb3Rlcj5cbiAgKTtcbn1cbiJdLCJuYW1lcyI6WyJMaW5rIiwidXNlVHJhbnNsYXRpb24iLCJGYUZhY2Vib29rIiwiRmFUd2l0dGVyIiwiRmFJbnN0YWdyYW0iLCJGb290ZXIiLCJ0IiwiZm9vdGVyIiwiY2xhc3NOYW1lIiwiZGl2IiwibmF2IiwidWwiLCJsaSIsImhyZWYiLCJhIiwidGFyZ2V0IiwicmVsIiwic2l6ZSIsInN0eWxlIiwiY29sb3IiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/footer.js\n");
+=======
+/***/ 2680:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (/* binding */ MySlide)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_i18next__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1377);
+/* harmony import */ var next_i18next__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_i18next__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _constants_constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3609);
+
+
+
+function MySlide({ data  }) {
+    const { t  } = (0,next_i18next__WEBPACK_IMPORTED_MODULE_1__.useTranslation)();
+    const item = _constants_constants__WEBPACK_IMPORTED_MODULE_2__/* .SLIDE_DATA.filter */ .l.filter((f)=>f.id === data)[0];
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+        className: "text-white text-xl w-full h-screen md:h-[600px]",
+        children: item ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+            className: `bg-cover bg-center w-full h-full bg-[url('/swipe-bg5.jpg')]`,
+            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                className: " h-full mx-10 md:mx-52 justify-center grid md:grid-cols-2 leading-8 md:gap-20 gap-0",
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                        className: "flex justify-center flex-col md:my-0 my-4",
+                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                            className: "",
+                            children: [
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
+                                    className: " text-5xl mb-5 ",
+                                    children: item.titleEn
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: item.descEn
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                    href: "https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D",
+                                    type: "button",
+                                    target: "_blank",
+                                    className: "mt-5 rounded-3xl bg-gradient-to-r from-[#8DD816] to-[#0FC5EF] px-7 pb-3 pt-[10px] text-sm font-medium uppercase leading-normal italic",
+                                    children: t("index.buy")
+                                })
+                            ]
+                        })
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                        className: "flex place-content-center content-center mb-10 md:w-full w-full md:m-0 justify-center items-center",
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                            src: item.bookImage,
+                            width: 300
+                        })
+                    })
+                ]
+            })
+        }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+            children: "Not found"
+        })
+    });
+};
+
+
+/***/ }),
+
+/***/ 9959:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (/* binding */ MySwiper)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var swiper_modules__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2184);
+/* harmony import */ var swiper_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3015);
+/* harmony import */ var _my_slide__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2680);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([swiper_modules__WEBPACK_IMPORTED_MODULE_1__, swiper_react__WEBPACK_IMPORTED_MODULE_2__]);
+([swiper_modules__WEBPACK_IMPORTED_MODULE_1__, swiper_react__WEBPACK_IMPORTED_MODULE_2__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+
+
+
+
+
+
+
+
+
+function MySwiper() {
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+        className: " items-center justify-center",
+        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(swiper_react__WEBPACK_IMPORTED_MODULE_2__.Swiper, {
+            modules: [
+                swiper_modules__WEBPACK_IMPORTED_MODULE_1__.Navigation,
+                swiper_modules__WEBPACK_IMPORTED_MODULE_1__.Pagination,
+                swiper_modules__WEBPACK_IMPORTED_MODULE_1__.Scrollbar,
+                swiper_modules__WEBPACK_IMPORTED_MODULE_1__.A11y
+            ],
+            spaceBetween: 150,
+            slidesPerView: 1,
+            navigation: true,
+            loop: true,
+            pagination: {
+                clickable: true
+            },
+            scrollbar: {
+                draggable: true
+            },
+            onSwiper: (swiper)=>console.log(swiper),
+            onSlideChange: ()=>console.log("slide change"),
+            children: [
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_2__.SwiperSlide, {
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_my_slide__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
+                        data: 1
+                    })
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_2__.SwiperSlide, {
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_my_slide__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
+                        data: 2
+                    })
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_2__.SwiperSlide, {
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_my_slide__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
+                        data: 3
+                    })
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_2__.SwiperSlide, {
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_my_slide__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
+                        data: 4
+                    })
+                })
+            ]
+        })
+    });
+};
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
+
+/***/ }),
+
+/***/ 3678:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Home),
+/* harmony export */   "getStaticProps": () => (/* binding */ getStaticProps)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_i18next__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1377);
+/* harmony import */ var next_i18next__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_i18next__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_i18next_serverSideTranslations__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5460);
+/* harmony import */ var next_i18next_serverSideTranslations__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_i18next_serverSideTranslations__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_navigation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3427);
+/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(6151);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(1664);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _components_my_slide__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(2680);
+/* harmony import */ var _components_my_swiper__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(9959);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_components_my_swiper__WEBPACK_IMPORTED_MODULE_7__]);
+_components_my_swiper__WEBPACK_IMPORTED_MODULE_7__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+
+
+
+
+
+
+
+
+function Home() {
+    const { t  } = (0,next_i18next__WEBPACK_IMPORTED_MODULE_1__.useTranslation)();
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+        children: [
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_navigation__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {}),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                className: "",
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("session", {
+                        className: "",
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                            className: "bg-[#29292a] w-full",
+                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_my_swiper__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z, {})
+                        })
+                    }),
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
+                        className: "w-auto flex sm:flex-row flex-col bg-cover bg-white m-20 text-[#828282]",
+                        children: [
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                className: "flex sm:w-2/3",
+                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("iframe", {
+                                    title: "HERON'S WAY ON SALE NOW",
+                                    width: "100%",
+                                    height: "481",
+                                    src: "https://www.youtube.com/embed/qlS97wcqSTw",
+                                    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+                                    id: "widget2",
+                                    allowFullScreen: true,
+                                    "data-gtm-yt-inspected-9": "true"
+                                })
+                            }),
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                className: "sm:w-1/3",
+                                children: [
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                        className: "flex text-4xl text-[#060221] items-center justify-center my-5",
+                                        children: t("index.book1-name")
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                        className: "flex text-2xl items-center justify-center my-5 mx-20",
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                            children: "Starting from headers through the footers, every bit of your website has been engineered for your church\u2019s complete control."
+                                        })
+                                    })
+                                ]
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
+                        className: "bg-fixed bg-cover bg-center bg-[url('/profile.jpeg')]",
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                            className: "p-10 h-[600px] text-white text-right",
+                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                className: "flex justify-center flex-col md:my-0 my-4",
+                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                    className: " text-2xl",
+                                    children: [
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
+                                            className: " text-5xl mb-5 ",
+                                            children: "Writer name is here"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                            children: "Starting from headers through the footers,"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                            children: "every bit of your website has been "
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                            children: "engineered for your church\u2019s complete control."
+                                        })
+                                    ]
+                                })
+                            })
+                        })
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
+                        className: "w-auto m-10 md:m-20 text-[#828282] text-2xl h-full",
+                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                            className: "flex sm:flex-row flex-col m-10 gap-10 sm:gap-32 h-full",
+                            children: [
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                    className: "w-full sm:w-1/2",
+                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                        className: "items-center",
+                                        children: [
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                                src: "/heros-way.jpg",
+                                                width: "100%",
+                                                height: "100%",
+                                                alt: "logo"
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                className: "mt-10 mb-3 text-center",
+                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                    href: "https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D",
+                                                    type: "button",
+                                                    target: "_blank",
+                                                    className: "rounded-3xl text-white bg-gradient-to-r from-[#8DD816] to-[#0FC5EF] px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal",
+                                                    children: t("index.buy")
+                                                })
+                                            })
+                                        ]
+                                    })
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                    className: "w-full sm:w-1/2",
+                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                        className: "items-center",
+                                        children: [
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                                src: "/mongoliv1.jpeg",
+                                                width: "100%",
+                                                height: "100%",
+                                                alt: "logo"
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                className: "mt-10 mb-3 text-center",
+                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                    href: "https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D",
+                                                    type: "button",
+                                                    target: "_blank",
+                                                    className: "rounded-3xl text-white bg-gradient-to-r from-[#8DD816] to-[#0FC5EF] px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal",
+                                                    children: t("index.buy")
+                                                })
+                                            })
+                                        ]
+                                    })
+                                })
+                            ]
+                        })
+                    })
+                ]
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_footer__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {})
+        ]
+    });
+};
+async function getStaticProps({ locale  }) {
+    return {
+        props: {
+            ...await (0,next_i18next_serverSideTranslations__WEBPACK_IMPORTED_MODULE_2__.serverSideTranslations)(locale, [
+                "common"
+            ])
+        }
+    };
+}
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
+>>>>>>> 9eae65f346f2d7423f3e92b6d5f4b7220fa63ae5
 
 /***/ }),
 
@@ -614,6 +937,20 @@ module.exports = require("react-icons/hi");
 "use strict";
 module.exports = require("react/jsx-dev-runtime");
 
+/***/ }),
+
+/***/ 2184:
+/***/ ((module) => {
+
+module.exports = import("swiper/modules");;
+
+/***/ }),
+
+/***/ 3015:
+/***/ ((module) => {
+
+module.exports = import("swiper/react");;
+
 /***/ })
 
 };
@@ -623,7 +960,11 @@ module.exports = require("react/jsx-dev-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+<<<<<<< HEAD
 var __webpack_exports__ = (__webpack_exec__("./pages/index.js"));
+=======
+var __webpack_exports__ = __webpack_require__.X(0, [952,61,813,609], () => (__webpack_exec__(3678)));
+>>>>>>> 9eae65f346f2d7423f3e92b6d5f4b7220fa63ae5
 module.exports = __webpack_exports__;
 
 })();

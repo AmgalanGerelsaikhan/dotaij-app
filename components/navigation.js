@@ -1,85 +1,79 @@
-import LocaleSwitcher from "./locale-switcher";
-import Link from "next/link";
+// pages/components/Navigation.js
+
+import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { useTranslation } from "next-i18next";
-import { useEffect, useState } from "react";
-import Image from "next/image";
-import Menu from "./menu";
+import Link from "next/link";
+import LocaleSwitcher from "./locale-switcher"; // Assuming you have a LocaleSwitcher component
 
 export default function Navigation() {
-  const [navbar, setNavbar] = useState(false)
+  const [navbarOpen, setNavbarOpen] = useState(false);
   const router = useRouter();
-
-  const { t } = useTranslation("");
+  const { t } = useTranslation();
 
   useEffect(() => {
     let dir = "ltr";
-    let lang = router.locale == "uk" ? "uk" : "en";
+    let lang = router.locale === "uk" ? "uk" : "en";
     document.querySelector("html").setAttribute("dir", dir);
     document.querySelector("html").setAttribute("lang", lang);
   }, [router.locale]);
 
+  const toggleNavbar = () => {
+    setNavbarOpen(!navbarOpen);
+  };
+
+  const closeNavbar = () => {
+    setNavbarOpen(false);
+  };
+
   return (
-    <nav className="w-full bg-gray-300">
-      <div className="sm:px-16 px-6 py-3">
-        <div className="flex justify-end">
-          <LocaleSwitcher />
-        </div>
-        <div className="flex justify-start h-max">
+    <nav className="bg-white py-3 relative">
+      <div className="container mx-auto flex items-center justify-between">
+        <Link href="/" passHref>
+          <a onClick={closeNavbar} className="text-3xl font-bold text-black relative z-10">
+            <span className="logo-text text-prata text-xl" style={{ fontFamily: 'Prata', fontSize: '30px' }}>
+              DOTAIJ
+            </span>
+          </a>
+        </Link>
 
-          <div className="flex h-16">
-            <div className="flex justify-between md:flex md:justify-around md:align-middle">
-              <div className="items-center justify-center">
-                <Link href="/" className="flex justify-center items-center">
-                  <img src="/dotaij-logo.png" alt="logo" width={200} height={20} className="object-contain" />
-                </Link>
-              </div>
-
-              <div className="md:hidden pt-4 justify-center items-center">
-                <button className="rounded-md" onClick={() => setNavbar(!navbar)}>
-                  {navbar ? (
-                    <img src="/close.svg" width={30} height={30} alt="close icon" />
-                  ) : (
-                    <img src="/menu.svg" width={30} height={30} alt="menu icon" />
-                  )}
-                </button>
-              </div>
-            </div>
-
-            <div className="md:show">
-              <Menu navbar={navbar} setNavbar={setNavbar} />
-            </div>
-            {/* <div className={`md:block ${navbar ? 'block' : 'hidden'} md:right-0`}>
-              <ul className="md:h-auto md:flex cursor-pointer">
-                <Link href="/book" onClick={() => setNavbar(!navbar)}>
-                  <li className="text-xl px-6 text-center py-5 md:hover:bg-transparent hover:font-bold">
-                    {t('header.Books')}
-                  </li>
-                </Link>
-                <Link href="/biography" onClick={() => setNavbar(!navbar)}>
-                  <li className="text-xl px-6 text-center py-5 md:hover:bg-transparent hover:font-bold">
-                    {t('header.Biography')}
-                  </li>
-                </Link>
-                <Link href="/events" onClick={() => setNavbar(!navbar)}>
-                  <li className="text-xl px-6 text-center py-5 md:hover:bg-transparent hover:font-bold">
-                    {t('header.Events')}
-                  </li>
-                </Link>
-                <Link href="/contact" onClick={() => setNavbar(!navbar)}>
-                  <li className="text-xl px-6 text-center py-5 md:hover:bg-transparent hover:font-bold">
-                    {t('header.Contact')}
-                  </li>
-                </Link>
-              </ul>
-            </div> */}
-          </div>
-
-        </div>
         <div className="md:hidden">
-          <Menu navbar={navbar} setNavbar={setNavbar} />
+          <button onClick={toggleNavbar} className={`text-black ${navbarOpen ? 'bg-black' : 'bg-black'} p-2`}>
+            {navbarOpen ? (
+              <img src="/close.svg" width={30} height={30} alt="close icon" />
+            ) : (
+              <img src="/whitemenu.svg" width={30} height={30} alt="menu icon" />
+            )}
+          </button>
+        </div>
+
+        <div className={`md:flex ${navbarOpen ? 'block' : 'hidden'} md:items-center md:ml-4 mt-4 md:mt-0`}>
+          <ul className="md:h-auto md:flex md:ml-4 space-x-4">
+            <NavItem path="/book" text={t('header.Books')} closeNavbar={closeNavbar} />
+            <NavItem path="/biography" text={t('header.Biography')} closeNavbar={closeNavbar} />
+            <NavItem path="/events" text={t('header.Events')} closeNavbar={closeNavbar} />
+            <NavItem path="/contact" text={t('header.Contact')} closeNavbar={closeNavbar} />
+            <li className="text-lg md:text-base hover:font-bold">
+              <LocaleSwitcher />
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
+  );
+}
+
+function NavItem({ path, text, closeNavbar }) {
+  const router = useRouter();
+  const isCurrentPage = router.pathname === path;
+
+  return (
+    <li className={`text-lg md:text-base hover:font-bold ${isCurrentPage ? 'font-bold' : ''}`}>
+      <Link href={path} passHref>
+        <a onClick={closeNavbar} className={`text-black ${isCurrentPage ? 'font-bold' : ''}`}>
+          {text}
+        </a>
+      </Link>
+    </li>
   );
 }

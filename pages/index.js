@@ -1,6 +1,6 @@
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import Navigation from "../components/navigation";
+import Navigation from "../components/navigation_old";
 import Footer from "../components/footer";
 import Link from "next/link";
 

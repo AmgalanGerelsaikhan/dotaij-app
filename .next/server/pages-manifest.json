@@ -1,25 +1,5 @@
 {
   "/_app": "pages/_app.js",
-<<<<<<< HEAD
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/biography": "pages/biography.js",
-  "/": "pages/index.js"
-=======
-  "/_document": "pages/_document.js",
-  "/api/hello": "pages/api/hello.js",
-  "/book/[bookId]": "pages/book/[bookId].js",
-  "/events": "pages/events.js",
-  "/": "pages/index.js",
-  "/_error": "pages/_error.js",
-  "/contact": "pages/contact.js",
-  "/book": "pages/book.js",
-  "/biography": "pages/biography.js",
-  "/default/404": "pages/default/404.html",
-  "/en/404": "pages/en/404.html",
-  "/uk/404": "pages/uk/404.html",
-  "/default/500": "pages/default/500.html",
-  "/en/500": "pages/en/500.html",
-  "/uk/500": "pages/uk/500.html"
->>>>>>> 9eae65f346f2d7423f3e92b6d5f4b7220fa63ae5
+  "/_document": "pages/_document.js"
 }

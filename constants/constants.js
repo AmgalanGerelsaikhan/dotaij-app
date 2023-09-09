@@ -33,23 +33,5 @@ export const SLIDE_DATA = [
         descUk: 'Note that the ltr modifier will not take effect unless the dir attribute is explicitly set to ltr, so if you are building a multi-directional site make sure to always set a direction, not just in rtl mode.',
         bgImage: '/swipe-bg2.jpg',
         bookImage: '/mongoliv1.jpeg'
-    },
-    {
-        id: 3,
-        titleEn: 'Book3',
-        titleUk: 'Book3',
-        descEn: 'Note that the ltr modifier will not take effect unless the dir attribute is explicitly set to ltr, so if you are building a multi-directional site make sure to always set a direction, not just in rtl mode.',
-        descUk: 'Note that the ltr modifier will not take effect unless the dir attribute is explicitly set to ltr, so if you are building a multi-directional site make sure to always set a direction, not just in rtl mode.',
-        bgImage: '/swipe-bg3.jpg',
-        bookImage: '/heros-way.jpg'
-    },
-    {
-        id: 4,
-        titleEn: 'Book4',
-        titleUk: 'Book4',
-        descEn: 'Note that the ltr modifier will not take effect unless the dir attribute is explicitly set to ltr, so if you are building a multi-directional site make sure to always set a direction, not just in rtl mode.',
-        descUk: 'Note that the ltr modifier will not take effect unless the dir attribute is explicitly set to ltr, so if you are building a multi-directional site make sure to always set a direction, not just in rtl mode.',
-        bgImage: '/swipe-bg4.jpg',
-        bookImage: '/heros-way.jpg'
     }
 ]

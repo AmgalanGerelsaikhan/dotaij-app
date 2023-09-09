@@ -8,11 +8,11 @@ export default function Events() {
 
   return (
     <>
-      <Navigation />
+      {/* <Navigation /> */}
       <div className=" bg-blue-50 sm:px-16 px-6 py-10">
         <h3>{t("events.title")}</h3>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

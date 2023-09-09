@@ -15,7 +15,7 @@ export default function BookDetail({ params }) {
 
   return (
     <>
-      <Navigation />
+      {/* <Navigation /> */}
       <div className="bg-blue-50">
         <div className='sm:px-16 px-6 py-10'>
           <div className="">
@@ -23,7 +23,7 @@ export default function BookDetail({ params }) {
           </div>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

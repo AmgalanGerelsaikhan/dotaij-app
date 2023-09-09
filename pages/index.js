@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <>
-      <Navigation />
+      {/* <Navigation /> */}
       <div className="">
         {/* swiper */}
 

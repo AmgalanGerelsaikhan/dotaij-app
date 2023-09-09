@@ -9,7 +9,7 @@ export default function Contact() {
 
   return (
     <>
-      <Navigation />
+      {/* <Navigation /> */}
       <div className="bg-blue-50">
         <div className='sm:px-16 px-6 py-10'>
           <div className=" text-sm leading-6 text-left whitespace-normal">
@@ -66,7 +66,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

@@ -27,8 +27,6 @@ export default function MySwiper() {
                 }) */}
                 <SwiperSlide><MySlide data={1} /></SwiperSlide>
                 <SwiperSlide><MySlide data={2} /></SwiperSlide>
-                <SwiperSlide><MySlide data={3} /></SwiperSlide>
-                <SwiperSlide><MySlide data={4} /></SwiperSlide>
             </Swiper>
         </div>
     )

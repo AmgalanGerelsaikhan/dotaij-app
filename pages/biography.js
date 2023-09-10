@@ -95,7 +95,7 @@ export default function Biography() {
           <aside className="w-full md:w-1/3 px-4">
             <div className="pl-4">
               <img
-                src="/Author.jpg"
+                src="/author.jpg"
                 alt="author picture"
                 className="border-2 rounded-lg"
               />

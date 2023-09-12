@@ -22,9 +22,9 @@ export default function Navigation() {
 
   return (
     <nav className="w-full">
-      <div className="bg-[#2d323d] text-[#98a2aa] px-5 py-2 flex">
+      <div className="text-[#98a2aa] py-2 flex">
         <div className="flex-1 justify-start">
-          <div className="px-5">
+          <div className="px-0">
             <div className="flex justify-between md:py-1">
               {/* LOGO */}
               <div className="flex items-center">
@@ -44,24 +44,24 @@ export default function Navigation() {
 
               <div className={`md:block ${navbar ? "block" : "hidden"}`}>
                 {/* Center-align menu items */}
-                <div className="md:h-auto md:flex justify-center cursor-pointer md:mt-1 mt-4"> 
-                  <Link href="/book" onClick={() => setNavbar(!navbar)}>
-                    <p className="text-lg px-4 py-3 md:py-2 md:hover:bg-transparent hover:font-bold"> 
+                <div className="md:h-auto md:flex justify-center cursor-pointer md:mt-1 mt-4">
+                  <Link href="/books" onClick={() => setNavbar(!navbar)}>
+                    <p className="text-lg px-4 py-3 md:py-2 md:hover:bg-transparent hover:font-bold">
                       {t("header.Books")}
                     </p>
                   </Link>
                   <Link href="/biography" onClick={() => setNavbar(!navbar)}>
-                    <p className="text-lg px-4 py-3 md:py-2 md:hover:bg-transparent hover:font-bold"> 
+                    <p className="text-lg px-4 py-3 md:py-2 md:hover:bg-transparent hover:font-bold">
                       {t("header.Biography")}
                     </p>
                   </Link>
                   <Link href="/events" onClick={() => setNavbar(!navbar)}>
-                    <p className="text-lg px-4 py-3 md:py-2 md:hover:bg-transparent hover:font-bold"> 
+                    <p className="text-lg px-4 py-3 md:py-2 md:hover:bg-transparent hover:font-bold">
                       {t("header.Events")}
                     </p>
                   </Link>
                   <Link href="/contact" onClick={() => setNavbar(!navbar)}>
-                    <p className="text-lg px-4 py-3 md:py-2 md:hover:bg-transparent hover:font-bold"> 
+                    <p className="text-lg px-4 py-3 md:py-2 md:hover:bg-transparent hover:font-bold">
                       {t("header.Contact")}
                     </p>
                   </Link>
@@ -71,7 +71,7 @@ export default function Navigation() {
               {/* MOBILE */}
               <div className="md:hidden py-0">
                 <button
-                  className="py-3 rounded-md"
+                  className="pt-4 rounded-md"
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
@@ -86,7 +86,7 @@ export default function Navigation() {
         </div>
 
         <div className="flex-none">
-          <div className="justify-end mt-2"> {/* Reduced margin-top */}
+          <div className="justify-end mt-4 ml-2"> {/* Reduced margin-top */}
             <LocaleSwitcher />
           </div>
         </div>

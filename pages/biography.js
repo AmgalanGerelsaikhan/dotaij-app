@@ -8,12 +8,12 @@ import GalleryImage from "../components/GalleryImage"; // Create a GalleryImage 
 export default function Biography() {
   const { t } = useTranslation("");
 
-    // Sample image data (replace with your own images)
-    const galleryImages = [
-      "/Author.jpg",
-      "/mongoliv1.jpeg",
-      "/heros-way.jpg",
-    ];
+  // Sample image data (replace with your own images)
+  const galleryImages = [
+    "/Author.jpg",
+    "/mongoliv1.jpeg",
+    "/heros-way.jpg",
+  ];
 
   return (
     <>
@@ -80,14 +80,14 @@ export default function Biography() {
               </p>
               {/* End of Press Biography */}
 
-            <h1 id="photoGallery" className="text-5xl font-bold mb-4 container mx-auto">Photo Gallery</h1>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-              {galleryImages.map((image, index) => (
-                <div key={index} className="p-2">
-                  <img src={image} alt={`Image ${index + 1}`} className="w-full h-auto rounded-lg" />
-                </div>
-              ))}
-            </div>
+              <h1 id="photoGallery" className="text-5xl font-bold mb-4 container mx-auto">Photo Gallery</h1>
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                {galleryImages.map((image, index) => (
+                  <div key={index} className="p-2">
+                    <img src={image} alt={`Image ${index + 1}`} className="w-full h-auto rounded-lg" />
+                  </div>
+                ))}
+              </div>
             </section>
           </main>
 
@@ -103,7 +103,6 @@ export default function Biography() {
           </aside>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

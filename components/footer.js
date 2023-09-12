@@ -1,48 +1,48 @@
 import Link from "next/link";
 import { useTranslation } from "next-i18next";
-import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
   const { t } = useTranslation("");
 
   return (
-    <footer className="bg-gray-300 py-6">
-      <div className="container mx-auto flex flex-col items-center">
-        {/* Menu Navigation */}
-        <nav className="mb-4">
-          <ul className="flex gap-4">
-            <li>
-              <Link href="/book">Books</Link>
-            </li>
-            <li>
-              <Link href="/biography">Biography</Link>
-            </li>
-            <li>
-              <Link href="/events">Events</Link>
-            </li>
-            <li>
-              <Link href="/contact">Contact</Link>
-            </li>
-            {/* Add more menu items as needed */}
-          </ul>
-        </nav>
-
+    <footer className="text-white py-6 px-10 sm:px-0 pt-20">
+      <div className="container flex flex-col text-sm">
         {/* Centered Social Media Icons */}
-        <div className="flex gap-4">
+        <div className="flex gap-4 mb-6">
           {/* Add your social media icons and links here */}
           <a href="#" target="_blank" rel="noopener noreferrer">
-            <FaFacebook size={20} style={{ color: "black" }} />
+            <FaFacebook size={20} style={{ color: "white" }} />
           </a>
           <a href="#" target="_blank" rel="noopener noreferrer">
-            <FaTwitter size={20} style={{ color: "black" }} />
+            <FaTwitter size={20} style={{ color: "white" }} />
           </a>
           <a href="#" target="_blank" rel="noopener noreferrer">
-            <FaInstagram size={20} style={{ color: "black" }} />
+            <FaInstagram size={20} style={{ color: "white" }} />
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <FaYoutube size={20} style={{ color: "white" }} />
           </a>
         </div>
 
+        {/* Menu Navigation */}
+        <div className="flex flex-col gap-2 mb-6">
+          <div className="flex">
+            <Link href="/book">Books</Link>
+          </div>
+          <div>
+            <Link href="/biography">Biography</Link>
+          </div>
+          <div>
+            <Link href="/events">Events</Link>
+          </div>
+          <div>
+            <Link href="/contact">Contact</Link>
+          </div>
+        </div>
+
         {/* Copyright Message */}
-        <div className="text-center text-gray-700 text-xs mt-4">
+        <div className="mt-4">
           {t('footer.copyright')} © 2000 - 2024 Do Taij Mogul
         </div>
       </div>

@@ -4,12 +4,13 @@ export const BOOKS = [
         name: 'Heros way',
         img: '/heros-way.jpg',
         published: '2023 / 08 / 27',
-        desc: 'Veena Lion and Cooper Lamb are rival PIs in Philadelphia in this “fun ride…the romance between Cooper and Veena is artfully handled...endearing characters including Cooper’s two preternaturally clever kids and his Rhodesian ridgeback puppy.” –Publishers Weekly The city is in a state of shock over the fate of two hometown heroes: Eagles'
+        desc: 'Dive into the captivating tale of "Heron\'s Way," where ancient Mongolia\'s mystique sets the stage. Follow Temujin, a scrawny boy bound by fate to become Chinggis Khan—the renowned, enigmatic leader. Marked by a birthmark, Temujin\'s journey from captivity to legendary leadership unfolds against a backdrop of nomadic tribes and shifting alliances. As a white falcon soars, it symbolizes power for these tribes. His escape from captors, his alliance with Tahir, an Arab merchant, and their journey along the Silk Road intricately weave his destiny. Mystical powers emerge, along with unexpected allies. On this journey, cultural diversity, spiritual quests, and the enigma of destiny converge. From a Taoist monastery to a Christian mission, Temujin evolves, embracing his extraordinary path. As the "saint" of Tangut Christians, his fate takes an unforeseen turn. Amidst rugged landscapes and historical tapestries, "Heron\'s Way" intertwines adventure, spirituality, and destiny. It\'s a mesmerizing saga that will captivate readers of historical fiction and young adult adventures alike.',
+        desc1: 'Veena Lion and Cooper Lamb are rival PIs in Philadelphia in this “fun ride…the romance between Cooper and Veena is artfully handled...endearing characters including Cooper’s two preternaturally clever kids and his Rhodesian ridgeback puppy.” –Publishers Weekly The city is in a state of shock over the fate of two hometown heroes: Eagles'
     },
     {
         id: 2,
-        name: 'Obsessed',
-        img: '/heros-way.jpg',
+        name: 'Mongoliv',
+        img: '/mongoliv1.jpeg',
         published: '2023 / 07 / 10',
         desc: 'In this startling psychological thriller, a killer is targeting young women in New York City and is obsessed with Michael Bennetts daughter. A killer is obsessed...with Detective Michael Bennett’s oldest daughter.  Michael Bennett is obsessed... with keeping his family safe.  New York City is obsessed...with cracking the killer’s code.  You will be obsessed...with this startling psychological'
     }

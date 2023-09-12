@@ -9,7 +9,7 @@ export default function Events() {
   return (
     <>
       {/* <Navigation /> */}
-      <div className=" bg-blue-50 sm:px-16 px-6 py-10">
+      <div className="sm:px-16 px-6 py-10 text-white">
         <h3>{t("events.title")}</h3>
       </div>
       {/* <Footer /> */}

@@ -36,7 +36,7 @@ export default function Biography() {
             <section id="authorInfo" className="">
               <div className="float-left mr-5">
                 <img
-                  src="/Author.jpg"
+                  src="/author.png"
                   alt="author picture"
                   className="border-2 rounded-lg w-72"
                 />

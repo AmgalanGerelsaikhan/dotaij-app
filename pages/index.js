@@ -1,7 +1,8 @@
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import Link from "next/link";
 import MySwiper from "../components/my-swiper1";
+import { BOOKS } from "../constants/constants";
+import HomeItem from "../components/home-item";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -18,96 +19,80 @@ export default function Home() {
 
 
         {/* new releases large */}
-        <section className="w-auto text-white h-full mt-6">
+        <section className="w-auto text-white h-full mt-10">
           <div className="flex flex-col gap-10 h-full">
             <p className="flex text-4xl">
               {t('index.new-releases')}
             </p>
 
-
-            <div className="w-full h-full bg-black text-center items-center justify-center">
-              <div className="flex flex:col md:flex-row gap-5 h-full text-center">
-                <div className="w-full md:w-2/5 items-center justify-center relative">
-                  <div className="w-full h-full bg-cover bg-[url('/heros-way.jpg')] bg-center blur-sm">
-                  </div>
-                </div>
-                {/* ml-12  */}
-                <img className="m-auto text-center ml-12 object-contain absolute w-60 h-96 mt-20 hover:w-64 hover:h-96" src="/heros-way.jpg" alt="logo" />
-
-                <div className="w-full md:w-3/5 my-10 mx-20 text-left">
-                  <p className="text-2xl">Heron's way</p>
-                  <p className="text-gray-600 text-sm pb-2">
-                    Release Date: June 2nd, 2023
-                  </p>
-                  <p className="mb-6 text-gray-400">
-                    “The Boogeyman,” a horror-thriller from the mind of best-selling author Stephen King, opens June 2, 2023, in theaters nationwide. High school student Sadie Harper and her younger sister Sawyer are reeling from the recent death of their mother and aren’t getting much support from their father, Will, a therapist who is dealing with his own pain. When a desperate patient unexpectedly shows up at their home seeking help, he leaves behind a terrifying supernatural entity that preys on families and feeds on the suffering of its victims. “The Boogeyman,” directed by Rob Savage (“Host”) with a screenplay by Scott Beck & Bryan Woods (“A Quiet Place”) and Mark Heyman (“Black Swan”) and a screen story by Scott Beck & Bryan Woods based upon the short story by Stephen King, stars Sophie Thatcher (“Yellowjackets”), Chris Messina (“Birds of Prey”), Vivien Lyra Blair (“Obi-Wan Kenobi”), Marin Ireland (“The Umbrella Academy”), Madison Hu (“Bizaardvark”), LisaGay Hamilton (“Vice”), and David Dastmalchian (“Dune”). The producers are Shawn Levy (“Stranger Things”), Dan Levine (“Arrival”), and Dan Cohen (“The Adam Project”), with John H. Starke (“Sicario”), Emily Morris (“Rosaline”), Scott Beck, Bryan Woods, Ryan Cunningham, Adam Kolbrenner (“The Tomorrow War”), and Robin Meisinger serving as executive producers.
-                  </p>
-
-                  <div>
-                    <div>
-                      <a
-                        href="https://www.youtube.com/watch?v=qlS97wcqSTw"
-                        target="_blank"
-                        className="uppercase mb-6">
-                        {t('book.trailer')}
-                      </a>
-                    </div>
-                    <div>
-                      <a
-                        href={`/book?bookId=${1}`}
-                        type="button"
-                        className="uppercase leading-normal">
-                        {t('book.more')}
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="w-full h-full bg-black text-center items-center justify-center">
-              <div className="flex flex:col md:flex-row gap-5 h-full text-center">
-                <div className="w-full md:w-2/5 items-center justify-center relative">
-                  <div className="w-full h-full bg-cover bg-[url('/heros-way.jpg')] bg-center blur-sm">
-                  </div>
-                </div>
-                {/* ml-12  */}
-                <img className="m-auto text-center ml-12 object-contain absolute w-60 h-96 mt-20 hover:w-64 hover:h-96" src="/mongoliv1.jpeg" alt="logo" />
-
-                <div className="w-full md:w-3/5 my-10 mx-20 text-left">
-                  <p className="text-2xl">Mongoliv</p>
-                  <p className="text-gray-600 text-sm pb-2">
-                    Release Date: June 2nd, 2023
-                  </p>
-                  <p className="mb-6 text-gray-400">
-                    “The Boogeyman,” a horror-thriller from the mind of best-selling author Stephen King, opens June 2, 2023, in theaters nationwide. High school student Sadie Harper and her younger sister Sawyer are reeling from the recent death of their mother and aren’t getting much support from their father, Will, a therapist who is dealing with his own pain. When a desperate patient unexpectedly shows up at their home seeking help, he leaves behind a terrifying supernatural entity that preys on families and feeds on the suffering of its victims. “The Boogeyman,” directed by Rob Savage (“Host”) with a screenplay by Scott Beck & Bryan Woods (“A Quiet Place”) and Mark Heyman (“Black Swan”) and a screen story by Scott Beck & Bryan Woods based upon the short story by Stephen King, stars Sophie Thatcher (“Yellowjackets”), Chris Messina (“Birds of Prey”), Vivien Lyra Blair (“Obi-Wan Kenobi”), Marin Ireland (“The Umbrella Academy”), Madison Hu (“Bizaardvark”), LisaGay Hamilton (“Vice”), and David Dastmalchian (“Dune”). The producers are Shawn Levy (“Stranger Things”), Dan Levine (“Arrival”), and Dan Cohen (“The Adam Project”), with John H. Starke (“Sicario”), Emily Morris (“Rosaline”), Scott Beck, Bryan Woods, Ryan Cunningham, Adam Kolbrenner (“The Tomorrow War”), and Robin Meisinger serving as executive producers.
-                  </p>
-
-                  <div>
-                    <div>
-                      <a
-                        href="https://www.youtube.com/watch?v=qlS97wcqSTw"
-                        target="_blank"
-                        className="uppercase mb-6">
-                        {t('book.trailer')}
-                      </a>
-                    </div>
-                    <div>
-                      <a
-                        href={`/book?bookId=${2}`}
-                        type="button"
-                        className="uppercase leading-normal">
-                        {t('book.more')}
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            {BOOKS.map(item => {
+              return <HomeItem key={item.id} book={item} />
+            })}
 
 
           </div>
         </section>
+
+        {/* coming soon */}
+        <section className="w-full mt-10 text-white">
+          <div className="flex flex-col sm:flex-row gap-10 md:gap-40">
+            <div className="h-full w-full sm:w-1/2">
+              <p className="text-4xl">
+                {t('home.coming-soon')}
+              </p>
+
+              <div className="bg-black mt-10 h-80 md:h-full py-12 px-10">
+                <p className="text-xl">There are no works coming out in the immediate future. Please check back later.</p>
+              </div>
+
+            </div>
+            <div className="h-full w-full sm:w-1/2">
+              <p className="text-4xl">
+                {t('home.latest')}
+              </p>
+
+              <div className="bg-black mt-10 h-full py-12 px-10">
+                <p className="text-xl">Stephen on CBS Saturday Morning</p>
+                <p className="text-sm text-gray-400">Posted: September 9th, 2023 12:24:45 pm</p>
+                <p className="mt-4">Stephen sat down with Jeff Glor and the interview aired on CBS Saturday Morning, September 9th, 2023.</p>
+                <p className="uppercase text-gray-400 text-sm mt-10">
+                  <a className="" href="https://youtube.com" target="_blank">Watch on youtube</a>
+                </p>
+                <p className="align-text-bottom mt-6">
+                  <a className="align-text-bottom">Read more</a>
+                </p>
+              </div>
+
+              <div className="bg-black mt-10 h-full py-12 px-10">
+                <p className="text-xl">Stephen on CBS Saturday Evening</p>
+                <p className="text-sm text-gray-400">Posted: September 9th, 2023 12:24:45 pm</p>
+                <p className="mt-4">Stephen sat down with Jeff Glor and the interview aired on CBS Saturday Morning, September 9th, 2023.</p>
+                <p className="uppercase text-gray-400 text-sm mt-10">
+                  <a className="" href="https://youtube.com" target="_blank">Watch on youtube</a>
+                </p>
+                <p className="align-text-bottom mt-6">
+                  <a className="align-text-bottom">Read more</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* contact */}
+        {/* <section className="w-full h-full sm:h-60 mt-10 text-white">
+          <div className="flex flex-col sm:flex-row gap-10 md:gap-40">
+            <div className="h-full w-full sm:w-1/2">
+              <p className="text-4xl">
+                {t('home.coming-soon')}
+              </p>
+
+              <div className="bg-black mt-10 h-80 md:h-full py-12 px-10">
+                <p className="text-xl">There are no works coming out in the immediate future. Please check back later.</p>
+              </div>
+
+            </div>
+          </div>
+        </section> */}
 
       </div >
     </>

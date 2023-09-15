@@ -17,11 +17,11 @@ export default function BookDetail() {
     <>
       {book ? (
         <>
-          <div className="text-white py-10 flex">
-            <div className="mr-0 sm:mr-8 sm:w-1/3">
-              <img src={book.img} alt="logo" className="w-60 sm:w-70 md:w-80 lg:w-96" />
+          <div className="text-white py-10 flex flex-col sm:flex-row">
+            <div className="mr-0 sm:mr-8 sm:w-1/3 mb-5">
+              <img src={book.img} alt="logo" className="w-60 sm:w-70 md:w-80 lg:w-96 m-auto sm:m-0" />
             </div>
-            <div className="sm:w-2/3">
+            <div className="sm:w-2/3 m-auto sm:m-0">
               <a className="md:mt-5 uppercase text-2xl" href={`/book?bookId=${book.id}`} alt={book.name}>{book.name}</a>
               <p>{t('book.published')}: {book.published}</p>
               <hr
@@ -64,7 +64,7 @@ export default function BookDetail() {
             </div>
           </div>
 
-          <div>
+          <div className=" mx-10 sm:mx-0">
             <p className="text-white text-justify uppercase mb-4">Description</p>
             <p className="text-gray-400 text-justify leading-8">
               {book.desc}

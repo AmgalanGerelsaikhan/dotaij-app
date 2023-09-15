@@ -11,12 +11,6 @@ export default function Biography() {
     "/Author.jpg",
     "/mongoliv1.jpeg",
     "/heros-way.jpg",
-    "/Author.jpg",
-    "/mongoliv1.jpeg",
-    "/heros-way.jpg",
-    "/Author.jpg",
-    "/mongoliv1.jpeg",
-    "/heros-way.jpg",
   ];
 
   return (
@@ -100,7 +94,7 @@ export default function Biography() {
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                 {galleryImages.map((image, index) => (
                   <div key={index} className="p-2">
-                    <img src={image} alt={`Image ${index + 1}`} className="w-full h-auto rounded-lg" />
+                    <img src={image} alt={`Image ${index + 1}`} className="w-60 h-80 rounded-lg" />
                   </div>
                 ))}
               </div>

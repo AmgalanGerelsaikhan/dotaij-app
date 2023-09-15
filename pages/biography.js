@@ -8,7 +8,7 @@ export default function Biography() {
 
   // Sample image data (replace with your own images)
   const galleryImages = [
-    "/Author.jpg",
+    "/author.png",
     "/mongoliv1.jpeg",
     "/heros-way.jpg",
   ];

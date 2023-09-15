@@ -21,7 +21,7 @@ export default function MySlide({ data }) {
                                         type="button"
                                         target="_blank"
                                         className="mt-5 rounded-3xl 
-                                    bg-gradient-to-r from-[#8DD816] to-[#0FC5EF]
+                                    bg-gradient-to-r from-[#e63946] to-[#ff8fab]
                                     px-7 pb-3 pt-[10px] 
                                     text-sm font-medium uppercase leading-normal italic"
                                     >
@@ -54,9 +54,9 @@ export default function MySlide({ data }) {
                                         type="button"
                                         target="_blank"
                                         className="mt-5 rounded-3xl 
-                                    bg-gradient-to-r from-[#8DD816] to-[#0FC5EF]
+                                    bg-gradient-to-r from-[#e63946] to-[#ff8fab]
                                     px-7 pb-3 pt-[10px] 
-                                    text-sm font-medium uppercase leading-normal italic"
+                                    text-sm font-medium uppercase leading-normal"
                                     >
                                         {t('index.buy')}
                                     </a>

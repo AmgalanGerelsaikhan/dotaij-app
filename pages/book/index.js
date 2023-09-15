@@ -37,7 +37,7 @@ export default function BookDetail() {
                 <div className="w-1/4">
                   <p className="text-sm">On Sale</p>
                   <HiOutlineCalendar size={50} className="m-auto" />
-                  <p className="text-gray-400 text-sm">14 / 07 / 2023</p>
+                  <p className="text-gray-400 text-sm">{book.published}</p>
                 </div>
 
                 <div className="w-1/4">
@@ -49,13 +49,13 @@ export default function BookDetail() {
                 <div className="w-1/4">
                   <p className="text-sm">Publisher</p>
                   <HiOutlineDocument size={50} className="m-auto" />
-                  <p className="text-gray-400 text-sm">Grand Central</p>
+                  <p className="text-gray-400 text-sm">{book.publisher}</p>
                 </div>
 
                 <div className="w-1/4">
                   <p className="text-sm">ISBN</p>
                   <HiViewBoards size={50} className="m-auto" />
-                  <p className="text-gray-400 text-sm">976122333445</p>
+                  <p className="text-gray-400 text-sm">{book.isbn}</p>
                 </div>
 
               </div>

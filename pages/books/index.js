@@ -8,14 +8,13 @@ export default function Book() {
 
   return (
     // sm:px-16 px-6 py-10
-    <div className="">
+    <div className="text-white">
       <section className="w-auto text-white h-full">
-        <div className="flex flex-col gap-10 h-full">
-          <br />
-          <p className="flex text-4xl m-5 sm:m-0">
+  <br />
+          <p className="text-4xl font-bold mb-4 sm:m-4 py-1">
             {t('header.Books')}
           </p>
-
+          <div className="flex flex-col gap-10 h-full">
           {BOOKS.map(item => {
             return <BookItem key={item.id} book={item} />
           })}

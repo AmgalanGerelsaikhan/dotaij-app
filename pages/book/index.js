@@ -22,7 +22,7 @@ export default function BookDetail() {
               <img src={book.img} alt="logo" className="w-60 sm:w-70 md:w-80 lg:w-96 m-auto sm:m-0" />
             </div>
             <div className="sm:w-2/3 m-auto sm:m-0">
-              <a className="md:mt-5 uppercase text-2xl" href={`/book?bookId=${book.id}`} alt={book.name}>{book.name}</a>
+              <a className="md:mt-5 text-2xl" href={`/book?bookId=${book.id}`} alt={book.name}>{book.name}</a>
               <p>{t('book.published')}: {book.published}</p>
               <hr
                 className=" w-full my-6 h-0.5 border-t-0 bg-neutral-500 opacity-100 dark:opacity-50" />
@@ -43,7 +43,7 @@ export default function BookDetail() {
                 <div className="w-1/4">
                   <p className="text-sm">Page Count</p>
                   <HiOutlineBookOpen size={50} className="m-auto" />
-                  <p className="text-gray-400 text-sm">654 Pages</p>
+                  <p className="text-gray-400 text-sm">{book.pagecount} pages</p>
                 </div>
 
                 <div className="w-1/4">

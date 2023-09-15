@@ -12,7 +12,7 @@ export default function BookItem({ book }) {
                 <div className="relative">
                     <div className="flex flex-col sm:flex-row gap-4 mb-5">
                         <div className="mb-5 m-auto sm:m-0">
-                            <a className="md:mt-5 uppercase text-2xl" href={`/book?bookId=${book.id}`} alt={book.name}>{book.name}</a>
+                            <a className="md:mt-5 text-2xl" href={`/book?bookId=${book.id}`} alt={book.name}>{book.name}</a>
                             <p>{t('book.published')}: {book.published}</p>
                         </div>
                         <div className="m-auto">
@@ -22,7 +22,7 @@ export default function BookItem({ book }) {
                                 target="_blank"
                                 className="rounded-3xl text-white
                                 bg-gradient-to-r from-[#8DD816] to-[#0FC5EF]
-                                px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal"
+                                px-7 pb-[8px] pt-[10px] text-sm font-medium leading-normal"
                                 data-te-ripple-init
                                 data-te-ripple-color="light">
                                 {t('book.buy')}
@@ -34,7 +34,7 @@ export default function BookItem({ book }) {
                                 type="button"
                                 className="rounded-3xl text-white
                                 bg-gradient-to-r from-[#8DD816] to-[#0FC5EF]
-                                px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal"
+                                px-7 pb-[8px] pt-[10px] text-sm font-medium leading-normal"
                                 data-te-ripple-init
                                 data-te-ripple-color="light">
                                 {t('book.more')}

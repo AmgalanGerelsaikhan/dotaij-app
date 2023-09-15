@@ -10,65 +10,71 @@ export default function MySlide({ data }) {
         <div className="text-white text-xl w-full h-screen md:h-[600px]">
             {item ? (
                 data === 1 ? (
-                    <a
-                        href="https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D"
-                        type="button"
-                        target="_blank"
-                    >
-                        <div className={`bg-cover bg-center w-full h-full bg-[url('/swipe-bg5.jpg')]`}>
-                            <div className=" h-full mx-10 md:mx-32 lg:mx-40 justify-center grid md:grid-cols-2 leading-8 md:gap-20 gap-0">
-                                <div className="flex justify-center flex-col md:my-0 my-4">
-                                    <div className="">
-                                        <h1 className=" text-5xl mb-5 ">{item.titleEn}</h1>
-                                        <p>{item.descEn}</p>
-                                        <a
-                                            href="https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D"
-                                            type="button"
-                                            target="_blank"
-                                            className="mt-5 rounded-3xl 
+                    <div className={`bg-cover bg-center w-full h-full bg-[url('/swipe-bg5.jpg')]`}>
+                        <div className=" h-full mx-10 md:mx-32 lg:mx-40 justify-center grid md:grid-cols-2 leading-8 md:gap-20 gap-0">
+                            <div className="flex justify-center flex-col md:my-0 my-4">
+                                <div className="">
+                                    <h1 className=" text-5xl mb-5 ">{item.titleEn}</h1>
+                                    <p>{item.descEn}</p>
+                                    <a
+                                        href="https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D"
+                                        type="button"
+                                        target="_blank"
+                                        className="mt-5 rounded-3xl 
                                     bg-gradient-to-r from-[#8DD816] to-[#0FC5EF]
                                     px-7 pb-3 pt-[10px] 
                                     text-sm font-medium uppercase leading-normal italic"
-                                        >
-                                            {t('index.buy')}
-                                        </a>
-                                    </div>
+                                    >
+                                        {t('index.buy')}
+                                    </a>
                                 </div>
-                                <div className="flex place-content-center content-center mb-10 md:w-full w-full  md:m-0 justify-center items-center"><img src={item.bookImage} width={300} /></div>
-
                             </div>
+                            <div className="flex place-content-center content-center mb-10 md:w-full w-full  md:m-0 justify-center items-center">
+                                <a
+                                    href="https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D"
+                                    type="button"
+                                    target="_blank"
+                                    alt="book1"
+                                >
+                                    <img src={item.bookImage} width={300} />
+                                </a>
+                            </div>
+
                         </div>
-                    </a>
+                    </div>
                 ) : (
-                    <a
-                        href="https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D"
-                        type="button"
-                        target="_blank"
-                    >
-                        <div className={`bg-cover bg-center w-full h-full bg-[url('/swipe-bg1.jpg')]`}>
-                            <div className=" h-full mx-10 md:mx-52 justify-center grid md:grid-cols-2 leading-8 md:gap-20 gap-0">
-                                <div className="flex justify-center flex-col md:my-0 my-4">
-                                    <div className="">
-                                        <h1 className=" text-5xl mb-5 ">{item.titleEn}</h1>
-                                        <p>{item.descEn}</p>
-                                        <a
-                                            href="https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D"
-                                            type="button"
-                                            target="_blank"
-                                            className="mt-5 rounded-3xl 
+                    <div className={`bg-cover bg-center w-full h-full bg-[url('/swipe-bg1.jpg')]`}>
+                        <div className=" h-full mx-10 md:mx-52 justify-center grid md:grid-cols-2 leading-8 md:gap-20 gap-0">
+                            <div className="flex justify-center flex-col md:my-0 my-4">
+                                <div className="">
+                                    <h1 className=" text-5xl mb-5 ">{item.titleEn}</h1>
+                                    <p>{item.descEn}</p>
+                                    <a
+                                        href="https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D"
+                                        type="button"
+                                        target="_blank"
+                                        className="mt-5 rounded-3xl 
                                     bg-gradient-to-r from-[#8DD816] to-[#0FC5EF]
                                     px-7 pb-3 pt-[10px] 
                                     text-sm font-medium uppercase leading-normal italic"
-                                        >
-                                            {t('index.buy')}
-                                        </a>
-                                    </div>
+                                    >
+                                        {t('index.buy')}
+                                    </a>
                                 </div>
-                                <div className="flex place-content-center content-center mb-10 md:w-full w-full  md:m-0 justify-center items-center"><img src={item.bookImage} width={300} /></div>
-
                             </div>
+                            <div className="flex place-content-center content-center mb-10 md:w-full w-full  md:m-0 justify-center items-center">
+                                <a
+                                    href="https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D"
+                                    type="button"
+                                    target="_blank"
+                                    alt="book2"
+                                >
+                                    <img src={item.bookImage} width={300} />
+                                </a>
+                            </div>
+
                         </div>
-                    </a>
+                    </div>
                 )
 
             ) : (

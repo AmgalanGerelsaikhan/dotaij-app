@@ -1,12 +1,10 @@
 import { useTranslation } from "react-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import Navigation from "../../components/my-navigation";
-import Footer from "../../components/footer";
-import BookItem from "../../components/book-item";
 import { useRouter } from "next/router";
 import { BOOKS } from "../../constants/constants";
 import Modal from "../../components/modal";
 import { useState } from "react";
+import { HiBookOpen, HiCalendar, HiChartSquareBar, HiOutlineBookOpen, HiOutlineBookmark, HiOutlineBookmarkAlt, HiOutlineCalendar, HiOutlineDocument, HiOutlineSelector, HiOutlineViewBoards, HiOutlineViewList, HiViewBoards, HiViewGrid, HiViewList } from "react-icons/hi";
 
 export default function BookDetail() {
   const { t } = useTranslation("");
@@ -18,75 +16,61 @@ export default function BookDetail() {
   return (
     <>
       {book ? (
-        <div className="text-white py-10">
-          <div className="w-full mx-auto flex flex-col md:flex-row">
-            {/* Left Sidebar (Navigation) */}
-            <aside className="invisible sm:visible w-full md:w-1/4">
-              {/* Navigation links */}
-              <nav>
-                <ul>
-                  <li><a href="#synopsis" className="text-lg hover:text-white hover:font-bold">Synopsis</a></li>
-                  <li><a href="#notes" className="text-lg text-gray-400 hover:text-white hover:font-bold">Notes</a></li>
-                  <li><a href="#links" className="text-lg text-gray-400 hover:text-white hover:font-bold">Links</a></li>
-                  <li><a href="#works" className="text-lg text-gray-400 hover:text-white hover:font-bold">Related works</a></li>
-                  <li><a href="#discussion" className="text-lg text-gray-400 hover:text-white hover:font-bold">Discussion</a></li>
-                </ul>
-              </nav>
-            </aside>
-
-            <main className="w-full md:w-3/4 px-4">
-              <section id="synopsis">
-                <div className="w-full grid grid-cols-2 mb-4">
-                  <div className="mr-5">
-                    <img
-                      onClick={() => setIsOpen(true)}
-                      src={book.img}
-                      alt="book picture"
-                      className="rounded-lg w-72 h-auto"
-                    />
-                  </div>
-                  <div className="">
-                    <p id="synopsis" className="text-4xl mb-3">{book.name}</p>
-                    <p className="text-1xl mb-1 text-gray-300">Released: {book.published}</p>
-                    <p className="text-1xl mb-1 text-gray-300">Available formats: Deluxe Slipcased Gift Edition</p>
-                    <p className="text-1xl mb-1 text-gray-300">Publisher: Tsogtsaikhan</p>
-                  </div>
+        <>
+          <div className="text-white py-10 flex">
+            <div className="mr-0 sm:mr-8 sm:w-1/3">
+              <img src={book.img} alt="logo" className="w-60 sm:w-70 md:w-80 lg:w-96" />
+            </div>
+            <div className="sm:w-2/3">
+              <a className="md:mt-5 uppercase text-2xl" href={`/book?bookId=${book.id}`} alt={book.name}>{book.name}</a>
+              <p>{t('book.published')}: {book.published}</p>
+              <hr
+                className=" w-full my-6 h-0.5 border-t-0 bg-neutral-500 opacity-100 dark:opacity-50" />
+              <p>{t('index.buy')}:</p>
+              <div className="my-3 underline text-gray-400">
+                <a href="https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D"
+                  target="_blank" alt="amazon book link">Amazon</a>
+              </div>
+              <hr
+                className=" w-full my-6 h-0.5 border-t-0 bg-neutral-500 opacity-100 dark:opacity-50" />
+              <div className="flex flex-row text-center items-center m-0">
+                <div className="w-1/4">
+                  <p className="text-sm">On Sale</p>
+                  <HiOutlineCalendar size={50} className="m-auto" />
+                  <p className="text-gray-400 text-sm">14 / 07 / 2023</p>
                 </div>
 
-                <div className="" id="notes">
-                  <p className="text-2xl">Notes</p>
-                  <p className="text-lg text-gray-400 mb-3 text-justify">
-                    {book.desc}
-                  </p>
+                <div className="w-1/4">
+                  <p className="text-sm">Page Count</p>
+                  <HiOutlineBookOpen size={50} className="m-auto" />
+                  <p className="text-gray-400 text-sm">654 Pages</p>
                 </div>
 
-                <div className="grid grid-cols-2 gap-10">
-                  <div className="" id="links">
-                    <p className="text-2xl">Links</p>
-                    <p className="text-lg text-gray-400 mb-3 text-justify">
-                      {book.desc}
-                    </p>
-                  </div>
-
-                  <div className="" id="works">
-                    <p className="text-2xl">Related Works</p>
-                    <p className="text-lg text-gray-400 mb-3 text-justify">
-                      {book.desc}
-                    </p>
-                  </div>
+                <div className="w-1/4">
+                  <p className="text-sm">Publisher</p>
+                  <HiOutlineDocument size={50} className="m-auto" />
+                  <p className="text-gray-400 text-sm">Grand Central</p>
                 </div>
 
-                <div className="" id="discussion">
-                  <p className="text-2xl">Discussion</p>
-                  <p className="text-lg text-gray-400 mb-3 text-justify">
-                    {book.desc}
-                  </p>
+                <div className="w-1/4">
+                  <p className="text-sm">ISBN</p>
+                  <HiViewBoards size={50} className="m-auto" />
+                  <p className="text-gray-400 text-sm">976122333445</p>
                 </div>
 
-              </section>
-            </main>
+              </div>
+              <hr
+                className=" w-full my-6 h-0.5 border-t-0 bg-neutral-500 opacity-100 dark:opacity-50" />
+            </div>
           </div>
-        </div>
+
+          <div>
+            <p className="text-white text-justify uppercase mb-4">Description</p>
+            <p className="text-gray-400 text-justify leading-8">
+              {book.desc}
+            </p>
+          </div>
+        </>
       ) : (
         <h2 className="text-white">Not found</h2>
       )}

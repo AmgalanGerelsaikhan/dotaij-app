@@ -12,8 +12,8 @@ export default function Book() {
       <section className="w-auto text-white h-full">
         <div className="flex flex-col gap-10 h-full">
           <br />
-          <p className="flex text-4xl">
-            {t('index.new-releases')}
+          <p className="flex text-4xl m-5 sm:m-0">
+            {t('header.Books')}
           </p>
 
           {BOOKS.map(item => {

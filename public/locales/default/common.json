@@ -51,6 +51,8 @@
   },
   "book": {
     "buy": "Buy the book",
-    "more": "Read more"
+    "more": "Read more",
+    "trailer": "Trailer",
+    "published": "Published"
   }
 }

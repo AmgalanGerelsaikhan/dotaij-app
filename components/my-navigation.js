@@ -21,7 +21,7 @@ export default function Navigation() {
   }, [router.locale]);
 
   return (
-    <nav className="w-full">
+    <nav className="w-full bg-[#140D0F] bg-[url('/bg-nav.png')]">
       <div className="text-[#98a2aa] py-2 flex">
         <div className="flex-1 justify-start">
           <div className="px-0">

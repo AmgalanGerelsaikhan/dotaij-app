@@ -15,7 +15,7 @@ export default function Biography() {
 
   return (
     <>
-      <div className="bg-gray-800 text-white py-10">
+      <div className="text-white py-10">
         <div className="container mx-auto flex flex-col md:flex-row">
           {/* Left Sidebar (Navigation) */}
           <aside className="w-full md:w-1/4 px-6">

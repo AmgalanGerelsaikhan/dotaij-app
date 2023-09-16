@@ -21,7 +21,7 @@ export default function BookItem({ book }) {
                                 type="button"
                                 target="_blank"
                                 className="rounded-3xl text-white
-                                bg-gradient-to-r from-[#e63946] to-[#ff8fab]
+                                bg-gradient-to-r from-[#fb8500] to-[#ffb703]
                                 px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal"
                                 data-te-ripple-init
                                 data-te-ripple-color="light">
@@ -33,7 +33,7 @@ export default function BookItem({ book }) {
                                 href={`/book?bookId=${book.id}`}
                                 type="button"
                                 className="rounded-3xl text-white
-                                bg-gradient-to-r from-[#e63946] to-[#ff8fab]
+                                bg-gradient-to-r from-[#fb8500] to-[#ffb703]
                                 px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal"
                                 data-te-ripple-init
                                 data-te-ripple-color="light">
@@ -43,8 +43,8 @@ export default function BookItem({ book }) {
                     </div>
                     <div className="text-justify text-gray-400">
                         <p>
-                            {book.desc.length > 500 ?
-                                `${book.desc.substring(0, 500)}...` : book.desc
+                            {book.desc.length > 1100 ?
+                                `${book.desc.substring(0, 1100)}...` : book.desc
                             }
                         </p>
                     </div>

@@ -11,7 +11,7 @@ export default function Footer() {
         {/* Centered Social Media Icons */}
         <div className="flex gap-4 mb-6">
           {/* Add your social media icons and links here */}
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/Kozak.Tsogo" target="_blank" rel="noopener noreferrer">
             <FaFacebook size={20} style={{ color: "white" }} />
           </a>
           <a href="#" target="_blank" rel="noopener noreferrer">

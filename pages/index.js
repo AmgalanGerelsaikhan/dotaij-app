@@ -1,9 +1,11 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import MySwiper from "../components/my-swiper1";
 import { BOOKS } from "../constants/constants";
 import HomeItem from "../components/home-item";
 import RegisterForm from "../components/form-registration";
+
 
 export default function Home() {
   const { t } = useTranslation();
@@ -43,7 +45,7 @@ export default function Home() {
               </p>
 
               <div className="bg-black mt-10 h-80 md:h-full py-12 px-10">
-                <p className="text-xl">There are no works coming out in the immediate future. Please check back later.</p>
+                <p className="text-xl">Our Author is hard at work on 'Heron's Way Part 2'.</p>
               </div>
 
             </div>
@@ -53,26 +55,23 @@ export default function Home() {
               </p>
 
               <div className="bg-black mt-10 h-full py-12 px-10">
-                <p className="text-xl">Stephen on CBS Saturday Morning</p>
-                <p className="text-sm text-gray-400">Posted: September 9th, 2023 12:24:45 pm</p>
-                <p className="mt-4">Stephen sat down with Jeff Glor and the interview aired on CBS Saturday Morning, September 9th, 2023.</p>
-                <p className="uppercase text-gray-400 text-sm mt-10">
-                  <a className="" href="https://youtube.com" target="_blank">Watch on youtube</a>
-                </p>
+                <p className="text-xl">Tsogtsaikhan was interviewed by a well-known Mongolian newspaper.</p>
+                <p className="text-sm text-gray-400">Posted: July 7th, 2023 12:24:45 pm</p>
+                <p className="mt-4 text-gray-400">Tsogtsaikhan had an interview with R.Oyunjargal, and during the interview, they covered topics related to Mongolian secret history and 'Heron's Way.</p>
                 <p className="align-text-bottom mt-6">
-                  <a className="align-text-bottom">Read more</a>
+                  <a className="align-text-bottom text-xm" href='https://www.unuudur.mn/a/258036' target="_blank">Read more</a>
                 </p>
               </div>
 
               <div className="bg-black mt-10 h-full py-12 px-10">
-                <p className="text-xl">Stephen on CBS Saturday Evening</p>
-                <p className="text-sm text-gray-400">Posted: September 9th, 2023 12:24:45 pm</p>
-                <p className="mt-4">Stephen sat down with Jeff Glor and the interview aired on CBS Saturday Morning, September 9th, 2023.</p>
-                <p className="uppercase text-gray-400 text-sm mt-10">
+                <p className="text-xl">Tsogtsaikhan was interviewed by a well-known Ukrainian newspaper </p>
+                <p className="text-sm text-gray-400">Posted: July 14th, 2023 12:24:45 pm</p>
+                <p className="mt-4 text-gray-400">Tsogtsaikhan was interviewed by 'Vechirniy Kyiv' newspaper, where they discussed topics related to Mongolian secret history and 'Heron's Way.</p>
+                {/*<p className="uppercase text-gray-400 text-sm mt-10">
                   <a className="" href="https://youtube.com" target="_blank">Watch on youtube</a>
-                </p>
+          </p> */}
                 <p className="align-text-bottom mt-6">
-                  <a className="align-text-bottom">Read more</a>
+                  <a className="align-text-bottom text-xm" href='https://vechirniy.kyiv.uahirniy.kyiv.ua/news/85477/?fbclid=IwAR3CV86jMP7uV6IV_jhOw2Bm4eDPxJ2lHsm_kjs4rJSCGePx9SQYpCw20P42' target="_blank">Read more</a>
                 </p>
               </div>
             </div>

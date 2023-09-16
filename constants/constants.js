@@ -13,14 +13,14 @@ export const BOOKS = [
     },
     {
         id: 2,
-        name: 'Mongoliv',
-        img: '/mongoliv1.jpeg',
+        name: 'Mongolian Secret History',
+        img: '/msh.jpg',
         published: '2023 / 07 / 10',
         pagecount: 160,
         isbn: '0000001',
         publisher: 'Self Published',
         trailerUrl: 'https://www.youtube.com/watch?v=qlS97wcqSTw',
-        desc: 'In this startling psychological thriller, a killer is targeting young women in New York City and is obsessed with Michael Bennetts daughter. A killer is obsessed...with Detective Michael Bennett’s oldest daughter.  Michael Bennett is obsessed... with keeping his family safe.  New York City is obsessed...with cracking the killer’s code.  You will be obsessed...with this startling psychological'
+        desc: '"The Secret History of the Mongols" is a monumental work that stands as a testament to the extraordinary dedication of Do Taij Tsogtsaikhan Tsedensonom. For an entire decade, he tirelessly worked on the Ukrainian translation of this ancient manuscript. Within its pages, readers embark on an immersive exploration of the diverse facets of Mongolian culture, unveiling the intricacies of their language, the richness of their oral traditions, and the depth of their epic poetry. This ancient manuscript, akin to a time capsule, not only preserves the nomadic way of life but also offers profound insights into the Mongol legacy. Immerse yourself in the vibrant tapestry of Mongolian history, where the narrative unfolds across the vast Eurasian steppe, and the spirit of the nomadic heart beats fiercely. Discover the origins of a civilization that gave birth to the legendary Chinggis Khan, tracing the humble beginnings that would ultimately forge an empire stretching from the Pacific Ocean to the Mediterranean Sea. The book is a priceless window into the 13th-century Mongol world, capturing the essence of an era when warriors on horseback carved out one of the most formidable empires in history.'
     }
 ]
 

@@ -10,7 +10,7 @@ import MySlide from './my-slide';
 
 export default function MySwiper() {
     return (
-        <div className=' items-center justify-center'>
+        <div className=' items-center justify-center text-white '>
             <Swiper
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                 spaceBetween={150}

@@ -3,8 +3,6 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useTranslation } from "next-i18next";
 import { useEffect, useState } from "react";
-import Image from "next/image";
-import Menu from "./menu";
 import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
 
 export default function Navigation() {
@@ -21,8 +19,8 @@ export default function Navigation() {
   }, [router.locale]);
 
   return (
-    <nav className="sticky w-full bg-[#140D0F] bg-[url('/bg-nav.png')]">
-      <div className=" sticky text-[#98a2aa] py-2 flex">
+    <nav className="sticky top-0 z-50 w-full bg-[#140D0F] bg-[url('/bg-nav.png')]">
+      <div className="text-[#98a2aa] py-2 flex">
         <div className="flex-1 justify-start">
           <div className="px-0">
             <div className="flex justify-between md:py-1">

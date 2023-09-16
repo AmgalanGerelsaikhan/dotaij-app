@@ -3,6 +3,7 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import MySwiper from "../components/my-swiper1";
 import { BOOKS } from "../constants/constants";
 import HomeItem from "../components/home-item";
+import RegisterForm from "../components/form-registration";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -79,20 +80,23 @@ export default function Home() {
         </section>
 
         {/* contact */}
-        {/* <section className="w-full h-full sm:h-60 mt-10 text-white">
-          <div className="flex flex-col sm:flex-row gap-10 md:gap-40">
-            <div className="h-full w-full sm:w-1/2">
-              <p className="text-4xl">
-                {t('home.coming-soon')}
-              </p>
-
-              <div className="bg-black mt-10 h-80 md:h-full py-12 px-10">
-                <p className="text-xl">There are no works coming out in the immediate future. Please check back later.</p>
+        <section className="w-full h-full text-white bg-red-500 mt-20">
+          <div className="flex ">
+            <div className="m-20 flex flex-col sm:flex-row gap-10 sm:gap-20">
+              <div className="h-full w-full sm:w-1/2">
+                <p className="text-4xl text-yellow-500">
+                  Get all the latest Stephen King news and info sent to your inbox.
+                </p>
               </div>
 
+              <div className="h-full w-full sm:w-1/2">
+                <div className="bg-[#252231]">
+                  <RegisterForm />
+                </div>
+              </div>
             </div>
           </div>
-        </section> */}
+        </section>
 
       </div >
     </>

@@ -15,7 +15,7 @@ export default function Home() {
       <div className="">
 
         <session className="">
-          <div className="bg-[#29292a] w-full">
+          <div className="bg-[#29292a] w-full mt-5">
             <MySwiper />
           </div>
         </session>
@@ -45,7 +45,7 @@ export default function Home() {
               </p>
 
               <div className="bg-black mt-10 h-80 md:h-full py-12 px-10">
-                <p className="text-xl">HERON'S WAY 2 part is coming soon</p>
+                <p className="text-xl">Heron's Way 2 part is coming soon</p>
               </div>
 
             </div>

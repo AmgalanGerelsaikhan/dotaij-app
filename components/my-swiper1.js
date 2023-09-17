@@ -12,13 +12,11 @@ export default function MySwiper() {
     return (
         <div className=' items-center justify-center text-white '>
             <Swiper
-                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                modules={[Pagination, Scrollbar, A11y]}
                 spaceBetween={150}
                 slidesPerView={1}
-                navigation
                 loop={true}
-                pagination={{ clickable: true }}
-                scrollbar={{ draggable: true }}
+                pagination={{ clickable: true}}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
             >
@@ -28,6 +26,17 @@ export default function MySwiper() {
                 <SwiperSlide><MySlide data={1} /></SwiperSlide>
                 <SwiperSlide><MySlide data={2} /></SwiperSlide>
             </Swiper>
+
+{/* Custom CSS to style the pagination */}
+<style jsx global>{`
+                .swiper-pagination-bullet {
+                    background-color: white;
+                }
+
+                .swiper-pagination-bullet-active {
+                    background-color: white; /* Change to your desired active color */
+                }
+            `}</style>
         </div>
     )
 }

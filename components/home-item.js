@@ -11,18 +11,20 @@ export default function HomeItem({ book }) {
     <div className="flex flex-col md:flex-row items-center justify-center">
       <div className="w-full md:w-2/5 gap-5 relative">
         <div
-          className={`w-full h-[600px] bg-cover bg-top blur-sm z-10`}
+          className={`w-full h-[600px] bg-cover bg-top z-10`}
           style={{
-            backgroundImage: `url(${book.id === 1 ? '/heros-way.jpg' : '/msh.jpg'})`,
+            backgroundImage: `url(${book.id === 1 ? '/heron_blur.jpg' : '/msh_blur.jpg'})`,
             backgroundPosition: 'center top',
           }}
-        ></div>
-        <img
-          className="w-1/2 md:w-48 h-1/2 md:h-48 md:w-60 md:h-96 mt-1 md:mt-1 hover:w-64 hover:h-96 cursor-pointer absolute -mt-1 left-1/2 transform -translate-x-1/2 z+50"
-          onClick={() => setIsOpen(true)}
-          src={book.img}
-          alt="logo"
-        />
+        >
+   <img
+  className="w-1/2 md:w-48 h-1/2 md:h-100 md:w-60 md:h-700 mt-1 md:mt-6 hover:w-64 hover:h-96 cursor-pointer absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2"
+  onClick={() => setIsOpen(true)}
+  src={book.img}
+  alt="logo"
+/>
+        </div>
+
       </div>
 
          <div className="w-full md:w-3/5 my-10 mx-20 text-left">

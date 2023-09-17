@@ -45,7 +45,7 @@ export default function Home() {
               </p>
 
               <div className="bg-black mt-10 h-80 md:h-full py-12 px-10">
-                <p className="text-xl">Our Author is hard at work on 'Heron's Way Part 2'.</p>
+                <p className="text-xl">HERON'S WAY 2 part is coming soon</p>
               </div>
 
             </div>

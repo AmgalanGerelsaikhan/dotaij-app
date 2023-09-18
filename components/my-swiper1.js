@@ -1,4 +1,4 @@
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css';
@@ -12,11 +12,12 @@ export default function MySwiper() {
     return (
         <div className=' items-center justify-center text-white '>
             <Swiper
-                modules={[Pagination, Scrollbar, A11y]}
+                modules={[Pagination, Scrollbar, A11y, Autoplay]}
                 spaceBetween={150}
                 slidesPerView={1}
                 loop={true}
-                pagination={{ clickable: true}}
+                autoplay={{ delay: 2000 }}
+                pagination={{ clickable: true }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
             >
@@ -27,8 +28,8 @@ export default function MySwiper() {
                 <SwiperSlide><MySlide data={2} /></SwiperSlide>
             </Swiper>
 
-{/* Custom CSS to style the pagination */}
-<style jsx global>{`
+            {/* Custom CSS to style the pagination */}
+            <style jsx global>{`
                 .swiper-pagination-bullet {
                     background-color: white;
                 }

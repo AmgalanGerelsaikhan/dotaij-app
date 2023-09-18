@@ -13,7 +13,7 @@ export const BOOKS = [
     },
     {
         id: 2,
-        name: 'Mongolian Secret History',
+        name: 'Secret History Mongols',
         img: '/msh.jpg',
         published: '2023 / 07 / 10',
         pagecount: 160,

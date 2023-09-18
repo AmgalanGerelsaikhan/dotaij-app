@@ -84,7 +84,7 @@ export default function Home() {
             <div className="m-20 flex flex-col sm:flex-row gap-10 sm:gap-20">
               <div className="h-full w-full sm:w-1/2">
                 <p className="text-4xl text-yellow-500">
-                  Get all the latest Stephen King news and info sent to your inbox.
+                  Get all the latest Tsogtsaikhan Tsedensonom news and info sent to your inbox.
                 </p>
               </div>
 

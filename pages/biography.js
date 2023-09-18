@@ -18,13 +18,13 @@ export default function Biography() {
       <div className="text-white py-10">
         <div className="container mx-auto flex flex-col md:flex-row">
           {/* Left Sidebar (Navigation) */}
-          <aside className="w-full md:w-1/4 px-6">
+          <aside className="w-full md:w-1/6 px-6">
             {/* Navigation links */}
-            <nav className="sticky top-10">
+            <nav className="sticky top-20">
               <ul>
-                <li><a href="#authorBio" className="text-lg text-gray-400 hover:text-white">Author Biography</a></li>
-                <li><a href="#pressBio" className="text-lg text-gray-400 hover:text-white">Press Biography</a></li>
-                <li><a href="#photoGallery" className="text-lg text-gray-400 hover:text-white">Photo Gallery</a></li>
+                <li><a href="#authorBio" className="text-lg text-gray-400 hover:text-white"> {t('biography.section1')}</a></li>
+                <li><a href="#pressBio" className="text-lg text-gray-400 hover:text-white"> {t('biography.section2')}</a></li>
+                <li><a href="#photoGallery" className="text-lg text-gray-400 hover:text-white">{t('biography.section3')}</a></li>
                 {/* Add more navigation links */}
               </ul>
             </nav>
@@ -42,7 +42,7 @@ export default function Biography() {
                 />
               </div>
               <div className="text-justify">
-                <h1 id="authorBio" className="text-4xl font-bold mb-4">The Author</h1>
+                <h1 id="authorBio" className="text-4xl font-bold mb-4" >{t('biography.section1')}</h1>
                 <h1 className="text-1xl mb-1 text-gray-500">WRITTEN BY</h1>
                 <h1 className="text-1xl mb-1 text-gray-300 py-2" style={{ color: '#f1faee' }}>
                   Tsogtsaikhan, updated by Amgalan
@@ -75,22 +75,22 @@ export default function Biography() {
               {/* End of Author Biography */}
 
               {/* Press Biography */}
-              <h1 id="pressBio" className="text-4xl font-bold mb-4 container mx-auto">Press Biography</h1>
+              <h1 id="pressBio" className="text-4xl font-bold mb-4 container mx-auto">{t('biography.section2')}</h1>
               <p className="text-lg text-gray-400 mb-3 text-justify">
-                Tsogtsaikhan Tsedensonom, a prominent author and activist, hailing from Ulaanbaatar, Mongolia, has made significant contributions to literature and social causes.
-              </p>
+              {t('biography.pquote1')}
+                </p>
               <p className="text-lg text-gray-400 mb-3 text-justify">
-                Known for his book 'HERON'S WAY: Youth of Genghis Khan,' Tsogtsaikhan's literary work has garnered international acclaim, shedding light on the early life of the legendary Genghis Khan.
-              </p>
+              {t('biography.pquote2')}
+               </p>
               <p className="text-lg text-gray-400 mb-3 text-justify">
-                In addition to his literary pursuits, Tsogtsaikhan has played a pivotal role in Mongolia's political landscape. His activism led to the withdrawal of critical land laws, preserving the nation's political and economic stability.
-              </p>
+              {t('biography.pquote3')}
+               </p>
               <p className="text-lg text-gray-400 mb-3 text-justify">
-                Tsogtsaikhan's dedication to cross-cultural exchange is evident in his translation of 'The Secret History of the Mongols' into Ukrainian, fostering a deeper understanding of Mongolian history.
-              </p>
+              {t('biography.pquote4')}
+                </p>
               {/* End of Press Biography */}
 
-              <h1 id="photoGallery" className="text-4xl font-bold mb-4 mx-auto">Photo Gallery</h1>
+              <h1 id="photoGallery" className="text-4xl font-bold mb-4 mx-auto">{t('biography.section3')}</h1>
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                 {galleryImages.map((image, index) => (
                   <div key={index} className="p-2">

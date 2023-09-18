@@ -57,7 +57,7 @@ export default function Home() {
               <div className="bg-black mt-10 h-full py-12 px-10">
                 <p className="text-xl">Tsogtsaikhan was interviewed by a well-known Mongolian newspaper.</p>
                 <p className="text-sm text-gray-400">Posted: July 7th, 2023 12:24:45 pm</p>
-                <p className="mt-4 text-gray-400">Tsogtsaikhan had an interview with R.Oyunjargal, and during the interview, they covered topics related to Mongolian secret history and 'Heron's Way.</p>
+                <p className="mt-4 text-gray-400">Tsogtsaikhan had an interview with R.Oyunjargal, and during the interview, they covered topics related to Secret history of Mongols and 'Heron's Way.</p>
                 <p className="align-text-bottom mt-6">
                   <a className="align-text-bottom text-xm" href='https://www.unuudur.mn/a/258036' target="_blank">Read more</a>
                 </p>
@@ -66,7 +66,7 @@ export default function Home() {
               <div className="bg-black mt-10 h-full py-12 px-10">
                 <p className="text-xl">Tsogtsaikhan was interviewed by a well-known Ukrainian newspaper </p>
                 <p className="text-sm text-gray-400">Posted: July 14th, 2023 12:24:45 pm</p>
-                <p className="mt-4 text-gray-400">Tsogtsaikhan was interviewed by 'Vechirniy Kyiv' newspaper, where they discussed topics related to Mongolian secret history and 'Heron's Way.</p>
+                <p className="mt-4 text-gray-400">Tsogtsaikhan was interviewed on 'Vechirniy Kyiv' newspaper, where they discussed topics related to Secret history of Mongols and 'Heron's Way.</p>
                 {/*<p className="uppercase text-gray-400 text-sm mt-10">
                   <a className="" href="https://youtube.com" target="_blank">Watch on youtube</a>
           </p> */}

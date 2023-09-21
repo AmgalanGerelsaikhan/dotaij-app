@@ -1,6 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import GalleryImage from "../components/GalleryImage"; // Create a GalleryImage component for displaying images
+import MyGallery from "../components/my-gallery";
+import { GALLERIES_BIOGRAPHY } from "../constants/constants";
 
 
 export default function Biography() {
@@ -77,27 +79,28 @@ export default function Biography() {
               {/* Press Biography */}
               <h1 id="pressBio" className="text-4xl font-bold mb-4 container mx-auto">{t('biography.section2')}</h1>
               <p className="text-lg text-gray-400 mb-3 text-justify">
-              {t('biography.pquote1')}
-                </p>
+                {t('biography.quote1')}
+              </p>
               <p className="text-lg text-gray-400 mb-3 text-justify">
-              {t('biography.pquote2')}
-               </p>
+                {t('biography.quote2')}
+              </p>
               <p className="text-lg text-gray-400 mb-3 text-justify">
-              {t('biography.pquote3')}
-               </p>
+                {t('biography.quote3')}
+              </p>
               <p className="text-lg text-gray-400 mb-3 text-justify">
-              {t('biography.pquote4')}
-                </p>
+                {t('biography.quote4')}
+              </p>
               {/* End of Press Biography */}
 
               <h1 id="photoGallery" className="text-4xl font-bold mb-4 mx-auto">{t('biography.section3')}</h1>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                {galleryImages.map((image, index) => (
+              {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4"> */}
+              <MyGallery data={GALLERIES_BIOGRAPHY} />
+              {/* {galleryImages.map((image, index) => (
                   <div key={index} className="p-2">
                     <img src={image} alt={`Image ${index + 1}`} className="w-60 h-80 rounded-lg" />
                   </div>
-                ))}
-              </div>
+                ))} */}
+              {/* </div> */}
             </section>
           </main>
 

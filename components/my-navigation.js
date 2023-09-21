@@ -20,7 +20,7 @@ export default function Navigation() {
 
   return (
     <nav className="sticky top-0 z-50 w-full bg-[#140D0F] bg-[url('/bg-nav.png')]">
-      <div className="text-[#98a2aa] py-2 flex">
+      <div className="text-[#98a2aa] py-2 flex mr-3 md:mr-5">
         <div className="flex-1 justify-start">
           <div className="px-0">
             <div className="flex justify-between md:py-1">

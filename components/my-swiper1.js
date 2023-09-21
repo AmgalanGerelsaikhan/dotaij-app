@@ -16,7 +16,7 @@ export default function MySwiper() {
                 spaceBetween={150}
                 slidesPerView={1}
                 loop={true}
-                autoplay={{ delay: 2000 }}
+                autoplay={{ delay: 4000 }}
                 pagination={{ clickable: true }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}

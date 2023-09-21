@@ -27,26 +27,30 @@ const Modal = ({ onClose, children, title, bgImage }) => {
     };
 
     const modalContent = (
-        <div className="modal-overlay">
-            <div ref={modalWrapperRef} className="modal-wrapper">
-                <div className="modal">
-                    <div className="modal-header">
-                        <a href="#" onClick={handleCloseClick} className=" absolute right-4 top-4">
-                            <HiOutlineX size={30} />
-                        </a>
-                        <img src={bgImage} className="h-full w-auto rounded-lg" />
-                    </div>
-                    {/* {title && <h1>{title}</h1>}
+        <div className="fixed inset-0 bg-black bg-opacity-30 backdrop-blur-md flex justify-center items-center z-[60]">
+            <div className="modal-overlay">
+                <div ref={modalWrapperRef} className="modal-wrapper">
+                    <div className="modal">
+                        <div className="modal-header">
+                            <a href="#" onClick={handleCloseClick} className=" absolute right-4 top-4">
+                                <HiOutlineX size={30} />
+                            </a>
+                            <img src={bgImage} className="h-full w-auto rounded-lg" />
+                        </div>
+                        {/* {title && <h1>{title}</h1>}
                     <div className="modal-body">{children}</div> */}
+                    </div>
                 </div>
             </div>
         </div>
     );
 
-    return ReactDOM.createPortal(
-        modalContent,
-        document.getElementById("modal-root")
-    );
+    return modalContent;
+
+    // return ReactDOM.createPortal(
+    //     modalContent,
+    //     document.getElementById("modal-root")
+    // );
 };
 
 export default Modal

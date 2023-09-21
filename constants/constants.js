@@ -44,3 +44,65 @@ export const SLIDE_DATA = [
         bookImage: '/mongoliv1.jpeg'
     }
 ]
+
+export const GALLERIES = [
+    {
+        id: 1,
+        img: "/author.png"
+    },
+    {
+        id: 2,
+        img: "/mongoliv1.jpeg"
+    },
+    {
+        id: 3,
+        img: "/heros-way.jpg"
+    },
+    {
+        id: 4,
+        img: "/author.png"
+    },
+    {
+        id: 5,
+        img: "/mongoliv1.jpeg"
+    },
+    {
+        id: 6,
+        img: "/heros-way.jpg"
+    },
+    {
+        id: 7,
+        img: "/author.png"
+    },
+    {
+        id: 8,
+        img: "/mongoliv1.jpeg"
+    },
+    {
+        id: 9,
+        img: "/heros-way.jpg"
+    }
+]
+
+export const GALLERIES_BIOGRAPHY = [
+    {
+        id: 1,
+        img: "/author.png"
+    },
+    {
+        id: 2,
+        img: "/mongoliv1.jpeg"
+    },
+    {
+        id: 3,
+        img: "/heros-way.jpg"
+    },
+    {
+        id: 4,
+        img: "/author.png"
+    },
+    {
+        id: 5,
+        img: "/mongoliv1.jpeg"
+    }
+]

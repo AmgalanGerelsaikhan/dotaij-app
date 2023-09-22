@@ -3,6 +3,7 @@ export const BOOKS = [
         id: 1,
         name: 'Heron\'s Way',
         img: '/heros-way.jpg',
+        otherimg: ["/HERON_PIC1.jpg", "/HERONS_PIC2.jpeg", "/HERONS_PIC3.jpeg"],
         published: '2023 / 08 / 27',
         pagecount: 140,
         publisher: 'Self Published',
@@ -15,6 +16,7 @@ export const BOOKS = [
         id: 2,
         name: 'Secret History Mongols',
         img: '/msh.jpg',
+        otherimg: ["/HERON_PIC1.jpg", "/HERONS_PIC2.jpeg", "/HERONS_PIC3.jpeg"],
         published: '2023 / 07 / 10',
         pagecount: 160,
         isbn: '0000001',
@@ -47,40 +49,44 @@ export const SLIDE_DATA = [
 
 export const GALLERIES = [
     {
-        id: 1,
-        img: "/author.png"
+        index: 1,
+        img: "/HERON_PIC1.jpg",
+        bookid: 1
     },
     {
-        id: 2,
-        img: "/mongoliv1.jpeg"
+        index: 2,
+        img: "/HERONS_PIC2.jpeg",
+        bookid: 1
     },
     {
-        id: 3,
-        img: "/heros-way.jpg"
+        index: 3,
+        img: "/HERONS_PIC3.jpeg",
+        bookid: 1
     },
     {
-        id: 4,
-        img: "/author.png"
+        index: 5,
+        img: "/mongoliv1.jpeg",
+        bookid: 2
     },
     {
-        id: 5,
-        img: "/mongoliv1.jpeg"
+        index: 6,
+        img: "/heros-way.jpg",
+        bookid: 2
     },
     {
-        id: 6,
-        img: "/heros-way.jpg"
+        index: 7,
+        img: "/author.png",
+        bookid: 2
     },
     {
-        id: 7,
-        img: "/author.png"
+        index: 8,
+        img: "/mongoliv1.jpeg",
+        bookid: 2
     },
     {
-        id: 8,
-        img: "/mongoliv1.jpeg"
-    },
-    {
-        id: 9,
-        img: "/heros-way.jpg"
+        index: 9,
+        img: "/heros-way.jpg",
+        bookid: 2
     }
 ]
 
@@ -90,19 +96,38 @@ export const GALLERIES_BIOGRAPHY = [
         img: "/author.png"
     },
     {
-        id: 2,
-        img: "/mongoliv1.jpeg"
-    },
-    {
         id: 3,
-        img: "/heros-way.jpg"
+        img: "/author_pic2.jpeg"
     },
     {
         id: 4,
-        img: "/author.png"
+        img: "/author_pic3.jpeg"
     },
     {
         id: 5,
-        img: "/mongoliv1.jpeg"
+        img: "/author_pic5.jpeg"
+    },
+    {
+        id: 6,
+        img: "/author_pic6.jpeg"
+    },
+    {
+        id: 2,
+        img: "/author_pic7.jpeg"
+    }
+]
+
+export const HERONS = [
+    {
+        id: 1,
+        img: "/HERON_PIC1.jpg"
+    },
+    {
+        id: 2,
+        img: "/HERONS_PIC2.jpeg"
+    },
+    {
+        id: 3,
+        img: "/HERONS_PIC3.jpeg"
     }
 ]

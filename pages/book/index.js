@@ -1,9 +1,10 @@
 import { useTranslation } from "react-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useRouter } from "next/router";
-import { BOOKS } from "../../constants/constants";
+import { BOOKS, GALLERIES } from "../../constants/constants";
 import Modal from "../../components/modal";
 import { useState } from "react";
+import MyGallery from "../../components/my-gallery";
 import { HiBookOpen, HiCalendar, HiChartSquareBar, HiOutlineBookOpen, HiOutlineBookmark, HiOutlineBookmarkAlt, HiOutlineCalendar, HiOutlineDocument, HiOutlineSelector, HiOutlineViewBoards, HiOutlineViewList, HiViewBoards, HiViewGrid, HiViewList } from "react-icons/hi";
 
 export default function BookDetail() {
@@ -12,7 +13,19 @@ export default function BookDetail() {
   const router = useRouter()
   console.log('query', router.query)
 
-  const book = BOOKS.filter(f => f.id == router.query.bookId)[0];
+  const bookId = router.query.bookId; // Get the bookId from router.query
+  const book = BOOKS.find((book) => book.id == bookId); // Find the book by bookId
+  
+  if (!book) {
+    // Handle the case where the book is not found
+    console.error(`Book with ID ${bookId} not found.`);
+    return <h2 className="text-white">Book not found</h2>;
+  }
+  
+  // Now you can safely use the book object
+  const imagesForBook = GALLERIES.filter((gallery) => gallery.bookid === book.id);
+
+
   return (
     <>
       {book ? (
@@ -70,6 +83,7 @@ export default function BookDetail() {
               {book.desc}
             </p>
           </div>
+          <MyGallery data={imagesForBook} />
         </>
       ) : (
         <h2 className="text-white">Not found</h2>

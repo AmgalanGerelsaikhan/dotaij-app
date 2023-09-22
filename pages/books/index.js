@@ -20,7 +20,6 @@ export default function Book() {
             return <BookItem key={item.id} book={item} />
           })}
         </div>
-        <MyGallery data={GALLERIES} />
       </section>
     </div>
   );

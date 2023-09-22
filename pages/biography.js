@@ -8,13 +8,6 @@ import { GALLERIES_BIOGRAPHY } from "../constants/constants";
 export default function Biography() {
   const { t } = useTranslation("");
 
-  // Sample image data (replace with your own images)
-  const galleryImages = [
-    "/author.png",
-    "/mongoliv1.jpeg",
-    "/heros-way.jpg",
-  ];
-
   return (
     <>
       <div className="text-white py-10">

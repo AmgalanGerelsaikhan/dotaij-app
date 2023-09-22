@@ -64,28 +64,18 @@ export const GALLERIES = [
         bookid: 1
     },
     {
-        index: 5,
+        index: 1,
         img: "/mongoliv1.jpeg",
         bookid: 2
     },
     {
-        index: 6,
+        index: 2,
         img: "/heros-way.jpg",
         bookid: 2
     },
     {
-        index: 7,
+        index: 3,
         img: "/author.png",
-        bookid: 2
-    },
-    {
-        index: 8,
-        img: "/mongoliv1.jpeg",
-        bookid: 2
-    },
-    {
-        index: 9,
-        img: "/heros-way.jpg",
         bookid: 2
     }
 ]

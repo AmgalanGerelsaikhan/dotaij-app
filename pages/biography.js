@@ -38,13 +38,9 @@ export default function Biography() {
               </div>
               <div className="text-justify">
                 <h1 id="authorBio" className="text-4xl font-bold mb-4" >{t('biography.section1')}</h1>
-                <h1 className="text-1xl mb-1 text-gray-500">WRITTEN BY</h1>
-                <h1 className="text-1xl mb-1 text-gray-300 py-2" style={{ color: '#f1faee' }}>
-                  Tsogtsaikhan, updated by Amgalan
-                </h1>
-                <p className="text-lg text-gray-400 mb-3 text-justify">
-                  {t('biography.quote1')}
-                </p>
+                <h1 className="text-1xl mb-1 text-gray-500">{t('biography.written')}</h1>
+                <h1 className="text-1xl mb-1 text-gray-300 py-2" style={{ color: '#f1faee' }}>{t('biography.updated')}</h1>
+                <p className="text-lg text-gray-400 mb-3 text-justify">{t('biography.quote1')}</p>
               </div>
 
               <div className="text-lg text-gray-400 mb-3 text-justify">

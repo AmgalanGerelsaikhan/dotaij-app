@@ -52,7 +52,9 @@
     "authorbio": "",
     "section1": "The Author",
     "section2": "Press Biography",
-    "section3": "Photo Gallery"
+    "section3": "Photo Gallery",
+    "written": "WRITTEN BY",
+    "updated": "Tsogtsaikhan, updated by Amgalan"
   },
   "book": {
     "buy": "Buy the book",

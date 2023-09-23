@@ -53,46 +53,34 @@ export const SLIDE_DATA = [
 export const NEWS = [
     {
         id: 1,
-        title: "Stephen King Day 2023",
-        titleUk: "День Стівена Кінга 2023",
-        posted: "2023-08-11 2:50",
-        desc: "One Grand Prize winner will receive The Bill Hodges Trilogy boxed set signed by Stephen King, and a selection of books including Holly, Fairy Tale, Billy Summers and If It Bleeds audio download.",
-        descUk: "Один переможець Гран-прі отримає коробковий набір «Трилогія Білла Ходжеса», підписаний Стівеном Кінгом, і добірку книг, зокрема «Холлі», «Казка», «Біллі Саммерс» і «Якщо це кровоточить».",
+        title: "HERON'S WAY Trailer Now Available on YouTube",
+        titleUk: "Трейлер 'Heron's Way' тепер доступний на YouTube.        ",
+        posted: "2023-09-23 2:50",
+        desc: "Experience the captivating world of 'Heron's Way' in our newly released trailer! Get a glimpse of the mesmerizing journey that awaits you in this epic adventure.",
+        descUk: "Відчуйте захопливий світ 'Heron's Way' у нашому новому трейлері! Отримайте приголомшливий уявлення про чарівну подорож, яка чекає на вас у цій епічній пригоді.",
         watch: "https://www.youtube.com/embed/qlS97wcqSTw",
-        img: "",
-        more: "https://www.google.com"
+        img: ""
     },
     {
         id: 2,
-        title: "FAIRY TALE is an Audie Finalist!",
-        titleUk: "КАЗКА – фіналіст Audie!",
+        title: "Tsogtsaikhan was interviewed by a well-known Mongolian newspaper.",
+        titleUk: "Цогтцайхан був інтерв'ю з відомим Монгольським газетою.",
         posted: "2023-07-01 2:50",
-        desc: "On Thursday, February 23rd, the Audio Publishers Association announced that actor Seth Numrich is an Audie Award Finalist for Best Male Narrator for his performance on Fairy Tale, the most recent bestselling audiobook from Stephen King. The winners will be announced at the awards gala on Tuesday, March 28th. In the meantime, listen to an excerpt from the audiobook edition below, courtesy of Simon & Schuster Audio.",
-        descUk: "У четвер, 23 лютого, Асоціація аудіовидавців оголосила, що актор Сет Нумріч є фіналістом премії Audie Award як найкращий оповідач за свою гру у Fairy Tale, останньому бестселері аудіокниги Стівена Кінга. Переможці будуть оголошені на гала-церемонії нагородження у вівторок, 28 березня. Тим часом послухайте уривок із наведеного нижче видання аудіокниги, люб’язно наданого Simon & Schuster Audio.",
-        watch: "",
+        desc: "Tsogtsaikhan had an interview with R.Oyunjargal, and during the interview, they covered topics related to Secret history of Mongols and Heron's Way.",
+        descUk: "Цогтсайхан був інтерв'ю з Р. Оюунжаргалом, і під час інтерв'ю вони обговорювали теми, пов'язані зі Секретною історією Монголів та Шляхом Чаплі.",
+        watch: "", 
         img: "",
-        more: "https://www.google.com"
+        more: "https://www.unuudur.mn/a/258036"
     },
     {
         id: 3,
-        title: "Justine Lupe reads HOLLY",
+        title: "Tsogtsaikhan was interviewed by a well-known Ukrainian newspaper.",
         titleUk: "Джастін Лупе читає ХОЛЛІ",
         posted: "2023-06-11 2:50",
-        desc: "Watch actress Justine Lupe reprise her on-screen role from Mr. Mercedes as she records the audiobook edition of HOLLY in this behind-the-scenes video with Simon & Schuster Audio!",
-        descUk: "Подивіться, як актриса Джастін Лупе повторює свою екранну роль містера Мерседеса, записуючи видання аудіокниги «ХОЛЛІ» в цьому закулісному відео з Simon & Schuster Audio!",
+        desc: "Tsogtsaikhan was interviewed on 'Vechirniy Kyiv' newspaper, where they discussed topics related to Secret history of Mongols and Heron's Way.",
+        descUk: "Цогтсайхан був інтерв'ю в газеті 'Вечірній Київ', де обговорювалися теми, пов'язані зі Секретною історією Монголів та Шляхом Чаплі.",
         watch: "",
-        img: "/author_pic2.jpeg",
-        more: ""
-    },
-    {
-        id: 4,
-        title: "Stephen on CBS Saturday Morning",
-        titleUk: "Стівен на CBS Saturday Morning",
-        posted: "2023-05-21 2:50",
-        desc: "Stephen sat down with Jeff Glor and the interview aired on CBS Saturday Morning, September 9th, 2023.",
-        descUk: "Стівен посів із Джеффом Глором, і інтерв’ю вийшло в ефір CBS Saturday Morning, 9 вересня 2023 року.",
-        watch: "https://www.youtube.com/embed/qlS97wcqSTw",
-        img: "",
+        img: "/author_pic7.jpeg",
         more: ""
     }
 ]

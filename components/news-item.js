@@ -6,7 +6,7 @@ export default function NewsItem({ news }) {
     return (
         <div className="divide-y divide-gray-500">
             <div className="text-white mb-10">
-                <a className="text-4xl" href={`/news-detail?newsId=${news.id}`}>{i18n.language === 'uk' ? news.titleUk : news.title}</a>
+                <a className="text-2xl" href={`/news-detail?newsId=${news.id}`}>{i18n.language === 'uk' ? news.titleUk : news.title}</a>
                 <p className="text-sm text-gray-500 mt-5">{t('news.posted')}: {news.posted}</p>
                 <p className=" mb-10">{i18n.language === 'uk' ? news.descUk : news.desc}</p>
                 {news.watch !== "" && (

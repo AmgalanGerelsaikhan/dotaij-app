@@ -13,10 +13,11 @@ export default function BookItem({ book }) {
                     <img src={book.img} alt="logo" className="w-60 m-auto" onClick={() => setIsOpen(true)} />
                 </div>
                 <div className="sm:w-3/4 sm:flex flex-col sm:flex-wrap m-5 sm:m-0">
-                    <div className="relative">
+                    <div cl
+                    assName="relative">
                         <div className="flex flex-col sm:flex-row gap-4 mb-5">
                             <div className="mb-5 m-auto sm:m-0">
-                                <a className="md:mt-5 text-2xl" href={`/book?bookId=${book.id}`} alt={book.name}>{book.name}</a>
+                                <a className="md:mt-5 text-2xl" href={`/book?bookId=${book.id}`} alt={book.name}>{i18n.language === 'uk' ? book.nameUk : book.name}</a>
                                 <p>{t('book.published')}: {book.published}</p>
                             </div>
                             <div className="m-auto">

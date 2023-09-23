@@ -24,6 +24,9 @@ export default function NewsItem({ news }) {
                         <img src={news.img} className="w-full md:w-3/5" />
                     </div>
                 )}
+                {news.more !== "" && (
+                    <a href={news.more} target="_blank">{t('news.more')}</a>
+                )}
             </div>
             <p className="mb-5"></p>
         </div>

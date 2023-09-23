@@ -59,7 +59,8 @@ export const NEWS = [
         desc: "One Grand Prize winner will receive The Bill Hodges Trilogy boxed set signed by Stephen King, and a selection of books including Holly, Fairy Tale, Billy Summers and If It Bleeds audio download.",
         descUk: "Один переможець Гран-прі отримає коробковий набір «Трилогія Білла Ходжеса», підписаний Стівеном Кінгом, і добірку книг, зокрема «Холлі», «Казка», «Біллі Саммерс» і «Якщо це кровоточить».",
         watch: "https://www.youtube.com/embed/qlS97wcqSTw",
-        img: ""
+        img: "",
+        more: "https://www.google.com"
     },
     {
         id: 2,
@@ -69,7 +70,8 @@ export const NEWS = [
         desc: "On Thursday, February 23rd, the Audio Publishers Association announced that actor Seth Numrich is an Audie Award Finalist for Best Male Narrator for his performance on Fairy Tale, the most recent bestselling audiobook from Stephen King. The winners will be announced at the awards gala on Tuesday, March 28th. In the meantime, listen to an excerpt from the audiobook edition below, courtesy of Simon & Schuster Audio.",
         descUk: "У четвер, 23 лютого, Асоціація аудіовидавців оголосила, що актор Сет Нумріч є фіналістом премії Audie Award як найкращий оповідач за свою гру у Fairy Tale, останньому бестселері аудіокниги Стівена Кінга. Переможці будуть оголошені на гала-церемонії нагородження у вівторок, 28 березня. Тим часом послухайте уривок із наведеного нижче видання аудіокниги, люб’язно наданого Simon & Schuster Audio.",
         watch: "",
-        img: ""
+        img: "",
+        more: "https://www.google.com"
     },
     {
         id: 3,
@@ -79,7 +81,8 @@ export const NEWS = [
         desc: "Watch actress Justine Lupe reprise her on-screen role from Mr. Mercedes as she records the audiobook edition of HOLLY in this behind-the-scenes video with Simon & Schuster Audio!",
         descUk: "Подивіться, як актриса Джастін Лупе повторює свою екранну роль містера Мерседеса, записуючи видання аудіокниги «ХОЛЛІ» в цьому закулісному відео з Simon & Schuster Audio!",
         watch: "",
-        img: "/author_pic2.jpeg"
+        img: "/author_pic2.jpeg",
+        more: ""
     },
     {
         id: 4,
@@ -89,7 +92,8 @@ export const NEWS = [
         desc: "Stephen sat down with Jeff Glor and the interview aired on CBS Saturday Morning, September 9th, 2023.",
         descUk: "Стівен посів із Джеффом Глором, і інтерв’ю вийшло в ефір CBS Saturday Morning, 9 вересня 2023 року.",
         watch: "https://www.youtube.com/embed/qlS97wcqSTw",
-        img: ""
+        img: "",
+        more: ""
     }
 ]
 

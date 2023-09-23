@@ -83,6 +83,7 @@
     "gallery": "Photo Gallery"
   },
   "news": {
-    "posted": "Posted"
+    "posted": "Posted",
+    "more": "Read more"
   }
 }

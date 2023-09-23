@@ -68,16 +68,13 @@ export default function Biography() {
               {/* Press Biography */}
               <h1 id="pressBio" className="text-4xl font-bold mb-4 container mx-auto">{t('biography.section2')}</h1>
               <p className="text-lg text-gray-400 mb-3 text-justify">
-                {t('biography.quote1')}
+                {t('biography.pquote1')}
               </p>
               <p className="text-lg text-gray-400 mb-3 text-justify">
-                {t('biography.quote2')}
+                {t('biography.pquote2')}
               </p>
               <p className="text-lg text-gray-400 mb-3 text-justify">
-                {t('biography.quote3')}
-              </p>
-              <p className="text-lg text-gray-400 mb-3 text-justify">
-                {t('biography.quote4')}
+                {t('biography.pquote4')}
               </p>
               {/* End of Press Biography */}
 

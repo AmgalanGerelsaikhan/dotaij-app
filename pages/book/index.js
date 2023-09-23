@@ -18,7 +18,7 @@ export default function BookDetail() {
     const book = BOOKS.find((book) => book.id == bookId);
 
     if (!book) {
-      // Handle the case where the book is not found
+      // Handle the case where the book is not foundgit
       console.error(`Book with ID ${bookId} not found.`);
       return <h2 className="text-white">Book not found</h2>;
     }

@@ -38,10 +38,33 @@
     "phone": "Phone number"
   },
   "events": {
-    "title": "Events"
+    "title": "News",
+    "newstitle_1": "Tsogtsaikhan was interviewed by a well-known Mongolian newspaper.",
+    "press_1": "Tsogtsaikhan had an interview with R.Oyunjargal, and during the interview, they covered topics related to Secret history of Mongols and Heron's Way.",
+    "newstitle_2": "Tsogtsaikhan was interviewed by a well-known Ukrainian newspaper",
+    "press_2": "Tsogtsaikhan was interviewed on 'Vechirniy Kyiv' newspaper, where they discussed topics related to Secret history of Mongols and Heron's Way.",
+    "newstitle_3": "HERON'S WAY Trailer Now Available on YouTube",
+    "press_3": "Experience the captivating world of 'Heron's Way' in our newly released trailer! Get a glimpse of the mesmerizing journey that awaits you in this epic adventure. Watch the trailer [here](https://www.youtube.com/watch?v=qlS97wcqSTw)."
   },
   "biography": {
-    "quote": "North Korean leader Kim Jong-un will visit Russia this month to meet with Russian President Vladimir Putin. The leaders of the two countries will discuss the supply of weapons from North Korea to Russia in connection with the Russia-Ukraine war."
+    "quote1": "Tsogtsaikhan Tsedensonom, born in 1965 in Ulaanbaatar, Mongolia, pursued an education that laid the foundation for a diverse and impactful career. His educational journey began at the Civil Aviation Engineers Institute from 1983 to 1989, where he honed his skills and knowledge in civil aviation. After completing his education, from 1989 to 1994, Tsogtsaikhan worked as an engineer, translator (proficient in Mongolian, English, Russian and Ukraine), and an instructor at the Mongolian Airlines MIAT Aviation School. During this time, he also contributed his expertise to the Ulaanbaatar Airport Reconstruction Project, showcasing his dedication and proficiency in the field.",
+    "quote2": "In 1995, Tsogtsaikhan embarked on a new chapter in his career, becoming the representative of the DeLonghi Group in various countries, including Ukraine, Mongolia, and Moldova. His role extended to fostering connections and facilitating operations, highlighting his adaptability and strategic prowess.",
+    "quote3": "Tsogtsaikhan's passion for social and political activism took shape in 2014 when he actively engaged in Mongolia's political landscape. He led a movement against the new version of the 'Land Law' a critical moment in Mongolia's history. His efforts successfully led to the withdrawal of the law, preventing private commercial entities from acquiring land and safeguarding the nation's political and economic stability.",
+    "quote4": "In 2016, he entered the realm of local politics as a candidate for the 'KHUN' party (National Labor Party) in Ulaanbaatar's local council. His campaign aimed to address pressing issues, such as corruption scandals and deteriorating living conditions, by advocating for a new 'City Law.' Although his party gained popularity, internal disputes arose, hindering their full participation in parliamentary and local elections.",
+    "quote5": "Tsogtsaikhan's journey as an author culminated in 2021 when he published the book 'HERON'S WAY: Youth of Genghis Khan.' This literary work delves into the epic adventures of a young man who would later emerge as Genghis Khan. The book not only narrates his extraordinary journey but also raises questions about Genghis Khan's education and how he united the nomadic peoples of Eurasia, thereby establishing the foundations of a universal world order.",
+    "quote6": "In addition to his literary accomplishments, from 2011 to 2022, Tsogtsaikhan undertook the monumental task of translating the ancient text 'The Secret History of the Mongols' into Ukrainian. This significant endeavor culminated in the book's publication in 2023, complete with 388 annotations. His decision to embark on this translation journey was heavily influenced by esteemed Ukrainian historian D.R. Dashkevych, who emphasized the importance of understanding Ukrainian history through 'The Secret History of the Mongols'.",
+    "quote7": "Tsogtsaikhan's personal life includes marriage and the proud role of raising two sons, Tamir (born in 2011) and Tengis (born in 2016). His multifaceted journey reflects a commitment to education, activism, literature, and cross-cultural exchange, making him a notable figure in Mongolia's contemporary landscape.",
+    "authorName": "TSOGTSAIKHAN TSEDENSONOM",
+    "authorbio": "",
+    "pquote1": "Tsogtsaikhan Tsedensonom, a prominent author and activist, was born in Ulan Bator, Mongolia, and made a significant contribution to literature and social affairs.",
+"pquote2": "Known for his book 'Heron's Way: Youth of Chinggis Khan,' Tsogtsaikhan's literary work has gained international recognition and shed light on the early life of the legendary Chinggis Khan.",
+"pquote3": "With a strong focus on literary endeavors, Tsogtsaikhan played a key role in Mongolia's political landscape. His activism led to the repeal of critical land laws, preserving the nation's political and economic stability.",
+"pquote4": "Dedicated to promoting intercultural exchange, Tsogtsaikhan's commitment is evident in his translation of the 'Secret History of the Mongols' into the Ukrainian language, contributing to a deeper understanding of Mongolia's history.",
+    "section1": "The Author",
+    "section2": "Press Biography",
+    "section3": "Photo Gallery",
+    "written": "WRITTEN BY",
+    "updated": "Tsogtsaikhan, updated by Amgalan"
   },
   "book": {
     "buy": "Buy the book",

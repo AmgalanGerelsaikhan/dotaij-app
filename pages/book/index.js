@@ -15,7 +15,9 @@ export default function BookDetail() {
 
   useEffect(() => {
     if (bookId) {
-      setBook(BOOKS.find((book) => book.id == bookId))
+      const bookDetail = BOOKS.find((book) => book.id == bookId)
+      setNews(bookDetail !== undefined ? bookDetail : null)
+      setError(bookDetail === undefined ? 'Book not found' : null)
     } else {
       setError("Book not found")
     }

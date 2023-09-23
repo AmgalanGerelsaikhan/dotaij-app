@@ -29,7 +29,7 @@ export default function Contact() {
                 </div>
                 <div className='mt-5 text-gray-500'>{t('contact.email')}</div>
                 <div className='text-white text-md'>
-                  dotaij-book@gmail.com
+                  moguldotaij@gmail.com
                 </div>
               </div>
               <div className='sm:w-1/4 pl-8 pb-5'>
@@ -38,18 +38,13 @@ export default function Contact() {
                 </div>
                 <div className='mt-5 text-gray-500'>{t('contact.social-media')}</div>
                 <div className='text-white text-md'>
-                  <Link href='https://www.facebook.com/shoppy.mn' target='_blank'>
+                  <Link href='https://www.facebook.com/tsogtsaikhan.tsedensonom' target='_blank'>
                     facebook
                   </Link>
                 </div>
                 <div className='text-white text-md'>
-                  <Link href='https://www.instagram.com/nouuminsta/' target='_blank'>
+                  <Link href='https://www.instagram.com/dotaijmogul/?hl=en' target='_blank'>
                     instagram
-                  </Link>
-                </div>
-                <div className='text-white text-md'>
-                  <Link href='https://www.linkedin.com/' target='_blank'>
-                    linkedin
                   </Link>
                 </div>
               </div>
@@ -59,7 +54,7 @@ export default function Contact() {
                 </div>
                 <div className='mt-5 text-gray-500'>{t('contact.phone')}</div>
                 <div className='text-white text-md'>
-                  976-99999999
+                  976-99105238
                 </div>
               </div>
             </div>

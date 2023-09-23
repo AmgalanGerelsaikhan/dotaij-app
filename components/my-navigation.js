@@ -53,9 +53,9 @@ export default function Navigation() {
                       {t("header.Biography")}
                     </p>
                   </Link>
-                  <Link href="/events" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/news" onClick={() => setNavbar(!navbar)}>
                     <p className="text-lg px-4 py-3 md:py-2 md:hover:bg-transparent hover:font-bold">
-                      {t("header.Events")}
+                      {t("header.News")}
                     </p>
                   </Link>
                   <Link href="/contact" onClick={() => setNavbar(!navbar)}>

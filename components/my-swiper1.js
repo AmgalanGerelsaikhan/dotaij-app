@@ -21,9 +21,6 @@ export default function MySwiper() {
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
             >
-                {/* SLIDE_DATA.map((item) => {
-                    <SwiperSlide><MySlide data={item} /></SwiperSlide>
-                }) */}
                 <SwiperSlide><MySlide data={1} /></SwiperSlide>
                 <SwiperSlide><MySlide data={2} /></SwiperSlide>
             </Swiper>

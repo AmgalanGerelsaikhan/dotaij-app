@@ -13,7 +13,7 @@ export default function Biography() {
       <div className="text-white py-10">
         <div className="container mx-auto flex flex-col md:flex-row">
           {/* Left Sidebar (Navigation) */}
-          <aside className="w-full md:w-1/6 px-6">
+          <aside className="w-full md:w-1/4 px-6">
             {/* Navigation links */}
             <nav className="sticky top-20">
               <ul>
@@ -26,7 +26,7 @@ export default function Biography() {
           </aside>
 
           {/* Center Column (Author Name and Quote) */}
-          <main className="w-full md:w-3/4 px-4">
+          <main className="w-full md:w-3/4 pl-4">
             {/* Author Info Section */}
             <section id="authorInfo" className="">
               <div className="float-left mr-5">
@@ -38,9 +38,13 @@ export default function Biography() {
               </div>
               <div className="text-justify">
                 <h1 id="authorBio" className="text-4xl font-bold mb-4" >{t('biography.section1')}</h1>
-                <h1 className="text-1xl mb-1 text-gray-500">{t('biography.written')}</h1>
-                <h1 className="text-1xl mb-1 text-gray-300 py-2" style={{ color: '#f1faee' }}>{t('biography.updated')}</h1>
-                <p className="text-lg text-gray-400 mb-3 text-justify">{t('biography.quote1')}</p>
+                <h1 className="text-1xl mb-1 text-gray-500 uppercase">{t('biography.written')}</h1>
+                <h1 className="text-1xl mb-1 text-gray-300 py-2" style={{ color: '#f1faee' }}>
+                  {t('biography.writer-name')}
+                </h1>
+                <p className="text-lg text-gray-400 mb-3 text-justify">
+                  {t('biography.quote1')}
+                </p>
               </div>
 
               <div className="text-lg text-gray-400 mb-3 text-justify">
@@ -68,13 +72,16 @@ export default function Biography() {
               {/* Press Biography */}
               <h1 id="pressBio" className="text-4xl font-bold mb-4 container mx-auto">{t('biography.section2')}</h1>
               <p className="text-lg text-gray-400 mb-3 text-justify">
-                {t('biography.pquote1')}
+                {t('biography.quote1')}
               </p>
               <p className="text-lg text-gray-400 mb-3 text-justify">
-                {t('biography.pquote2')}
+                {t('biography.quote2')}
               </p>
               <p className="text-lg text-gray-400 mb-3 text-justify">
-                {t('biography.pquote4')}
+                {t('biography.quote3')}
+              </p>
+              <p className="text-lg text-gray-400 mb-3 text-justify">
+                {t('biography.quote4')}
               </p>
               {/* End of Press Biography */}
 

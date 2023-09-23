@@ -3,7 +3,7 @@ import { useState } from "react";
 import Modal from "./modal";
 
 export default function HomeItem({ book }) {
-  const { t } = useTranslation("");
+  const { t, i18n } = useTranslation("");
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -28,14 +28,20 @@ export default function HomeItem({ book }) {
         </div>
 
         <div className="w-full md:w-3/5 my-10 mx-20 text-left">
-          <p className="text-2xl">{book.name}</p>
+          <p className="text-2xl">
+            {i18n.language === 'uk' ? book.nameUk : book.name}
+          </p>
           <p className="text-gray-600 text-sm pb-3 mb-5">
-            Release Date: {book.published}
+            {t('home.released')}: {book.published}
           </p>
           <p className="mb-6 text-gray-400">
-            {book.desc.length > 950 ?
-              `${book.desc.substring(0, 950)}...` : book.desc
-            }
+            {i18n.language === 'uk' ? (
+              book.descUk.length > 950 ?
+                `${book.descUk.substring(0, 950)}...` : book.descUk
+            ) : (
+              book.desc.length > 950 ?
+                `${book.desc.substring(0, 950)}...` : book.desc
+            )}
           </p>
 
           <div className="mt-31">

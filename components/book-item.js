@@ -3,7 +3,7 @@ import Modal from "./modal";
 import { useState } from "react";
 
 export default function BookItem({ book }) {
-    const { t } = useTranslation("");
+    const { t, i18n } = useTranslation("");
     const [isOpen, setIsOpen] = useState(false);
 
     return (
@@ -47,9 +47,13 @@ export default function BookItem({ book }) {
                         </div>
                         <div className="text-justify text-gray-400">
                             <p>
-                                {book.desc.length > 1100 ?
-                                    `${book.desc.substring(0, 1100)}...` : book.desc
-                                }
+                                {i18n.language === 'uk' ? (
+                                    book.descUk.length > 1100 ?
+                                        `${book.descUk.substring(0, 1100)}...` : book.descUk
+                                ) : (
+                                    book.desc.length > 1100 ?
+                                        `${book.desc.substring(0, 1100)}...` : book.desc
+                                )}
                             </p>
                         </div>
                     </div>

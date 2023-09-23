@@ -1,22 +1,22 @@
 import { useTranslation } from "react-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import BookItem from "../../components/book-item";
-import { BOOKS } from "../../constants/constants";
+import { NEWS } from "../../constants/constants";
+import NewsItem from "../../components/news-item";
 
-export default function Book() {
+export default function News() {
   const { t } = useTranslation("");
 
   return (
-    // sm:px-16 px-6 py-10
     <div className="text-white">
       <section className="w-auto text-white h-full">
         <br />
-        <p className="text-4xl font-bold mb-4 sm:m-4 py-1">
-          {t('header.Books')}
+        <p className="text-4xl font-bold mb-4">
+          {t('header.News')}
         </p>
-        <div className="flex flex-col gap-10 h-full mb-10">
-          {BOOKS.map(item => {
-            return <BookItem key={item.id} book={item} />
+        <br />
+        <div className="flex flex-col gap-6 h-full mb-10">
+          {NEWS.map(item => {
+            return <NewsItem key={item.id} news={item} />
           })}
         </div>
       </section>

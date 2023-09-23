@@ -12,7 +12,10 @@
     "Home title": "Home title",
     "Home description": "Home description",
     "coming-soon": "Coming soon",
-    "latest": "Latest news"
+    "latest": "Latest news",
+    "released": "Release Date",
+    "coming-text": "Heron's Way 2 part is coming soon",
+    "latest-more": "Read more"
   },
   "about": {
     "About title": "About title",
@@ -21,6 +24,7 @@
   "header": {
     "Books": "Books",
     "Events": "Events",
+    "News": "News",
     "Biography": "Biography",
     "Contact": "Contact us",
     "Home": "Home",
@@ -38,7 +42,7 @@
     "phone": "Phone number"
   },
   "events": {
-    "title": "News",
+    "title": "Events",
     "newstitle_1": "Tsogtsaikhan was interviewed by a well-known Mongolian newspaper.",
     "press_1": "Tsogtsaikhan had an interview with R.Oyunjargal, and during the interview, they covered topics related to Secret history of Mongols and Heron's Way.",
     "newstitle_2": "Tsogtsaikhan was interviewed by a well-known Ukrainian newspaper",
@@ -57,9 +61,9 @@
     "authorName": "TSOGTSAIKHAN TSEDENSONOM",
     "authorbio": "",
     "pquote1": "Tsogtsaikhan Tsedensonom, a prominent author and activist, was born in Ulan Bator, Mongolia, and made a significant contribution to literature and social affairs.",
-"pquote2": "Known for his book 'Heron's Way: Youth of Chinggis Khan,' Tsogtsaikhan's literary work has gained international recognition and shed light on the early life of the legendary Chinggis Khan.",
-"pquote3": "With a strong focus on literary endeavors, Tsogtsaikhan played a key role in Mongolia's political landscape. His activism led to the repeal of critical land laws, preserving the nation's political and economic stability.",
-"pquote4": "Dedicated to promoting intercultural exchange, Tsogtsaikhan's commitment is evident in his translation of the 'Secret History of the Mongols' into the Ukrainian language, contributing to a deeper understanding of Mongolia's history.",
+    "pquote2": "Tsogtsaikhan is recognized internationally for his book 'Heron's Way: Youth of Chinggis Khan,' which has brought significant attention to the early life of the legendary Chinggis Khan.",
+    "pquote3": "With a strong focus on literary endeavors, Tsogtsaikhan played a key role in Mongolia's political landscape. His activism led to the repeal of critical land laws, preserving the nation's political and economic stability.",
+    "pquote4": "Dedicated to promoting intercultural exchange, Tsogtsaikhan's commitment is evident in his translation of the 'Secret History of the Mongols' into the Ukrainian language, contributing to a deeper understanding of Mongolia's history.",
     "section1": "The Author",
     "section2": "Press Biography",
     "section3": "Photo Gallery",
@@ -70,6 +74,15 @@
     "buy": "Buy the book",
     "more": "Read more",
     "trailer": "Trailer",
-    "published": "Published"
+    "published": "Published",
+    "desc": "Description",
+    "sale": "On Sale",
+    "page-count": "Page Count",
+    "publisher": "Publisher",
+    "isbn": "ISBN",
+    "gallery": "Photo Gallery"
+  },
+  "news": {
+    "posted": "Posted"
   }
 }

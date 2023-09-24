@@ -18,7 +18,7 @@ export default function MyGallery({ data }) {
 
   return (
     <>
-      <div className='items-center justify-center text-white bg-slate-600'>
+      <div className='items-center justify-center text-white'>
         {data && data.length > 0 ? (
           <Swiper
             modules={[Pagination, Scrollbar, A11y]}

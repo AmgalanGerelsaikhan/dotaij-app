@@ -18,7 +18,7 @@ export const BOOKS = [
         name: 'Secret History Mongols',
         nameUk: 'Таємна історія Монголів',
         img: '/msh.jpg',
-        otherimg: ["/HERON_PIC1.jpg", "/HERONS_PIC2.jpeg", "/HERONS_PIC3.jpeg"],
+        otherimg: ["/shm_pic1.png", "/shm_pic2.png", "/shm_pic3.jpeg"],
         published: '2023 / 07 / 10',
         pagecount: 160,
         isbn: '0000001',

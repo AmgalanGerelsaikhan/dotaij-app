@@ -10,6 +10,11 @@ import Modal from './modal';
 export default function MyGallery({ data }) {
   const [isOpen, setIsOpen] = useState(false);
   const [activeImg, setActiveImg] = useState('');
+  const buttonStyle = {
+    backgroundColor: 'blue',
+    color: 'white',
+    fontSize: '24px',
+};
 
   const onChangeItem = (item) => {
     setActiveImg(item);

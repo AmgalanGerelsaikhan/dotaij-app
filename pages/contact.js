@@ -18,8 +18,8 @@ export default function Contact() {
                 <div className='hover:font-bold'>
                   <img src='/contact1.png' alt='contact address' />
                 </div>
-                <div className='mt-5 text-gray-500'>{t('contact.address')}</div>
-                <div className='text-white text-md'>
+                <div className='mt-5 text-[#14213d]'>{t('contact.address')}</div>
+                <div className='text-[#14213d] text-md'>
                   {t('contact.address-desc')}
                 </div>
               </div>
@@ -27,8 +27,8 @@ export default function Contact() {
                 <div className=''>
                   <img src='/contact4.png' alt='contact address' />
                 </div>
-                <div className='mt-5 text-gray-500'>{t('contact.email')}</div>
-                <div className='text-white text-md'>
+                <div className='mt-5 text-[#14213d]'>{t('contact.email')}</div>
+                <div className='text-[#14213d] text-md'>
                   moguldotaij@gmail.com
                 </div>
               </div>
@@ -37,12 +37,12 @@ export default function Contact() {
                   <img src='/contact5.png' alt='contact address' />
                 </div>
                 <div className='mt-5 text-gray-500'>{t('contact.social-media')}</div>
-                <div className='text-white text-md'>
+                <div className='text-[#14213d] text-md'>
                   <Link href='https://www.facebook.com/tsogtsaikhan.tsedensonom' target='_blank'>
                     facebook
                   </Link>
                 </div>
-                <div className='text-white text-md'>
+                <div className='text-[#14213d] text-md'>
                   <Link href='https://www.instagram.com/dotaijmogul/?hl=en' target='_blank'>
                     instagram
                   </Link>
@@ -52,8 +52,8 @@ export default function Contact() {
                 <div className=''>
                   <img src='/contact2.png' alt='contact address' />
                 </div>
-                <div className='mt-5 text-gray-500'>{t('contact.phone')}</div>
-                <div className='text-white text-md'>
+                <div className='mt-5 text-[#14213d]'>{t('contact.phone')}</div>
+                <div className='text-[#14213d] text-md'>
                   976-99105238
                 </div>
               </div>

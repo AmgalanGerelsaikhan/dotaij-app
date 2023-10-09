@@ -8,10 +8,10 @@ export default function Book() {
 
   return (
     // sm:px-16 px-6 py-10
-    <div className="text-white">
-      <section className="w-auto text-white h-full">
+    <div className="text-[#14213d]">
+      <section className="w-auto text-[#14213d] h-full">
         <br />
-        <p className="text-4xl font-bold mb-4 sm:m-4 py-1">
+        <p className="text-2xl font-bold mb-4 sm:m-4 py-1">
           {t('header.Books')}
         </p>
         <div className="flex flex-col gap-10 h-full mb-10">

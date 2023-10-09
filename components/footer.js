@@ -6,22 +6,22 @@ export default function Footer() {
   const { t } = useTranslation("");
 
   return (
-    <footer className="text-white py-6 px-10 sm:px-0 pt-20">
+    <footer className="text-[#14213d] py-6 px-10 sm:px-0 pt-20">
       <div className="container flex flex-col text-sm">
         {/* Centered Social Media Icons */}
         <div className="flex gap-4 mb-6">
           {/* Add your social media icons and links here */}
           <a href="https://www.facebook.com/Kozak.Tsogo" target="_blank" rel="noopener noreferrer">
-            <FaFacebook size={20} style={{ color: "white" }} />
+            <FaFacebook size={20} style={{ color: "#14213d" }} />
           </a>
           <a href="#" target="_blank" rel="noopener noreferrer">
-            <FaTwitter size={20} style={{ color: "white" }} />
+            <FaTwitter size={20} style={{ color: "#14213d" }} />
           </a>
           <a href="#" target="_blank" rel="noopener noreferrer">
-            <FaInstagram size={20} style={{ color: "white" }} />
+            <FaInstagram size={20} style={{ color: "#14213d" }} />
           </a>
           <a href="#" target="_blank" rel="noopener noreferrer">
-            <FaYoutube size={20} style={{ color: "white" }} />
+            <FaYoutube size={20} style={{ color: "#14213d" }} />
           </a>
         </div>
 

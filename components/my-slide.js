@@ -11,13 +11,19 @@ export default function MySlide({ data }) {
             {item ? (
                 data === 1 ? (
                     <div className="w-full h-full">
-                        <a target="_blank" href="https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D">
+                        <a target="_blank" href="/biography">
+                            <img className="object-contain w-full" src="/swiper_pic7.jpg" />
+                        </a>
+                    </div>
+                ) : data === 2 ? (
+                    <div className="w-full h-full">
+                        <a target="_blank" href="/book?bookId=1">
                             <img className="object-contain w-full" src="/swiper_pic1.png" />
                         </a>
                     </div>
-                ) : (
+                )  : (
                     <div className="w-full h-full">
-                        <a target="_blank" href="https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D">
+                        <a target="_blank" href="/book?bookId=2">
                             <img className="object-contain w-full" src="/swiper_pic2.png" />
                         </a>
                     </div>

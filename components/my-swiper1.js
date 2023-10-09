@@ -16,23 +16,23 @@ export default function MySwiper() {
                 spaceBetween={150}
                 slidesPerView={1}
                 loop={true}
-                autoplay={{ delay: 4000 }}
                 pagination={{ clickable: true }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
             >
                 <SwiperSlide><MySlide data={1} /></SwiperSlide>
                 <SwiperSlide><MySlide data={2} /></SwiperSlide>
+                <SwiperSlide><MySlide data={3} /></SwiperSlide>
             </Swiper>
 
             {/* Custom CSS to style the pagination */}
             <style jsx global>{`
                 .swiper-pagination-bullet {
-                    background-color: white;
+                    background-color: black;
                 }
 
                 .swiper-pagination-bullet-active {
-                    background-color: white; /* Change to your desired active color */
+                    background-color: black; /* Change to your desired active color */
                 }
             `}</style>
         </div>

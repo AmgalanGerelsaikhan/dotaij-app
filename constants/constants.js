@@ -15,7 +15,7 @@ export const BOOKS = [
     },
     {
         id: 2,
-        name: 'Secret History Mongols',
+        name: 'Secret History of Mongols',
         nameUk: 'Таємна історія Монголів',
         img: '/msh.jpg',
         otherimg: ["/shm_pic1.png", "/shm_pic2.png", "/shm_pic3.jpeg"],
@@ -47,6 +47,15 @@ export const SLIDE_DATA = [
         descUk: 'Note that the ltr modifier will not take effect unless the dir attribute is explicitly set to ltr, so if you are building a multi-directional site make sure to always set a direction, not just in rtl mode.',
         bgImage: '/swipe-bg2.jpg',
         bookImage: '/mongoliv1.jpeg'
+    },
+    {
+        id: 3,
+        titleEn: 'Mongoliv',
+        titleUk: 'Mongoliv',
+        descEn: 'Note that the ltr modifier will not take effect unless the dir attribute is explicitly set to ltr, so if you are building a multi-directional site make sure to always set a direction, not just in rtl mode.',
+        descUk: 'Note that the ltr modifier will not take effect unless the dir attribute is explicitly set to ltr, so if you are building a multi-directional site make sure to always set a direction, not just in rtl mode.',
+        bgImage: '/swipe-bg2.jpg',
+        bookImage: '/mongoliv1.jpeg'
     }
 ]
 
@@ -58,8 +67,7 @@ export const NEWS = [
         posted: "2023-09-23 2:50",
         desc: "Experience the captivating world of 'Heron's Way' in our newly released trailer! Get a glimpse of the mesmerizing journey that awaits you in this epic adventure.",
         descUk: "Відчуйте захопливий світ 'Heron's Way' у нашому новому трейлері! Отримайте приголомшливий уявлення про чарівну подорож, яка чекає на вас у цій епічній пригоді.",
-        watch: "https://www.youtube.com/embed/qlS97wcqSTw",
-        img: ""
+        watch: "https://www.youtube.com/embed/qlS97wcqSTw"
     },
     {
         id: 2,

@@ -5,10 +5,10 @@ export default function NewsItem({ news }) {
 
     return (
         <div className="divide-y divide-gray-500">
-            <div className="text-white mb-10">
-                <a className="text-2xl" href={`/news-detail?newsId=${news.id}`}>{i18n.language === 'uk' ? news.titleUk : news.title}</a>
-                <p className="text-sm text-gray-500 mt-5">{t('news.posted')}: {news.posted}</p>
-                <p className=" mb-10">{i18n.language === 'uk' ? news.descUk : news.desc}</p>
+            <div className="text-[#14213d] mb-10">
+                <a className="text-1xl font-bold" href={`/news-detail?newsId=${news.id}`}>{i18n.language === 'uk' ? news.titleUk : news.title}</a>
+                <p className="text-sm text-[#14213d]">{t('news.posted')}: {news.posted}</p>
+                <p className=" mt-5">{i18n.language === 'uk' ? news.descUk : news.desc}</p>
                 {news.watch !== "" && (
                     <div className="flex justify-center text-center items-center">
                         <div className="w-full md:w-[600px] my-10 justify-center">
@@ -20,7 +20,7 @@ export default function NewsItem({ news }) {
                     </div>
                 )}
                 {news.img !== "" && (
-                    <div className="flex justify-center text-center items-center">
+                    <div className="flex justify-center text-center items-center mt-5">
                         <img src={news.img} className="w-full md:w-3/5" />
                     </div>
                 )}

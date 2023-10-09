@@ -7,10 +7,10 @@ export default function News() {
   const { t } = useTranslation("");
 
   return (
-    <div className="text-white">
-      <section className="w-auto text-white h-full">
+    <div className="text-[#14213d]">
+      <section className="w-auto text-[#14213d] h-full">
         <br />
-        <p className="text-4xl font-bold mb-4">
+        <p className="text-3xl font-bold mb-4">
           {t('header.News')}
         </p>
         <br />

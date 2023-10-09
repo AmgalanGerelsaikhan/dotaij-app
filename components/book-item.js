@@ -17,7 +17,7 @@ export default function BookItem({ book }) {
                     assName="relative">
                         <div className="flex flex-col sm:flex-row gap-4 mb-5">
                             <div className="mb-5 m-auto sm:m-0">
-                                <a className="md:mt-5 text-2xl" href={`/book?bookId=${book.id}`} alt={book.name}>{i18n.language === 'uk' ? book.nameUk : book.name}</a>
+                                <a className="md:mt-5 text-2xl font-bold" href={`/book?bookId=${book.id}`} alt={book.name}>{i18n.language === 'uk' ? book.nameUk : book.name}</a>
                                 <p>{t('book.published')}: {book.published}</p>
                             </div>
                             <div className="m-auto">
@@ -25,7 +25,7 @@ export default function BookItem({ book }) {
                                     href="https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D"
                                     type="button"
                                     target="_blank"
-                                    className="rounded-3xl text-white
+                                    className="rounded-2xl text-white
                                 bg-gradient-to-r from-[#fb8500] to-[#ffb703]
                                 px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal"
                                     data-te-ripple-init
@@ -37,7 +37,7 @@ export default function BookItem({ book }) {
                                 <a
                                     href={`/book?bookId=${book.id}`}
                                     type="button"
-                                    className="rounded-3xl text-white
+                                    className="rounded-2xl text-white
                                 bg-gradient-to-r from-[#fb8500] to-[#ffb703]
                                 px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal"
                                     data-te-ripple-init
@@ -46,7 +46,7 @@ export default function BookItem({ book }) {
                                 </a>
                             </div>
                         </div>
-                        <div className="text-justify text-gray-400">
+                        <div className="text-justify text-[#14213d]">
                             <p>
                                 {i18n.language === 'uk' ? (
                                     book.descUk.length > 1100 ?

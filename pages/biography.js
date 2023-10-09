@@ -10,16 +10,16 @@ export default function Biography() {
 
   return (
     <>
-      <div className="text-white py-10">
+      <div className="text-[#14213d] py-10">
         <div className="container mx-auto flex flex-col md:flex-row">
           {/* Left Sidebar (Navigation) */}
           <aside className="w-full md:w-1/5 px-6">
             {/* Navigation links */}
             <nav className="sticky top-20">
               <ul>
-                <li><a href="#authorBio" className="text-lg text-gray-400 hover:text-white"> {t('biography.section1')}</a></li>
-                <li><a href="#pressBio" className="text-lg text-gray-400 hover:text-white"> {t('biography.section2')}</a></li>
-                <li><a href="#photoGallery" className="text-lg text-gray-400 hover:text-white">{t('biography.section3')}</a></li>
+                <li><a href="#authorBio" className="text-lg text-[#14213d] hover:text-white"> {t('biography.section1')}</a></li>
+                <li><a href="#pressBio" className="text-lg text-[#14213d] hover:text-white"> {t('biography.section2')}</a></li>
+                <li><a href="#photoGallery" className="text-lg text-[#14213d] hover:text-white">{t('biography.section3')}</a></li>
                 {/* Add more navigation links */}
               </ul>
             </nav>
@@ -42,12 +42,12 @@ export default function Biography() {
                 <h1 className="text-1xl mb-1 text-gray-300 py-2" style={{ color: '#f1faee' }}>
                   {t('biography.updated')}
                 </h1>
-                <p className="text-lg text-gray-400 mb-3 text-justify">
+                <p className="text-lg text-[#14213d] mb-3 text-justify">
                   {t('biography.quote1')}
                 </p>
               </div>
 
-              <div className="text-lg text-gray-400 mb-3 text-justify">
+              <div className="text-lg text-[#14213d] mb-3 text-justify">
                 <p className="py-3">
                   {t('biography.quote2')}
                 </p>
@@ -71,13 +71,13 @@ export default function Biography() {
 
               {/* Press Biography */}
               <h1 id="pressBio" className="text-4xl font-bold mb-4 container mx-auto">{t('biography.section2')}</h1>
-              <p className="text-lg text-gray-400 mb-3 text-justify">
+              <p className="text-lg text-[#14213d] mb-3 text-justify">
                 {t('biography.pquote1')}
               </p>
-              <p className="text-lg text-gray-400 mb-3 text-justify">
+              <p className="text-lg text-[#14213d] mb-3 text-justify">
                 {t('biography.pquote2')}
               </p>
-              <p className="text-lg text-gray-400 mb-3 text-justify">
+              <p className="text-lg text-[#14213d] mb-3 text-justify">
                 {t('biography.pquote4')}
               </p>
               {/* End of Press Biography */}

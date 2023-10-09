@@ -18,11 +18,16 @@ export default function Navigation() {
     document.querySelector("html").setAttribute("lang", lang);
   }, [router.locale]);
 
+  const handleLocaleChange = (e) => {
+    const selectedLocale = e.target.value;
+    router.push(router.pathname, router.asPath, { locale: selectedLocale });
+  };
+
   return (
-    <nav className="sticky top-0 z-50 w-full bg-[#140D0F] bg-[url('/bg-nav.png')]">
-      <div className="text-[#98a2aa] py-2 flex mr-3 md:mr-5">
+    <nav className="sticky top-0 z-50 w-full bg-[#fcfaf9]">
+      <div className="text-[#14213d] py-0 flex mr-2 md:mr-3">
         <div className="flex-1 justify-start">
-          <div className="px-0">
+          <div className="px-10">
             <div className="flex justify-between md:py-1">
               {/* LOGO */}
               <div className="flex items-center">
@@ -31,8 +36,8 @@ export default function Navigation() {
                     <img
                       src="/LOGO.png"
                       alt="logo"
-                      width={130}
-                      height={10}
+                      width={210}
+                      height={70}
                       className="object-contain transition-transform transform group-hover:scale-110"
                     />
                     <div className="absolute inset-0 opacity-0 group-hover:opacity-80 transition-opacity"></div>
@@ -83,10 +88,15 @@ export default function Navigation() {
           </div>
         </div>
 
-        <div className="flex-none">
-          <div className="justify-end mt-4 ml-2"> {/* Reduced margin-top */}
-            <LocaleSwitcher />
-          </div>
+        <div className="md:flex-none md:ml-4">
+          <select
+            className="p-1 rounded-none bg-transparent text-sm"
+            value={router.locale}
+            onChange={handleLocaleChange}
+          >
+            <option value="uk">Ukraine</option>
+            <option value="en">English</option>
+          </select>
         </div>
       </div>
     </nav>

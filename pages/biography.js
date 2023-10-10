@@ -17,9 +17,10 @@ export default function Biography() {
             {/* Navigation links */}
             <nav className="sticky top-20">
               <ul>
-                <li><a href="#authorBio" className="text-lg text-[#14213d] hover:text-white"> {t('biography.section1')}</a></li>
-                <li><a href="#pressBio" className="text-lg text-[#14213d] hover:text-white"> {t('biography.section2')}</a></li>
-                <li><a href="#photoGallery" className="text-lg text-[#14213d] hover:text-white">{t('biography.section3')}</a></li>
+                <li><a href="#authorBio" className="text-lg text-[#14213d] hover:font-bold"> {t('biography.section1')}</a></li>
+                <li><a href="#pressBio" className="text-lg text-[#14213d] hover:font-bold"> {t('biography.section2')}</a></li>
+                <li><a href="#authorPro" className="text-lg text-[#14213d] hover:font-bold"> {t('biography.section4')}</a></li>
+                <li><a href="#photoGallery" className="text-lg text-[#14213d] hover:font-bold">{t('biography.section3')}</a></li>
                 {/* Add more navigation links */}
               </ul>
             </nav>
@@ -38,8 +39,8 @@ export default function Biography() {
               </div>
               <div className="text-justify">
                 <h1 id="authorBio" className="text-4xl font-bold mb-4" >{t('biography.section1')}</h1>
-                <h1 className="text-1xl mb-1 text-gray-500 uppercase">{t('biography.written')}</h1>
-                <h1 className="text-1xl mb-1 text-gray-300 py-2" style={{ color: '#f1faee' }}>
+                <h1 className="text-1xl mb-1 text-[#14213d] uppercase">{t('biography.written')}</h1>
+                <h1 className="text-1xl mb-1 py-2" style={{ color: '[#14213d]' }}>
                   {t('biography.updated')}
                 </h1>
                 <p className="text-lg text-[#14213d] mb-3 text-justify">
@@ -81,6 +82,22 @@ export default function Biography() {
                 {t('biography.pquote4')}
               </p>
               {/* End of Press Biography */}
+
+              <h1 id="authorPro" className="text-4xl font-bold mb-4 container mx-auto">{t('biography.section4')}</h1>
+              <div className="flex justify-center text-center items-center mt-5">
+                        <img src="/stupa.jpg" className="w-full md:w-3/5" />
+              </div>
+              <p className="text-lg text-[#14213d] mb-3 text-justify mb-10">
+                {t('biography.projectquote1')}
+              </p>
+
+              <div className="flex justify-center text-center items-center mt-5">
+                        <img src="/yurt.jpg" className="w-full md:w-3/5" />
+              </div>
+              <p className="text-lg text-[#14213d] mb-3 text-justify">
+                {t('biography.projectquote2')}
+              </p>
+
 
               <h1 id="photoGallery" className="text-4xl font-bold mb-4 mx-auto">{t('biography.section3')}</h1>
               {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4"> */}

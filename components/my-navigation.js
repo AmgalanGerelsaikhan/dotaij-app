@@ -72,9 +72,9 @@ export default function Navigation() {
               </div>
 
               {/* MOBILE */}
-              <div className="md:hidden py-0">
+              <div className="md:hidden py-2">
                 <button
-                  className="pt-4 rounded-md"
+                  className="pt-1 rounded-md"
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (

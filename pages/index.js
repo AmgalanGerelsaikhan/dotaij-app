@@ -77,7 +77,7 @@ export default function Home() {
               <div className="bg-[#ffffff] mt-10 h-full py-12 px-10">
                 <p className="text-1xl font-bold">Tsogtsaikhan was interviewed by a well-known Mongolian newspaper.</p>
                 <p className="text-sm text-[#14213d]">Posted: July 7th, 2023 12:24:45 pm</p>
-                <p className="mt-6 text-#14213d]">Tsogtsaikhan had an interview with R.Oyunjargal, and during the interview, they covered topics related to Secret history of Mongols and 'Heron's Way.</p>
+                <p className="mt-6 text-[#14213d]">Tsogtsaikhan had an interview with R.Oyunjargal, and during the interview, they covered topics related to Secret history of Mongols and 'Heron's Way.</p>
                 <p className="align-text-bottom mt-6">
                   <a className="align-text-bottom mt-4" href='https://www.unuudur.mn/a/258036' target="_blank">{t('home.latest-more')}</a>
                 </p>
@@ -85,8 +85,8 @@ export default function Home() {
 
               <div className="bg-[#ffffff] mt-10 h-full py-12 px-10">
                 <p className="text-1xl font-bold">Tsogtsaikhan was interviewed by a well-known Ukrainian newspaper </p>
-                <p className="text-sm text-#14213d]">Posted: July 14th, 2023 12:24:45 pm</p>
-                <p className="mt-6 text-#14213d]">Tsogtsaikhan was interviewed on 'Vechirniy Kyiv' newspaper, where they discussed topics related to Secret history of Mongols and 'Heron's Way.</p>
+                <p className="text-sm text-[#14213d]">Posted: July 14th, 2023 12:24:45 pm</p>
+                <p className="mt-6 text-[#14213d]">Tsogtsaikhan was interviewed on 'Vechirniy Kyiv' newspaper, where they discussed topics related to Secret history of Mongols and 'Heron's Way.</p>
                 <p className="align-text-bottom mt-6">
                   <a className="align-text-bottom text-xm" href='https://vechirniy.kyiv.uahirniy.kyiv.ua/news/85477/?fbclid=IwAR3CV86jMP7uV6IV_jhOw2Bm4eDPxJ2lHsm_kjs4rJSCGePx9SQYpCw20P42' target="_blank">Read more</a>
                 </p>

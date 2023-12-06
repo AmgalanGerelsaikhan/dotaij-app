@@ -48,25 +48,33 @@ export default function Navigation() {
               <div className={`md:block ${navbar ? "block" : "hidden"}`}>
                 {/* Center-align menu items */}
                 <div className="md:h-auto md:flex justify-center cursor-pointer md:mt-1 mt-4">
-                  <Link href="/books" onClick={() => setNavbar(!navbar)}>
-                    <p className="text-lg px-4 py-3 md:py-2 md:hover:bg-transparent hover:font-bold">
-                      {t("header.Books")}
-                    </p>
+                  <Link href="/books">
+                    <a onClick={() => setNavbar(!navbar)}>
+                      <p className="text-lg px-4 py-3 md:py-2 md:hover:bg-transparent hover:font-bold transition-all">
+                        {t("header.Books")}
+                      </p>
+                    </a>
                   </Link>
-                  <Link href="/biography" onClick={() => setNavbar(!navbar)}>
-                    <p className="text-lg px-4 py-3 md:py-2 md:hover:bg-transparent hover:font-bold">
-                      {t("header.Biography")}
-                    </p>
+                  <Link href="/biography">
+                    <a onClick={() => setNavbar(!navbar)}>
+                      <p className="text-lg px-4 py-3 md:py-2 md:hover:bg-transparent hover:font-bold transition-all">
+                        {t("header.Biography")}
+                      </p>
+                    </a>
                   </Link>
-                  <Link href="/news" onClick={() => setNavbar(!navbar)}>
-                    <p className="text-lg px-4 py-3 md:py-2 md:hover:bg-transparent hover:font-bold">
-                      {t("header.News")}
-                    </p>
+                  <Link href="/news">
+                    <a onClick={() => setNavbar(!navbar)}>
+                      <p className="text-lg px-4 py-3 md:py-2 md:hover:bg-transparent hover:font-bold transition-all">
+                        {t("header.News")}
+                      </p>
+                    </a>
                   </Link>
-                  <Link href="/contact" onClick={() => setNavbar(!navbar)}>
-                    <p className="text-lg px-4 py-3 md:py-2 md:hover:bg-transparent hover:font-bold">
-                      {t("header.Contact")}
-                    </p>
+                  <Link href="/contact">
+                    <a onClick={() => setNavbar(!navbar)}>
+                      <p className="text-lg px-4 py-3 md:py-2 md:hover:bg-transparent hover:font-bold transition-all">
+                        {t("header.Contact")}
+                      </p>
+                    </a>
                   </Link>
                 </div>
               </div>

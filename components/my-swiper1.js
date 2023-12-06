@@ -28,7 +28,7 @@ export default function MySwiper() {
             {/* Custom CSS to style the pagination */}
             <style jsx global>{`
                 .swiper-pagination-bullet {
-                    background-color: black;
+                    background-color: white;
                 }
 
                 .swiper-pagination-bullet-active {

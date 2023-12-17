@@ -65,8 +65,8 @@ export const NEWS = [
         title: "Interviewed on Ukrainian TV.",
         titleUk: "Інтерв'ю на українському телебаченні.",
         posted: "2021-12-18 2:50",
-        desc: "'The Heron's Way.' Do Taij Mogul, Ivan Stepurin. Writer Do Taij Mogul and publisher Ivan Stepurin present a new book, 'The Heron's Way' about the early years of Chinggis Khan's life. A discussion about the differences in the perception of the historical figure, the great military leader and statesman Chinggis Khan, in the contexts of Eastern and Western history.",
-        descUk: "'Путь цапли'. До Тайж Могул, Иван Степурин.Писатель До Тайж Могул и издатель Иван Степурин (Ivan Stepurin) представляют новую книгу 'Путь цапли' о ранних годах жизни Чингисхана.Разговор о различиях в восприятии исторической фигуры великого полководца и государственного деятеля Чингисхана в контекстах истории Востока и Запада.",
+        desc: "Do Taij Mogul, Ivan Stepurin. Author Do Taij Mogul and Ivan Stepurin present a new book, 'The Heron's Way' about the early years of Chinggis Khan's life. A discussion about the differences in the perception of the historical figure, the great military leader and statesman Chinggis Khan, in the contexts of Eastern and Western history.",
+        descUk: "До Тайж Могул, Иван Степурин.Писатель До Тайж Могул и издатель Иван Степурин (Ivan Stepurin) представляют новую книгу 'Путь цапли' о ранних годах жизни Чингисхана.Разговор о различиях в восприятии исторической фигуры великого полководца и государственного деятеля Чингисхана в контекстах истории Востока и Запада.",
         watch: "https://www.youtube.com/embed/tuo-fdS9lyw"
     },
     {

@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { FaMapLocationDot, FaAt, FaFacebook, FaPhone } from "react-icons/fa6";
 import Navigation from "../components/my-navigation";
 import Footer from "../components/footer";
 import Link from "next/link";
@@ -16,7 +17,7 @@ export default function Contact() {
             <div className='sm:flex'>
               <div className='sm:w-1/4 pl-8 pb-5'>
                 <div className='hover:font-bold'>
-                  <img src='/contact1.png' alt='contact address' />
+                <FaMapLocationDot size={60} style={{ color: "#14213d" }} />
                 </div>
                 <div className='mt-5 text-[#14213d]'>{t('contact.address')}</div>
                 <div className='text-[#14213d] text-md'>
@@ -25,7 +26,7 @@ export default function Contact() {
               </div>
               <div className='sm:w-1/4 pl-8 pb-5'>
                 <div className=''>
-                  <img src='/contact4.png' alt='contact address' />
+                <FaAt size={60} style={{ color: "#14213d" }} />
                 </div>
                 <div className='mt-5 text-[#14213d]'>{t('contact.email')}</div>
                 <div className='text-[#14213d] text-md'>
@@ -34,7 +35,7 @@ export default function Contact() {
               </div>
               <div className='sm:w-1/4 pl-8 pb-5'>
                 <div className=''>
-                  <img src='/contact5.png' alt='contact address' />
+                <FaFacebook size={60} style={{ color: "#14213d" }} />
                 </div>
                 <div className='mt-5 text-gray-500'>{t('contact.social-media')}</div>
                 <div className='text-[#14213d] text-md'>
@@ -50,7 +51,7 @@ export default function Contact() {
               </div>
               <div className='sm:w-1/4 pl-8 pb-5'>
                 <div className=''>
-                  <img src='/contact2.png' alt='contact address' />
+                <FaPhone size={60} style={{ color: "#14213d" }} />
                 </div>
                 <div className='mt-5 text-[#14213d]'>{t('contact.phone')}</div>
                 <div className='text-[#14213d] text-md'>

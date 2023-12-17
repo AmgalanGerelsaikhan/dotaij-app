@@ -28,13 +28,13 @@ export default function Footer() {
         {/* Menu Navigation */}
         <div className="flex flex-col gap-2 mb-6">
           <div className="flex">
-            <Link href="/book">Books</Link>
+            <Link href="/books">Books</Link>
           </div>
           <div>
             <Link href="/biography">Biography</Link>
           </div>
           <div>
-            <Link href="/events">Events</Link>
+            <Link href="/news">News</Link>
           </div>
           <div>
             <Link href="/contact">Contact</Link>

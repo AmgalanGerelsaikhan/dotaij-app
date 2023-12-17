@@ -65,7 +65,7 @@ export default function MyGallery({ data }) {
                 }
 
                 .swiper-pagination-bullet-active {
-                    background-color: white; /* Change to your desired active color */
+                    background-color: black; /* Change to your desired active color */
                 }
             `}</style>
     </div>

@@ -69,7 +69,7 @@ export default function Biography() {
               {/* End of Author Biography */}
 
               {/* Press Biography */}
-              <h1 id="pressBio" className="text-4xl font-bold mb-4 container mx-auto">{t('biography.section2')}</h1>
+              <h1 id="pressBio" className="text-3xl font-bold mb-4 container mx-auto">{t('biography.section2')}</h1>
               <p className="text-lg text-[#14213d] mb-3 text-justify">
                 {t('biography.pquote1')}
               </p>
@@ -81,23 +81,24 @@ export default function Biography() {
               </p>
               {/* End of Press Biography */}
 
-              <h1 id="authorPro" className="text-4xl font-bold mb-4 container mx-auto">{t('biography.section4')}</h1>
-              <div className="flex justify-center text-center items-center mt-5">
-                        <img src="/stupa.jpg" className="w-full md:w-3/5" />
-              </div>
+              <h1 id="authorPro" className="text-3xl font-bold mb-4 container mx-auto">{t('biography.section4')}</h1>
               <p className="text-lg text-[#14213d] mb-3 text-justify mb-10">
                 {t('biography.projectquote1')}
               </p>
-
-              <div className="flex justify-center text-center items-center mt-5">
-                        <img src="/yurt.jpg" className="w-full md:w-3/5" />
+              <div className="flex justify-center text-center items-center mt-5 mb-10">
+                        <img src="/stupa.jpg" className="w-full md:w-3/5" />
               </div>
+            
               <p className="text-lg text-[#14213d] mb-3 text-justify">
                 {t('biography.projectquote2')}
               </p>
 
+              <div className="flex justify-center text-center items-center mt-5 mb-20">
+                        <img src="/yurt.jpg" className="w-full md:w-3/5" />
+              </div>
+             
 
-              <h1 id="photoGallery" className="text-4xl font-bold mb-4 mx-auto">{t('biography.section3')}</h1>
+              <h1 id="photoGallery" className="text-3xl font-bold mb-4 mx-auto">{t('biography.section3')}</h1>
               {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4"> */}
               <MyGallery data={GALLERIES_BIOGRAPHY} />
               {/* {galleryImages.map((image, index) => (

@@ -12,19 +12,19 @@ export default function MySlide({ data }) {
                 data === 1 ? (
                     <div className="w-full h-full">
                         <a target="_blank" href="/biography">
-                            <img className="object-contain w-full" src="/author_swp.jpg" />
+                            <img className="object-contain w-full" src="/swp_author.jpg" />
                         </a>
                     </div>
                 ) : data === 2 ? (
                     <div className="w-full h-full">
                         <a target="_blank" href="/book?bookId=1">
-                            <img className="object-contain w-full" src="/heron_swp.jpg" />
+                            <img className="object-contain w-full" src="/swp_heron.jpg" />
                         </a>
                     </div>
                 )  : (
                     <div className="w-full h-full">
                         <a target="_blank" href="/book?bookId=2">
-                            <img className="object-contain w-full" src="/secret_swp.jpg" />
+                            <img className="object-contain w-full" src="/swp_mongoliv.jpg" />
                         </a>
                     </div>
                 )

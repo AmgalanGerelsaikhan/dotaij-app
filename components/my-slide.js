@@ -12,7 +12,7 @@ export default function MySlide({ data }) {
                 data === 1 ? (
                     <div className="w-full h-full">
                         <a target="_blank" href="/biography">
-                            <img className="object-contain w-full" src="/welcome_author.jpg" />
+                            <img className="object-contain w-full" src="/author_swp.jpg" />
                         </a>
                     </div>
                 ) : data === 2 ? (

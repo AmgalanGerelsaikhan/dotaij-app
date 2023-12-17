@@ -35,10 +35,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/biography.js"
     ],
-    "/books": [
+    "/news": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/books.js"
+      "static/chunks/pages/news.js"
     ]
   },
   "ampFirstPages": []

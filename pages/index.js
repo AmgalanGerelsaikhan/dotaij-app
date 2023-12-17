@@ -55,6 +55,28 @@ export default function Home() {
   </div>
 </section>
 
+               {/* Review comment */}
+               <section className="w-auto text-[#14213d] h-full mt-5">
+  <div className="flex flex-col gap-5 h-full">
+    <p className="flex text-3xl font-bold">
+      {t('index.review')}
+    </p>
+
+    {/* Embed YouTube video */}
+    <div className="flex justify-center text-center items-center">
+                        <div className="w-full md:w-[600px] my-10 justify-center">
+                        <iframe width="100%" height="350" src="https://www.youtube.com/embed/TeYW0JkF2RI" 
+                        title="Heron&#39;s Way book publish ceremony" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        id="widget3" allowFullScreen data-gtm-yt-inspected-9="true">
+                        </iframe>
+                        </div>
+                    </div>
+  </div>
+</section>
+
+
 
         {/* coming soon */}
         <section className="w-full mt-10 text-[#14213d]">

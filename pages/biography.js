@@ -17,7 +17,7 @@ export default function Biography() {
             {/* Navigation links */}
             <nav className="sticky top-20">
               <ul>
-                <li><a href="#authorBio" className="text-lg text-[#14213d] hover:font-bold"> {t('biography.section1')}</a></li>
+                <li><a href="#authorBio" className="text-lg text-[#14213d] hover:font-bold"> Author</a></li>
                 <li><a href="#pressBio" className="text-lg text-[#14213d] hover:font-bold"> {t('biography.section2')}</a></li>
                 <li><a href="#authorPro" className="text-lg text-[#14213d] hover:font-bold"> {t('biography.section4')}</a></li>
                 <li><a href="#photoGallery" className="text-lg text-[#14213d] hover:font-bold">{t('biography.section3')}</a></li>
@@ -38,10 +38,10 @@ export default function Biography() {
                 />
               </div>
               <div className="text-justify">
-                <h1 id="authorBio" className="text-4xl font-bold mb-4" >{t('biography.section1')}</h1>
+                <h1 id="authorBio" className="text-3xl font-bold mb-4" >{t('biography.section1')}</h1>
                 {/*<h1 className="text-1xl mb-1 text-[#14213d] uppercase">{t('biography.written')}</h1>
                 <h1 className="text-1xl mb-1 py-2" style={{ color: '[#14213d]' }}>{t('biography.updated')}</h1>*/}
-                <p className="text-lg text-[#14213d] mb-3 text-justify">
+                <p className="text-1xl text-[#14213d] mb-3 text-justify">
                   {t('biography.quote1')}
                 </p>
               </div>

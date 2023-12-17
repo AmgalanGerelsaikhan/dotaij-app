@@ -8,12 +8,11 @@ import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
 export default function Navigation() {
   const [navbar, setNavbar] = useState(false);
   const router = useRouter();
-
   const { t } = useTranslation("");
 
   useEffect(() => {
     let dir = "ltr";
-    let lang = router.locale == "uk" ? "uk" : "en";
+    let lang = router.locale === "uk" ? "uk" : "en";
     document.querySelector("html").setAttribute("dir", dir);
     document.querySelector("html").setAttribute("lang", lang);
   }, [router.locale]);
@@ -31,8 +30,8 @@ export default function Navigation() {
             <div className="flex justify-between md:py-1">
               {/* LOGO */}
               <div className="flex items-center">
-                <Link href="/" className="">
-                  <div className="group relative">
+                <Link href="/">
+                  <a className="group relative">
                     <img
                       src="/LOGO.png"
                       alt="logo"
@@ -41,41 +40,23 @@ export default function Navigation() {
                       className="object-contain transition-transform transform group-hover:scale-110"
                     />
                     <div className="absolute inset-0 opacity-0 group-hover:opacity-80 transition-opacity"></div>
-                  </div>
+                  </a>
                 </Link>
               </div>
 
               <div className={`md:block ${navbar ? "block" : "hidden"}`}>
                 {/* Center-align menu items */}
                 <div className="md:h-auto md:flex justify-center cursor-pointer md:mt-1 mt-4">
-                  <Link href="/books">
-                    <a onClick={() => setNavbar(!navbar)}>
-                      <p className="text-lg px-4 py-3 md:py-2 md:hover:bg-transparent hover:font-bold transition-all">
-                        {t("header.Books")}
-                      </p>
-                    </a>
-                  </Link>
-                  <Link href="/biography">
-                    <a onClick={() => setNavbar(!navbar)}>
-                      <p className="text-lg px-4 py-3 md:py-2 md:hover:bg-transparent hover:font-bold transition-all">
-                        {t("header.Biography")}
-                      </p>
-                    </a>
-                  </Link>
-                  <Link href="/news">
-                    <a onClick={() => setNavbar(!navbar)}>
-                      <p className="text-lg px-4 py-3 md:py-2 md:hover:bg-transparent hover:font-bold transition-all">
-                        {t("header.News")}
-                      </p>
-                    </a>
-                  </Link>
-                  <Link href="/contact">
-                    <a onClick={() => setNavbar(!navbar)}>
-                      <p className="text-lg px-4 py-3 md:py-2 md:hover:bg-transparent hover:font-bold transition-all">
-                        {t("header.Contact")}
-                      </p>
-                    </a>
-                  </Link>
+                  {['books', 'biography', 'news', 'contact'].map((item) => (
+                    <Link key={item} href={`/${item}`}>
+                      <a
+                        onClick={() => setNavbar(!navbar)}
+                        className="text-lg px-4 py-3 md:py-2 hover:bg-transparent hover:font-bold transition-all"
+                      >
+                        {t(`header.${item.charAt(0).toUpperCase() + item.slice(1)}`)}
+                      </a>
+                    </Link>
+                  ))}
                 </div>
               </div>
 

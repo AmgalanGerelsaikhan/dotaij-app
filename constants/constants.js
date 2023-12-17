@@ -71,7 +71,7 @@ export const NEWS = [
     },
     {
         id: 2,
-        title: "Tsogtsaikhan was interviewed by a well-known Mongolian newspaper.",
+        title: "Tsogtsaikhan was interviewed by a Mongolian newspaper.",
         titleUk: "Цогтцайхан був інтерв'ю з відомим Монгольським газетою.",
         posted: "2023-07-01 2:50",
         desc: "Tsogtsaikhan had an interview with R.Oyunjargal, and during the interview, they covered topics related to Secret history of Mongols and Heron's Way.",
@@ -82,7 +82,7 @@ export const NEWS = [
     },
     {
         id: 3,
-        title: "Tsogtsaikhan was interviewed by a well-known Ukrainian newspaper.",
+        title: "Tsogtsaikhan was interviewed by a Ukrainian newspaper.",
         titleUk: "Джастін Лупе читає ХОЛЛІ",
         posted: "2023-06-11 2:50",
         desc: "Tsogtsaikhan was interviewed on 'Vechirniy Kyiv' newspaper, where they discussed topics related to Secret history of Mongols and Heron's Way.",

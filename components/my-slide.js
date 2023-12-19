@@ -17,7 +17,7 @@ export default function MySlide({ data }) {
                     </div>
                 ) : data === 2 ? (
                     <div className="w-full h-full">
-                        <a target="_blank" href="/book?bookId=1">
+                        <a target="_blank" href="https://www.amazon.com/dp/B0CQGCZ856">
                             <img className="object-contain w-full" src="/swp_heron.jpg" />
                         </a>
                     </div>

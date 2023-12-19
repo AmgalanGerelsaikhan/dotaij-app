@@ -1,20 +1,6 @@
 {
-  "/_document": "pages/_document.js",
-  "/api/hello": "pages/api/hello.js",
   "/_app": "pages/_app.js",
-  "/contact": "pages/contact.js",
-  "/biography": "pages/biography.js",
   "/_error": "pages/_error.js",
-  "/books": "pages/books.js",
-  "/book": "pages/book.js",
-  "/events": "pages/events.js",
-  "/": "pages/index.js",
-  "/news": "pages/news.js",
-  "/news-detail": "pages/news-detail.js",
-  "/default/404": "pages/default/404.html",
-  "/en/404": "pages/en/404.html",
-  "/uk/404": "pages/uk/404.html",
-  "/default/500": "pages/default/500.html",
-  "/en/500": "pages/en/500.html",
-  "/uk/500": "pages/uk/500.html"
+  "/_document": "pages/_document.js",
+  "/biography": "pages/biography.js"
 }

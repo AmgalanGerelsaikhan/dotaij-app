@@ -18,7 +18,6 @@ export default function Biography() {
             <nav className="sticky top-20">
               <ul>
                 <li><a href="#authorBio" className="text-lg text-[#14213d] hover:font-bold"> Author</a></li>
-                <li><a href="#pressBio" className="text-lg text-[#14213d] hover:font-bold"> {t('biography.section2')}</a></li>
                 <li><a href="#authorPro" className="text-lg text-[#14213d] hover:font-bold"> {t('biography.section4')}</a></li>
                 <li><a href="#photoGallery" className="text-lg text-[#14213d] hover:font-bold">{t('biography.section3')}</a></li>
                 {/* Add more navigation links */}
@@ -56,7 +55,7 @@ export default function Biography() {
                 <p className="py-3">
                   {t('biography.quote4')}
                 </p>
-                <p className="py-3">
+               {/* <p className="py-3">
                   {t('biography.quote5')}
                 </p>
                 <p className="py-3">
@@ -65,10 +64,12 @@ export default function Biography() {
                 <p className="py-3">
                   {t('biography.quote7')}
                 </p>
+              */}
               </div>
               {/* End of Author Biography */}
 
-              {/* Press Biography */}
+
+              {/* Press Biography 
               <h1 id="pressBio" className="text-3xl font-bold mb-4 container mx-auto">{t('biography.section2')}</h1>
               <p className="text-lg text-[#14213d] mb-3 text-justify">
                 {t('biography.pquote1')}
@@ -78,7 +79,7 @@ export default function Biography() {
               </p>
               <p className="text-lg text-[#14213d] mb-3 text-justify">
                 {t('biography.pquote4')}
-              </p>
+              </p> */}
               {/* End of Press Biography */}
 
               <h1 id="authorPro" className="text-3xl font-bold mb-4 container mx-auto">{t('biography.section4')}</h1>

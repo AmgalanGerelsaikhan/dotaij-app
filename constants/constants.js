@@ -102,7 +102,7 @@ export const NEWS = [
     }
 ]
 
-export const GALLERIES_BIOGRAPHY = ["/author.png", "/author_pic2.jpeg", "/author_pic3.jpeg", "/author_pic5.jpeg", "/author_pic6.jpeg", "/author_pic7.jpeg"]
+export const GALLERIES_BIOGRAPHY = ["/author.png", "/facebook_pic1.jpeg", "/facebook_pic2.jpeg", "/facebook_pic3.jpeg", "/facebook_pic4.jpeg", "/facebook_pic5.jpeg", "/facebook_pic6.jpeg"]
 
 export const HERONS = [
     {

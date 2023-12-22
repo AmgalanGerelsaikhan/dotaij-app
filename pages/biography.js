@@ -45,7 +45,7 @@ export default function Biography() {
                 </p>
               </div>
 
-              <div className="text-lg text-[#14213d] mb-3 text-justify">
+              <div className="text-1xl text-[#14213d] mb-3 text-justify">
                 <p className="py-3">
                   {t('biography.quote2')}
                 </p>
@@ -83,7 +83,7 @@ export default function Biography() {
               {/* End of Press Biography */}
 
               <h1 id="authorPro" className="text-3xl font-bold mb-4 container mx-auto">{t('biography.section4')}</h1>
-              <p className="text-lg text-[#14213d] mb-3 text-justify mb-10">
+              <p className="text-1xl text-[#14213d] mb-3 text-justify mb-10">
                 {t('biography.projectquote1')}
               </p>
               <div className="flex justify-center text-center items-center mt-5 mb-10">

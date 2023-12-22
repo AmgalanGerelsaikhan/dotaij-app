@@ -40,12 +40,12 @@ export default function Contact() {
                 <div className='mt-5 text-gray-500'>{t('contact.social-media')}</div>
                 <div className='text-[#14213d] text-md'>
                   <Link href='https://www.facebook.com/tsogtsaikhan.tsedensonom' target='_blank'>
-                    facebook
+                    Facebook
                   </Link>
                 </div>
                 <div className='text-[#14213d] text-md'>
                   <Link href='https://www.instagram.com/dotaijmogul/?hl=en' target='_blank'>
-                    instagram
+                    Instagram
                   </Link>
                 </div>
               </div>

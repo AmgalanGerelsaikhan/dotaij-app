@@ -9,8 +9,8 @@ import NavLogo from "../public/DoTaijMogul.png";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#ecf0f3');
-  const [linkColor, setLinkColor] = useState('#1f2937');
+  const [navBg, setNavBg] = useState('#fcfaf9');
+  const [linkColor, setLinkColor] = useState('#14213d');
 
   const handleNav = () => {
     setNav(!nav);
@@ -36,38 +36,33 @@ const Navbar = () => {
           : 'fixed w-full h-20 z-[100]'
       }
     >
-      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-      <Link href="/">
-                  <a className="group relative">
+      <div className='flex justify-between items-center w-full h-full px-10 2xl:px-16'>
+      <Link href="/" className="group relative">
                     <img
                       src={"/DoTaijMogul.png"}
                       alt="logo"
                       width={180}
-                      height={70}
+                      height={60}
                       className="object-contain transition-transform transform group-hover:scale-110"
                     />
                     <div className="absolute inset-0 opacity-0 group-hover:opacity-80 transition-opacity"></div>
-                  </a>
                 </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-1xl uppercase hover:border-b'>
               <Link href='/'>Home</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#about'>About</Link>
+            <li className='ml-10 text-1xl uppercase hover:border-b'>
+              <Link href='/biography'>Biography</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#skills'>Skills</Link>
+            <li className='ml-10 text-1xl uppercase hover:border-b'>
+              <Link href='/books'>Books</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#projects'>Projects</Link>
+            <li className='ml-10 text-1xl uppercase hover:border-b'>
+              <Link href='/news'>News</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/resume'>Resume</Link>
-            </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#contact'>Contact</Link>
+            <li className='ml-10 text-1xl uppercase hover:border-b'>
+              <Link href='/contact'>Contact</Link>
             </li>
           </ul>
           {/* Hamburger Icon */}
@@ -98,8 +93,7 @@ const Navbar = () => {
         >
           <div>
             <div className='flex w-full items-center justify-between'>
-            <Link href="/">
-                  <a className="group relative">
+            <Link href="/" className="group relative">
                     <img
                       src={"/DoTaijMogul.png"}
                       alt="logo"
@@ -108,7 +102,6 @@ const Navbar = () => {
                       className="object-contain transition-transform transform group-hover:scale-110"
                     />
                     <div className="absolute inset-0 opacity-0 group-hover:opacity-80 transition-opacity"></div>
-                  </a>
                 </Link>
               <div
                 onClick={handleNav}
@@ -119,7 +112,7 @@ const Navbar = () => {
             </div>
             <div className='border-b border-gray-300 my-4'>
               <p className='w-[85%] md:w-[90%] py-4'>
-                Let&#39;s build something legendary together
+              Let's explore some lesser-known aspects of Mongolian history.
               </p>
             </div>
           </div>
@@ -130,33 +123,28 @@ const Navbar = () => {
                   Home
                 </li>
               </Link>
-              <Link href='/#about'>
+              <Link href='/biography'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  About
+                  Biography
                 </li>
               </Link>
-              <Link href='/#skills'>
+              <Link href='/books'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Skills
+                  Books
                 </li>
               </Link>
-              <Link href='/#projects'>
+              <Link href='/news'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Projects
+                  News
                 </li>
               </Link>
-              <Link href='/resume'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Resume
-                </li>
-              </Link>
-              <Link href='/#contact'>
+              <Link href='/contact'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Contact
                 </li>
               </Link>
             </ul>
-            <div className='pt-40'>
+            <div className='pt-35'>
               <p className='uppercase tracking-widest text-[#5651e5]'>
                 Let&#39;s Connect
               </p>

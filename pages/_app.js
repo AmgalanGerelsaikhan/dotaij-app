@@ -1,5 +1,5 @@
 import Footer from "../components/footer";
-import Navigation from "../components/my-navigation";
+import Navigation from "../components/navigation";
 import "../styles/globals.css";
 import { appWithTranslation } from "next-i18next";
 

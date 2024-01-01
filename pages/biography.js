@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import Image from 'next/image';
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import GalleryImage from "../components/GalleryImage"; // Create a GalleryImage component for displaying images
 import MyGallery from "../components/my-gallery";

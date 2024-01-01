@@ -1,4 +1,5 @@
 import LocaleSwitcher from "./locale-switcher";
+import Image from 'next/image';
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useTranslation } from "next-i18next";
@@ -33,7 +34,7 @@ export default function Navigation() {
                 <Link href="/">
                   <a className="group relative">
                     <img
-                      src="/LOGO.png"
+                      src="/DoTaijMogul.png"
                       alt="logo"
                       width={210}
                       height={70}

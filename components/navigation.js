@@ -30,9 +30,16 @@ export default function Navigation() {
       <div className="container mx-auto flex items-center justify-between">
         <Link href="/" passHref>
           <a onClick={closeNavbar} className="text-3xl font-bold text-black relative z-10">
-            <span className="logo-text text-prata text-xl" style={{ fontFamily: 'Prata', fontSize: '30px' }}>
+           {/* <span className="logo-text text-prata text-xl" style={{ fontFamily: 'Prata', fontSize: '30px' }}>
               DOTAIJ
             </span>
+  */}
+  <Image 
+  src='public/DoTaijMogul.png'
+  alt='Logo Picture'
+  width='125'
+  height='50'
+  />
           </a>
         </Link>
 

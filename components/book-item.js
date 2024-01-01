@@ -22,7 +22,7 @@ export default function BookItem({ book }) {
                             </div>
                             <div className="m-auto">
                                 <a
-                                    href="https://www.amazon.com/Apple-Generation-Cancelling-Transparency-Personalized/dp/B0BDHWDR12/ref=lp_16225009011_1_1?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D"
+                                    href="https://www.amazon.com/Herons-Way-Adventures-Became-Chinggis-ebook/dp/B0CQGCZ856/ref=sr_1_2?crid=FIQ5B9PIQX3O&keywords=Heron%27s+Way&qid=1703245434&refinements=p_n_feature_nine_browse-bin%3A3291437011&rnid=3291435011&s=books&sprefix=heron%27s+way%2Caps%2C258&sr=1-2"
                                     type="button"
                                     target="_blank"
                                     className="rounded-2xl text-white

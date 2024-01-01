@@ -23,7 +23,7 @@ export default function Navigation() {
   };
 
   return (
-    <nav className="sticky top-0 z-50 w-full bg-[#fcfaf9]">
+    <nav className="sticky shadow-xl top-0 z-50 w-full bg-[#fcfaf9]">
       <div className="text-[#14213d] py-0 flex mr-2 md:mr-3">
         <div className="flex-1 justify-start">
           <div className="px-10">

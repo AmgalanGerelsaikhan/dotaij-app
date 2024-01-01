@@ -1,6 +1,6 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 import { useTranslation } from "next-i18next";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import Head from 'next/head';
+import { serverSideTranslations } from "next-i18next/serverSideTranslations"; 
 import MySwiper from "../components/my-swiper1";
 import { BOOKS } from "../constants/constants";
 import HomeItem from "../components/home-item";
@@ -13,6 +13,11 @@ export default function Home() {
   return (
     <>
       <div className="">
+      <Head>
+      <title>DoTaijMogul | Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+ </Head>
+
 
         <session className="">
           <div className="bg-[#fcfaf9] w-full">
@@ -141,10 +146,11 @@ export default function Home() {
   );
 }
 
+
 export async function getStaticProps({ locale }) {
   return {
     props: {
       ...(await serverSideTranslations(locale, ["common"])),
     },
   };
-}
+};

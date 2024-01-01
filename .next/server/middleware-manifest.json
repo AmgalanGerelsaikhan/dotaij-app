@@ -4,17 +4,23 @@
   ],
   "middleware": {
     "/": {
-      "env": [],
       "files": [
+        "prerender-manifest.js",
         "server/edge-runtime-webpack.js",
         "server/middleware.js"
       ],
       "name": "middleware",
       "page": "/",
-      "regexp": "^/.*$",
-      "wasm": []
+      "matchers": [
+        {
+          "regexp": "^/.*$",
+          "originalSource": "/:path*"
+        }
+      ],
+      "wasm": [],
+      "assets": []
     }
   },
   "functions": {},
-  "version": 1
+  "version": 2
 }
